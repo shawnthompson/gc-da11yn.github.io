@@ -1,4 +1,3 @@
----
 name: Broken link
 description: Broken link found in the content on the site
 title: "[BROKEN LINK] Link text of broken link"
@@ -20,13 +19,14 @@ body:
     id: new-url
     attributes:
       label: New `href` for the link
-  - type: checkboxes
+  - type: dropdown
     id: approval-needed
     attributes:
       label: Approval needed?
+      multiple: false
       options:
-        - label: "No"
-        - label: "Yes, I need to approve this request before change goes live"
+        - "No"
+        - "Yes, I need to approve this request before change goes live"
   - type: input
     id: approver
     attributes:
@@ -51,4 +51,4 @@ body:
     id: additional-context
     attributes:
       label: Additional context
-      description: Add any other context about the feature request here.
+      description: Add any other context about the feature request here. Here you can add screen shots and / or attach documents for changes to content.
