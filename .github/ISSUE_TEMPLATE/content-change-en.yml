@@ -1,39 +1,46 @@
----
 name: Change request
-about: Request a change to a page on the site
+description: Request a change to a page on the site
 title: "[CHANGE] Short description of page"
-labels: ''
-assignees: ''
-
----
-
-## Required information
-
-**What page is the change request for? Please supply the URI.**
-
-URL:
-
-**Attach Word document with track changes enabled for required change(s).**
-
-
-**Approval needed?**
-
-- [ ] No
-- [ ] Yes, I need to approve this request before change goes live
-- [ ] Yes, please send a request to the following person: INSERT_NAME_HERE
-
-**Who shall do the work?**
-
-- [ ] I will do it, I want to contribute
-- [ ] I am asking for someone else to please do the work
-
-## Additional information (optional)
-
-**Timeline**
-Is there a deadline attached to this request? If so, please briefly describe why and provide a date (YYYY-MM-DD)
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Additional context**
-Add any other context about the feature request here.
+labels: [pending triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Required information
+  - type: input
+    id: page-url
+    attributes:
+      label: What page is the change request for? Please supply the URI.
+  - type: dropdown
+    id: approval-needed
+    attributes:
+      label: Approval needed?
+      multiple: false
+      options:
+        - "No"
+        - "Yes, I need to approve this request before change goes live"
+  - type: input
+    id: approver
+    attributes:
+      label: Yes, please send a request to the following person?
+  - type: checkboxes
+    id: do-the-work
+    attributes:
+      label: "Who shall do the work?"
+      options:
+        - label: I will do it, I want to contribute
+        - label: I am asking for someone else to please do the work
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional information (optional)
+  - type: input
+    id: deadline
+    attributes:
+      label: Timeline
+      description: "Is there a deadline attached to this request? If so, please briefly describe why and provide a date (YYYY-MM-DD)"
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the feature request here. Here you can add screen shots and / or attach documents for changes to content.

@@ -44,7 +44,7 @@ body:
   - type: input
     id: browser
     attributes:
-      label: "Browser (e.g. chrome, safari)"
+      label: "Browser (e.g. Chrome, Safari)"
   - type: input
     id: version
     attributes:
