@@ -5,6 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
+
 	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 	
@@ -17,6 +18,24 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
 	<link rel="stylesheet" href="//www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
 	<link rel="stylesheet" href="../../../css/da11yn.css">
+
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM9MSHWDVN"></script>
+	<script>
+		(function (w) {
+			"use strict";
+			var dl = "dataLayer";
+			if (w.location.hostname === "a11y.canada.ca") {
+				w[dl] = w[dl] || [];
+				w.gtag = function () {
+					w[dl].push(arguments);
+				}
+				w.gtag('js', new Date());
+				w.gtag('config', 'G-SM9MSHWDVN');
+			}
+		})(window);
+	</script>
 </head>
 
 
@@ -28,7 +47,7 @@
 		<li class="wb-slc">
 			<a class="wb-sl" href="#wb-cont">Skip to main content</a>
 		</li>
-		<li class="wb-slc">
+		<li class="wb-slc visible-sm visible-md visible-lg">
 			<a class="wb-sl" href="#wb-info">Skip to &quot;About government&quot;</a>
 		</li>
 	</ul>
@@ -48,8 +67,8 @@
 					<ul class="list-inline mrgn-bttm-0">
 						<li>
 							<a lang="fr" hreflang="fr" href="../../../fr/standards/what_we_heard_report">
-								<span class="hidden-xs">Français</span>
-								<abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+								<span class="hidden-xs" translate="no">Français</span>
+								<abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
 							</a>
 						</li>
 					</ul>
@@ -86,8 +105,10 @@
 		</div>
 	</div>
 
+<hr>
+<div class="container"><div class="row"><div class="col-md-8">
+
 	<nav class="gcweb-menu" typeof="SiteNavigationElement">
-		<div class="container">
 			<h2 class="wb-inv">Menu</h2>
 			<button type="button" aria-haspopup="true" aria-expanded="false">
 				
@@ -142,14 +163,17 @@
 					<a role="menuitem" href="//www.canada.ca/en/services/science.html">Science and innovation</a>
 				</li>
 			</ul>
-		</div>
 	</nav>
+</div></div></div>
 	<nav id="wb-bc" property="breadcrumb">
 		<h2>Breadcrumb Navigation</h2>
 		<div class="container">
-			<ol class="breadcrumb">
-				<li>
-					<a href="//www.canada.ca/en.html">Canada.ca</a>
+			<ol class="breadcrumb" typeof="BreadcrumbList">
+				<li property="itemListElement" typeof="ListItem">
+					<a property="item" typeof="WebPage" href="//www.canada.ca/en.html">
+						<span property="name">Canada.ca</span>
+					</a>
+					<meta property="position" content="1">
 				</li>
 				
 				
@@ -168,7 +192,6 @@
 			</ol>
 		</div>
 	</nav>
-
 </header>
 
 
@@ -218,13 +241,13 @@
   </div>
 <div class="col-md-8 col-md-pull-4">
 <p><strong>March 2023</strong></p>
-<h2>Purpose</h2>
+<h2 id="purpose" tabindex="-1">Purpose</h2>
 <p>Between October 31 and November 30, 2022, the <abbr title="Treasury Board of Canada Secretariat - Office of the Chief Information Officer">TBS-OCIO</abbr> Digital Policy &amp; Performance Division undertook a targeted engagement on the Standard on Information and Communication Technology (<abbr>ICT</abbr>) Accessibility.</p>
 <p>The following provides a summary of the key themes and points of feedback from the engagement, as well as steps taken by <abbr title="Treasury Board of Canada Secretariat">TBS</abbr> to address them.</p>
 <p>Participant feedback has been instrumental in the further development of the standard, and this page represents an opportunity to share some of it with our industry partners and the <abbr title="Government of Canada">GC</abbr> community.</p>
 </div>
 </div>
-<h2>Context</h2>
+<h2 id="context" tabindex="-1">Context</h2>
 <p>The <em>Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility</em> will come into effect under the <em>Policy on Service and Digital</em> in Summer 2023, replacing the <em>Standard on Web Accessibility</em></p>
 <ul>
 <li>The main objective of this engagement was to gather feedback, insights, and comments on phase one of the Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility, while identifying potential gaps</li>
@@ -236,9 +259,9 @@
 </ul>
 </li>
 </ul>
-<h2>Purpose of the Standard</h2>
+<h2 id="purpose-of-the-standard" tabindex="-1">Purpose of the Standard</h2>
 <p>The purpose of the Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility is to identify, remove and prevent ICT accessibility barriers across the <abbr title="Government of Canada">GC</abbr> and support the third pillar in the accessibility strategy for the Public Service of Canada to make <abbr title="Information and Communication Technology">ICT</abbr> usable by all.</p>
-<h2>Consultation Engagement Summary</h2>
+<h2 id="consultation-engagement-summary" tabindex="-1">Consultation Engagement Summary</h2>
 <ul>
 <li>Targeted engagement on Phase One of the draft Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility were held between October 31 – November 30, 2022</li>
 <li>Key stakeholder communities including <abbr title="Government of Canada">GC</abbr> partners, accessibility subject-matter experts, Persons with Disabilities Networks, relevant policy centers, EDI Networks, and select - external industry partners were consulted</li>
@@ -249,49 +272,49 @@
 </ul>
 </li>
 </ul>
-<h2>Themes from Commentary Include:</h2>
+<h2 id="themes-from-commentary-include%3A" tabindex="-1">Themes from Commentary Include:</h2>
 <ul>
 <li>Simplify the Effective date and deadline for compliance</li>
 <li>Official Language requirements</li>
 <li>Supporting guidance is essential for departments to understand and implement the standard requirements</li>
 <li>Accessibility as an ongoing commitment for the <abbr title="Government of Canada">GC</abbr></li>
 </ul>
-<h2>Theme 1: Simplify the effective date and deadline for compliance</h2>
-<h3>Feedback:</h3>
+<h2 id="theme-1%3A-simplify-the-effective-date-and-deadline-for-compliance" tabindex="-1">Theme 1: Simplify the effective date and deadline for compliance</h2>
+<h3 id="feedback%3A" tabindex="-1">Feedback:</h3>
 <ul>
 <li>Respondents indicated that the <strong>effective date should be included in the standard</strong> so that they don’t have go back and forth to look for the timelines and the associated requirements.</li>
 <li>Respondents also noted the current format <strong>“effective date + x month”</strong> can be confusing to them. Conformance timelines should be stated clearly.</li>
 </ul>
-<h3>How we adapted:</h3>
+<h3 id="how-we-adapted%3A" tabindex="-1">How we adapted:</h3>
 <ul>
 <li>The subsection on compliance timelines was removed and <strong>compliance dates were incorporated directly</strong> into the requirements.</li>
 </ul>
-<h2>Theme 2: Official Language requirements</h2>
-<h3>Feedback:</h3>
+<h2 id="theme-2%3A-official-language-requirements" tabindex="-1">Theme 2: Official Language requirements</h2>
+<h3 id="feedback%3A-1" tabindex="-1">Feedback:</h3>
 <ul>
 <li>Respondents commented that the <em>EN 301 549</em> standard is only published in English, which is not accessible to them, and it goes against the spirit of the Official Languages Act. If we want to keep referring to the <em>EN 301 549</em> in the Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility, we must ensure that there is a French version of the <em>EN 301 549</em> available as well.</li>
 </ul>
-<h3>How we adapted:</h3>
+<h3 id="how-we-adapted%3A-1" tabindex="-1">How we adapted:</h3>
 <ul>
 <li><abbr title="Treasury Board of Canada Secretariat - Office of the Chief Information Officer">TBS-OCIO</abbr> will be publishing the <em>EN 301 549</em> requirements in both official languages.</li>
 </ul>
-<h2>Theme 3: Supporting guidance is essential for departments to understand and implement the standard requirements</h2>
-<h3>Feedback:</h3>
+<h2 id="theme-3%3A-supporting-guidance-is-essential-for-departments-to-understand-and-implement-the-standard-requirements" tabindex="-1">Theme 3: Supporting guidance is essential for departments to understand and implement the standard requirements</h2>
+<h3 id="feedback%3A-2" tabindex="-1">Feedback:</h3>
 <ul>
 <li>Respondents commented that the <em>EN 301 549</em> standard is too technical to comprehend and was not written in plain language, including clearer definitions.</li>
 <li>Respondents inquired about the details regarding accessibility training, tools and conformance testing.</li>
 </ul>
-<h3>How we adapted:</h3>
+<h3 id="how-we-adapted%3A-2" tabindex="-1">How we adapted:</h3>
 <ul>
 <li>Implementation guidance will also be published in plain language to better support departments understand the requirements in the <em>EN 301 549</em> and successfully implement phase one.</li>
 <li>Definitions has been removed in the final version of the standard and will instead be featured in the  standard guidance that will follow.</li>
 </ul>
-<h2>Theme 4: Accessibility as an ongoing commitment for the <abbr title="Government of Canada">GC</abbr></h2>
-<h3>Feedback:</h3>
+<h2 id="theme-4%3A-accessibility-as-an-ongoing-commitment-for-the-gc" tabindex="-1">Theme 4: Accessibility as an ongoing commitment for the <abbr title="Government of Canada">GC</abbr></h2>
+<h3 id="feedback%3A-3" tabindex="-1">Feedback:</h3>
 <ul>
 <li>Respondents noted our requirements could go further and we could be doing more (especially as it relates to non-web documents).</li>
 </ul>
-<h3>How we adapted:</h3>
+<h3 id="how-we-adapted%3A-3" tabindex="-1">How we adapted:</h3>
 <ul>
 <li>Previously we had a single requirement that required departments to provide existing non-web documents when requested. We've since added two additional requirements to be more proactive in accessibility of the <abbr title="Government of Canada">GC</abbr>'s non-web document, which read:
 <ul>
@@ -300,7 +323,7 @@
 </ul>
 </li>
 </ul>
-<h2>Next Steps</h2>
+<h2 id="next-steps" tabindex="-1">Next Steps</h2>
 <ul>
 <li>Obtain required approvals for the standard through <abbr title="Office of the Chief Information Officer">OCIO</abbr> policy stewardship process (Summer 2023)</li>
 <li>Publish Phase 1 of the Standard on <abbr title="Information and Communication Technology">ICT</abbr> Accessibility (Summer 2023)</li>
@@ -316,7 +339,7 @@
 	</div>
 	<dl id="wb-dtmd">
 		<dt>Date modified:</dt>
-		<dd><time property="dateModified" datetime="2023-04-11">2023-04-11</time></dd>
+		<dd><time property="dateModified" datetime="2023-08-24">2023-08-24</time></dd>
 	</dl>
 </div>
 
@@ -331,12 +354,18 @@
 	
 <aside class="contribute">
 	<div class="container">
-		<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i>Contribute <small>on Github.com</small></h2>
-		<ul class="list-unstyled colcount-sm-2 colcount-md-3">
-				<li><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a  hreflang="en" href="https://github.com/gc-da11yn/gc-da11yn.github.io">See the source code <small>on Github.com</small></a></li>
-				<li><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en"  href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/new/choose">Report an issue <small>on Github.com</small></a></li>
-				<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a hreflang="en"  href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Join the discussions <small>on Github.com</small></a></li>
-		</ul>
+		<div class="row">
+			<div class="col-md-5">
+				<h2><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i><span>Contribute to this project</span><small>on Github.com</small></h2>
+			</div>
+			<div class="col-md-7">
+				<ul class="list-inline">
+					<li class="mrgn-rght-sm"><i class="fas fa-code fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io">Source code</a></li>
+					<li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Issues</a></li>
+					<li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions</a></li>
+				</ul>
+			</div>
+		</div>
 		
 	</div>
 </aside>
@@ -344,41 +373,49 @@
 	
 	
 <footer id="wb-info">
-	<div class="landscape">
-		<nav class="container wb-navcurr">
-			<h2 class="wb-inv">About government</h2>
-			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
-				<li><a href="//www.canada.ca/en/contact.html">Contact us</a></li>
-				<li><a href="//www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-				<li><a href="//www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
-				<li><a href="//www.canada.ca/en/news.html">News</a></li>
-				<li><a href="//www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
-				<li><a href="//www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
-				<li><a href="https://pm.gc.ca/eng">Prime Minister</a></li>
-				<li><a href="//www.canada.ca/en/government/system.html">How government works</a></li>
-				<li><a href="https://open.canada.ca/en/">Open government</a></li>
-			</ul>
-		</nav>
-	</div>
-	<div class="brand">
+	<h2 class="wb-inv">About this site</h2>
+	<div class="gc-main-footer">
 		<div class="container">
-			<div class="row">
-				<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
-					<h2 class="wb-inv">About this site</h2>
-					<ul>
-						<li><a href="//www.canada.ca/en/social.html">Social media</a></li>
-						<li><a href="//www.canada.ca/en/mobile.html">Mobile applications</a></li>
-						<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
-						<li><a href="//www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
-						<li><a href="//www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-					</ul>
-				</nav>
-				<div class="col-xs-6 visible-sm visible-xs tofpg">
-					<a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
-				</div>
-				<div class="col-xs-6 col-md-3 col-lg-2 text-right">
-					<img src="//www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
-				</div>
+			<nav>
+				<h3>Government of Canada</h3>
+				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+					<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+					<li><a href="https://www.canada.ca/en/government/system.html">About government</a></li></ul>
+				<h4><span class="wb-inv">Themes and topics</span></h4>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3"><li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+					<li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+					<li><a href="https://www.canada.ca/en/services/environment.html">Enviroment and natural resources</a></li>
+					<li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+					<li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+					<li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+					<li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+					<li><a href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+					<li><a href="https://www.canada.ca/en/services/finance.html">Money and finance</a></li>
+					<li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+					<li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous peoples</a></li>
+					<li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
+					<li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li></ul>
+			</nav>
+		</div>
+	</div>
+	<div class="gc-sub-footer">
+		<div class="container d-flex align-items-center">
+			<nav>
+				<h3 class="wb-inv">Government of Canada Corporate</h3>
+				<ul>
+					<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+					<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+					<li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/terms.htm">Terms and conditions</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li></ul>
+			</nav>
+			<div class="wtrmrk align-self-end">
+				<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
 			</div>
 		</div>
 	</div>
