@@ -1367,11 +1367,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
-		<lastmod>2024-02-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/alternative-text-and-long-description-best-practices/</loc>
 		<lastmod>2024-02-03</lastmod>
 	</url>
@@ -1617,11 +1612,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
-		<lastmod>2024-02-09</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/test-d-accessibilite-101/</loc>
 		<lastmod>2024-02-09</lastmod>
 	</url>
@@ -1649,5 +1639,25 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles/</loc>
 		<lastmod>2024-03-12</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/en/a-way-with-words-and-images/</loc>
+		<lastmod>2024-04-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/links/fr/le-pouvoir-des-mots-et-des-images/</loc>
+		<lastmod>2024-04-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/additional-resources/</loc>
+		<lastmod>2024-04-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/ressources-additionnelles/</loc>
+		<lastmod>2024-04-25</lastmod>
 	</url>
 </urlset>
