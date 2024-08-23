@@ -1,0 +1,51 @@
+name: Link Checker
+
+# Trigger the workflow on pull requests to the main or develop branches
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository code
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'  # Specify Node.js 20.x
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Create a temporary .eleventy-port file
+      - name: Create a temporary .eleventy-port file
+        run: echo "8080" > .eleventy-port
+
+      # Step 5: Build and serve the site on the specified port
+      - name: Build and serve the site
+        run: npm run serve-only &
+
+      # Step 6: Wait for the server to start
+      - name: Wait for server to start
+        run: sleep 10  # Adjust as needed based on server start time
+
+      # Step 7: Run the link checker
+      - name: Run link checker
+        run: npm run link-check
+
+      # Step 8: Upload broken links report if broken links are found
+      - name: Upload broken links report
+        if: failure()
+        uses: actions/upload-artifact@v2
+        with:
+          name: broken-links-report
+          path: broken-links.json

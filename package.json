@@ -7,6 +7,7 @@
     "newPage": "node scripts/create-new-page.js",
     "link-check": "node scripts/link-checker.js",
     "serve:port": "node scripts/serve-with-port.js",
+    "serve-only": "npx @11ty/eleventy --serve --port=8080 --quiet --formats=html,css,js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "spellcheck": "cspell --no-progress -u \"src/en/**/*.html\" \"src/en/**/*.md\" \"src/fr/**/*.html\" \"src/fr/**/*.md\"",
     "eleventy": "npx eleventy",
