@@ -5,19 +5,32 @@ const fs = require('fs');
 const port = fs.readFileSync('.eleventy-port', 'utf8');
 const siteUrl = `http://localhost:${port}`;
 
+const brokenLinks = [];
+
 const siteChecker = new blc.SiteChecker(
 	{
 		excludeExternalLinks: true,  // Exclude external links from checking
-		filterLevel: 3,  // Level of filtering, can adjust based on need
+		filterLevel: 1,  // Level of filtering, can adjust based on need
 	},
 	{
 		link: (result) => {
 			if (result.broken) {
-				console.error(`Broken link found on ${result.base.original} -> ${result.url.original} - ${result.status} (${result.statusText})`);
+				brokenLinks.push({
+					page: result.base.original,
+					link: result.url.original,
+					linkText: result.html.text || 'N/A',  // Captures the link text
+					status: result.http.response && result.http.response.statusCode ? result.http.response.statusCode : 'N/A',
+					statusText: result.http.response && result.http.response.statusMessage ? result.http.response.statusMessage : 'N/A'
+				});
 			}
 		},
 		end: () => {
-			console.log('Site link check complete.');
+			if (brokenLinks.length > 0) {
+				fs.writeFileSync('./broken-links.json', JSON.stringify(brokenLinks, null, 2));
+				console.log(`Broken links found! See broken-links.json for details.`);
+			} else {
+				console.log('No broken links found.');
+			}
 		},
 	}
 );
