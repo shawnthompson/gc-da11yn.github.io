@@ -19,16 +19,21 @@ tags: aboutUs
 		The site recorded <strong>{{ results.results[0].sessions }}</strong> visits, with
 		<strong>{{ results.results[0].newUsers }}</strong> users and
 		<strong>{{ results.results[0].screenPageViews }}</strong> page views.
-		The average bounce rate is <strong>{{ results.results[0].bounceRate }}%</strong>, and the average session duration is
+		The average bounce rate is <strong>{{ results.results[0].bounceRate }}</strong>, and the average session duration is
 		<strong>{{ results.results[0].avgSessionDuration }} minutes</strong>.
 	</p>
 	<p>
-		The most used devices are desktop computers
-		(<strong>{{ results.results[0].topDevices[0].device }} - {{ results.results[0].topDevices[0].percentage }}%</strong>),
-		followed by mobile devices
-		(<strong>{{ results.results[0].topDevices[1].device }} - {{ results.results[0].topDevices[1].percentage }}%</strong>)
-		and tablets
-		(<strong>{{ results.results[0].topDevices[2].device }} - {{ results.results[0].topDevices[2].percentage }}%</strong>).
+		{% set devices = results.results[0].topDevices %}
+		{% if devices[0] %}
+		The most used device is <strong>{{ devices[0].device }} ({{ devices[0].percentage }}%)</strong>,
+		{% endif %}
+		{% if devices[1] %}
+		followed by <strong>{{ devices[1].device }} ({{ devices[1].percentage }}%)</strong>
+		{% endif %}
+		{% if devices[2] %}
+		and <strong>{{ devices[2].device }} ({{ devices[2].percentage }}%)</strong>.
+		{% endif %}
+
 	</p>
 	<p>The top three countries by visitors are:</p>
 	<ol>
