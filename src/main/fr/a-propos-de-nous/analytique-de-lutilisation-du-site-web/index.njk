@@ -19,16 +19,20 @@ tags: aboutUs
 			Le site a enregistré <strong>{{ results.results[0].sessions }}</strong> visites, avec
 			<strong>{{ results.results[0].newUsers }}</strong> utilisateurs et
 			<strong>{{ results.results[0].screenPageViews }}</strong> pages vues.
-			Le taux de rebond moyen est de <strong>{{ results.results[0].bounceRate }}%</strong>, et la durée moyenne des sessions est de
+			Le taux de rebond moyen est de <strong>{{ results.results[0].bounceRate }}</strong>, et la durée moyenne des sessions est de
 			<strong>{{ results.results[0].avgSessionDuration }} minutes</strong>.
 		</p>
 		<p>
-			Les appareils les plus utilisés sont les ordinateurs de bureau
-			(<strong>{{ results.results[0].topDevices[0].device }} - {{ results.results[0].topDevices[0].percentage }}%</strong>),
-			suivis par les appareils mobiles
-			(<strong>{{ results.results[0].topDevices[1].device }} - {{ results.results[0].topDevices[1].percentage }}%</strong>)
-			et les tablettes
-			(<strong>{{ results.results[0].topDevices[2].device }} - {{ results.results[0].topDevices[2].percentage }}%</strong>).
+			{% set appareils = results.results[0].topDevices %}
+			{% if appareils[0] %}
+				L’appareil le plus utilisé est <strong>{{ appareils[0].device }} ({{ appareils[0].percentage }} %)</strong>,
+			{% endif %}
+			{% if appareils[1] %}
+				…suivi de <strong>{{ appareils[1].device }} ({{ appareils[1].percentage }} %)</strong>,
+			{% endif %}
+			{% if appareils[2] %}
+				…et de <strong>{{ appareils[2].device }} ({{ appareils[2].percentage }} %)</strong>.
+			{% endif %}
 		</p>
 		<p>Les trois principaux pays par nombre de visiteurs sont :</p>
 		<ol>
