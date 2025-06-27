@@ -47,6 +47,8 @@ jobs:
       - run: npm ci
 
       - name: Build site
+        env:
+          PATH_PREFIX: ${{ github.repository_owner != 'gc-da11yn' && github.event.repository.name || '' }}
         run: npm run build
 
       - name: Deploy to GitHub Pages
@@ -104,6 +106,8 @@ jobs:
         run: rm .env
 
       - name: Build site
+        env:
+          PATH_PREFIX: ${{ github.repository_owner != 'gc-da11yn' && github.event.repository.name || '' }}
         run: npm run build
 
       - name: Deploy to GitHub Pages
