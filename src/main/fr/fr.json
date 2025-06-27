@@ -1,4 +1,4 @@
 {
-  "permalink": "{{ pathPrefix }}{{ locale }}/{{ title | stripTagsSlugify }}/",
+  "permalink": "{{ permalinkPrefix }}{{ locale }}/{{ title | stripTagsSlugify }}/",
   "locale" : "fr"
 }
