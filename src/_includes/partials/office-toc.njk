@@ -22,7 +22,7 @@
 
 {% if officeTOC === true %}
     {% set versionSlug = version | slugify %}
-    {% set indexURL = "/" + locale + "/" + indexSlug + "-" + inOffice + "-" + versionSlug + "/" %}
+    {% set indexURL = pathPrefix + locale + "/" + indexSlug + "-" + inOffice + "-" + versionSlug + "/" %}
     {% if locale === "en" %}
         {% set tryText = "Looking for the " + otherVersion + " version? Try" %}
     {% else %}
