@@ -217,7 +217,7 @@ departments and agencies are strongly encouraged to seek approval of the justifi
     <div class="well well-sm mrgn-tp-md">
       <p><strong>Note:</strong> Alternatively, they can provide a hyperlink to either the:</p>
       <ul>
-        <li><a href="/en/information-and-communication-technology-ict-accessibility-requirements/">Information and Communications Technology (ICT) Accessibility Requirements</a></li>
+        <li><a href="{{ pathPrefix }}en/information-and-communication-technology-ict-accessibility-requirements/">Information and Communications Technology (ICT) Accessibility Requirements</a></li>
         <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 V3.2.1 pdf</a> or</li>
         <li><a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services?utm_source=newsletter&utm_medium=email&utm_campaign=ICTstandard&utm_id=ICT+standard+adoption">CAN/ASC - EN 301 549:2024 Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)</a>.</li>
       </ul>

@@ -20,7 +20,7 @@ hasDocument:
       <div class="well gc-dwnld">
         <div class="row">
           <div class="col-xs-4">
-            <p><img class="img-responsive thumbnail gc-dwnld-img" src="/img/doc.png" alt=""></p>
+            <p><img class="img-responsive thumbnail gc-dwnld-img" src="{{ pathPrefix }}img/doc.png" alt=""></p>
           </div>
           <div class="col-xs-8">
             <p class="gc-dwnld-txt">
