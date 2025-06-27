@@ -48,7 +48,7 @@ Il aidera :
 
 La [*Loi canadienne sur l’accessibilité*](https://www.parl.ca/documentviewer/fr/42-1/projet-loi/C-81/sanction-royal) (LCA) a été adoptée en 2019 pour faire du Canada un pays exempt d’obstacles d’ici 2040. Elle exige que les entités relevant de la compétence fédérale reconnaissent, éliminent et préviennent les obstacles à l’accessibilité dans sept domaines prioritaires, dont les TIC et l’approvisionnement.
 
-La LCA exige également que les organisations publient des plans d’accessibilité et des rapports d’étape annuels. Vous trouverez les plans ministériels sur l’accessibilité à [Accessibilité au sein de la fonction publique – Canada.ca](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique.html). 
+La LCA exige également que les organisations publient des plans d’accessibilité et des rapports d’étape annuels. Vous trouverez les plans ministériels sur l’accessibilité à [Accessibilité au sein de la fonction publique – Canada.ca](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique.html).
 
 La [Stratégie sur l’accessibilité au sein de la fonction publique du Canada](https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm.html) :
 
@@ -217,7 +217,7 @@ les ministères et organismes sont fortement encouragés à obtenir l’approbat
     <div class="well well-sm mrgn-tp-md">
       <p><strong>Remarque :</strong> Les autorités contractantes peuvent également fournir un lien hypertexte vers&nbsp;:</p>
         <ul>
-          <li><a href="/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/">les exigences d’accessibilité des technologies de l’information et des communications (TIC)</a></li>
+          <li><a href="{{ pathPrefix }}fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles/">les exigences d’accessibilité des technologies de l’information et des communications (TIC)</a></li>
           <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">pdf de la norme EN 301 549 V3.2.1</a> <small>(en anglais seulement)</small></li>
           <li><a href="https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic">CAN/ASC – EN 301 549:2024 Exigences d’accessibilité pour les produits et services TIC (EN 301 549:2021, IDT)</a></li>
         </ul>

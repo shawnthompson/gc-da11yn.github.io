@@ -1,5 +1,11 @@
 name: Deploy and Update Analytics
 
+env:
+  # When the workflow runs under your fork (owner = shawnthompson)
+  # expose the repo name (gc-da11yn.github.io) as the path prefix.
+  # Otherwise keep it empty so prod builds stay on "/".
+  PATH_PREFIX: ${{ github.repository_owner == 'shawnthompson' && github.event.repository.name || '' }}
+
 on:
   push:
     branches:
