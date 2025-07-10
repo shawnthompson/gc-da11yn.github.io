@@ -98,7 +98,11 @@ async function fetchAnalyticsData() {
 			const monthData = analyticsResults[yearMonth].results[0];
 
 			// Calculate weighted bounce rate and average session duration
-			monthData.bounceRate = (analyticsResults[yearMonth].totalBounceRateSum / monthData.totalSessions).toFixed(2);
+			monthData.bounceRate = (
+				  analyticsResults[yearMonth].totalBounceRateSum /
+				  monthData.totalSessions *
+				  100          // convert fraction → %
+				).toFixed(2);
 			monthData.avgSessionDuration = (analyticsResults[yearMonth].totalAvgSessionDurationSum / monthData.totalSessions / 60).toFixed(2); // Convert to minutes
 
 			// Sort and limit top countries to 3
@@ -113,8 +117,9 @@ async function fetchAnalyticsData() {
 					device,
 					percentage: ((count / monthData.totalSessions) * 100).toFixed(2)
 				}))
-				.sort((a, b) => b.percentage - a.percentage); // Sort by percentage
-		});
+				.sort((a, b) => b.percentage - a.percentage)  // sort by percentage
+				.slice(0, 3);                                 // keep top 3
+			});
 
 		// Sort months in reverse chronological order
 		const sortedAnalyticsResults = Object.keys(analyticsResults)
