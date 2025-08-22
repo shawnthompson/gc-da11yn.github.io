@@ -9,32 +9,6 @@ subject:
 tags:
   - designCourse
 toggle: conception-universelle-pour-lapprentissage-cua
-category:
-  - Best practicesrsal Design for Learning (<abbr>UDL</abbr>)
-description: Universal Design for Learning (<abbr>UDL</abbr>) is a framework that avoids a ‘one-size fits all approach’ to learning materials. It encourages using multiple ways of engagement, representation and action and expression can meet the needs of a larger number of learners. Learn about the three main UDL principles, advantages, benefits and tips.
-role:
-  - author
-  - designer
-  - development
-  - testing
-  - administration
-subject:
-  - howTos
-tags:
-  - designCourse
-toggle: conception-universelle-pour-lapprentissage-cua
-category:
-  - Best practices
-  - Writing content
-  - Design
-Keywords:
-  - design an online course
-  - Best Practices
-  - Learning Designer
-  - Educator
-audience:
-  - Learning designer
-  - Educator / facilitator
 ---
 
 ## Introduction to Universal Design for Learning (<abbr>UDL</abbr>)
