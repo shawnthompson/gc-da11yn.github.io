@@ -2,12 +2,8 @@
 title: Cognitive Disabilities
 description: Cognitive impairments take many forms, including short and long-term memory impairments, and perceptual differences. Language impairments, including dyslexia and temporary impairments associated with those trying to learn new languages, are also common cognitive problems.
 role:
-  - analysis
-  - author
-  - designer
-  - development
-  - testing
-  - administration
+  - uxResearch
+  - uxDesign
 subject:
   - accessibilityFundamentals
 tags:

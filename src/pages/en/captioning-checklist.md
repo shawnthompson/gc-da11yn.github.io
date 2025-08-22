@@ -2,9 +2,7 @@
 title: Captioning Checklist
 description: Making sure you did not forget anything with your captions.
 role:
-  - author 
-  - development 
-  - testing 
+  - contentPublishing
 subject:
   - howTos
 toggle: liste-de-controle-pour-le-sous-titrage

@@ -2,9 +2,7 @@
 title: Transcript Guidelines
 description: Guidelines on how to incorporate various aspects of audio and video into a transcript.
 role:
-  - author
-  - development
-  - testing
+  - contentPublishing
 toggle: directives-pour-la-transcription
 subject:
   - howTos

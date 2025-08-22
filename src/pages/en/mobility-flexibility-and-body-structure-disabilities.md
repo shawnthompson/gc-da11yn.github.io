@@ -2,12 +2,8 @@
 title: Mobility, Flexibility, and Body Structure Disabilities
 description: Mobility impairment includes people with upper or lower limb loss or disability, challenges with manual dexterity, disability in co-ordination with different organs of the body, or with a broken skeletal structure. Physical and mobility disabilities restrict the ability of the body or one or more limbs to move independently and purposefully.
 role:
-  - analysis
-  - author
-  - designer
-  - development
-  - testing
-  - administration
+  - uxResearch
+  - uxDesign
 category:
   - Disability awareness
 Tagging:

@@ -2,12 +2,8 @@
 title: Tip sheet for Microsoft Word
 description: Quick reference to accessible best practices for Word documents.
 role:
-  - analysis
-  - author
-  - designer
-  - development
-  - testing
-  - administration
+  - contentAuthoring
+  - contentPublishing
 toggle: feuille-de-conseils-pour-microsoft-word
 ---
 
