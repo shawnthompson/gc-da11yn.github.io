@@ -2,12 +2,8 @@
 title: Accessible Word documents in Microsoft 365
 description: Accessible practices for Microsoft Word document creation.
 role:
-  - analysis
-  - author
-  - designer
-  - development
-  - testing
-  - administration
+  - contentAuthoring
+  - contentPublishing
 toggle: documents-word-accessibles-dans-microsoft-365
 fontIcon: fa-file-word
 ---

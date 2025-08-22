@@ -3,12 +3,8 @@ title: Additional Resources
 layout: layouts/base.njk
 description: Resources and useful tools for web accessibility for employees of the Government of Canada.
 role:
-  - analysis
-  - author
-  - designer
-  - development
-  - testing
-  - administration
+  - governance
+  - contentAuthoring
 toggle: ressources-additionnelles
 tags:
   - resourcesAndTools

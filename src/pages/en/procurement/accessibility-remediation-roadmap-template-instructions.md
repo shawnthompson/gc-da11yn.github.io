@@ -10,10 +10,9 @@ tags:
   - procurement
   - updatesMain
 role:
-  - analysis
-  - author
-  - designer
-  - development
+  - businessAnalysis
+  - projectManagement
+  - governance
   - testing
   - administration
 hasDocument:

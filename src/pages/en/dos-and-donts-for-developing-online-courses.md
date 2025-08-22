@@ -4,19 +4,10 @@ description: Do's and don'ts for writing, designing and developing online course
 role:
   - contentAuthoring
   - uxDesign
-toggle: a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne
-subject:
-  - howTos
-tags:
-  - designCourse
---- and Don’ts for developing online courses
-description: Do’s and don’ts for writing, designing and developing online courses.
-role:
-  - author
-  - designer
-  - development
-  - testing
-  - administration
+  - frontEndDev
+  - backEndDev
+  - qaAutomated
+  - qaManual
 toggle: a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne
 subject:
   - howTos

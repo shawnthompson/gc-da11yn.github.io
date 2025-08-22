@@ -2,12 +2,7 @@
 title: Contact us
 description: Interested in learning more? Reach out and get connected to our team.
 role:
-  - analysis
-  - author
-  - designer
-  - development
-  - testing
-  - administration
+  - governance
 toggle: contactez-nous
 tags:
   - aboutUs

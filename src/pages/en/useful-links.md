@@ -2,12 +2,14 @@
 title: Useful Links
 description: This page contains a list of key links for ESDC's IT Accessibility Office.
 role:
-  - analysis
-  - author
-  - designer
-  - development
-  - testing
-  - administration
+  - businessAnalysis
+  - contentAuthoring
+  - uxDesign
+  - frontEndDev
+  - backEndDev
+  - qaAutomated
+  - qaManual
+  - governance
 toggle: liens-utiles
 internalLinks: true
 ---

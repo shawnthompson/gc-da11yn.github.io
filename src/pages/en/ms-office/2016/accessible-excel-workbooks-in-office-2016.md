@@ -2,12 +2,8 @@
 title: Accessible Excel workbooks in Office 2016
 description: Accessible practices for Microsoft Excel 2016 document creation.
 role:
-  - analysis
-  - author
-  - designer
-  - development
-  - testing
-  - administration
+  - contentAuthoring
+  - contentPublishing
 toggle: classeurs-excel-accessibles-dans-office-2016
 fontIcon: fa-file-excel
 ---
