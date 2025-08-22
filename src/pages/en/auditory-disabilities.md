@@ -7,6 +7,9 @@ tags:
   - aboutDisabilities
 audience:
   - Everyone
+role:
+  - uxResearch
+  - uxDesign
 toggle: deficiences-auditives
 ---
 

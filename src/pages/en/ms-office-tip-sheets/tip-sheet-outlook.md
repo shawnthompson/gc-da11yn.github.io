@@ -1,6 +1,9 @@
 ---
 title: Tip sheet for Microsoft Outlook
 description: Simple reference for creating accessible emails in Outlook.
+role:
+  - contentAuthoring
+  - contentPublishing
 toggle: feuille-de-conseils-pour-microsoft-outlook
 ---
 

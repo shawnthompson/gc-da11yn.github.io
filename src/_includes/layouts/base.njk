@@ -33,6 +33,15 @@
 						{% else %}
 						<p><strong>{{ landingPage[locale].descriptionNoneText }}</strong></p>
 						{% endif %}
+						{%- if role -%}
+						<hr />
+						<h2 class="h6">Related roles:</h2>
+							<ul>
+								{% for roles in role %}
+									<li class="label label-success">{{ arrmRoles.labels[locale][roles] }}</li>
+								{% endfor %}
+							</ul>
+						{%- endif -%}
 					</div>
 				</div>
 			</div>

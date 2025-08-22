@@ -1,6 +1,9 @@
 ---
 title: Language of Audio/Video Content
 description: When to use sign language interpretation and bilingual videos, tools and samples of accessible videos.
+role:
+  - contentAuthoring
+  - contentPublishing
 toggle: langue-du-contenu-audiovideo
 subject:
   - howTos
