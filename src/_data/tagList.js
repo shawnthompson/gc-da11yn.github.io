@@ -60,6 +60,7 @@ module.exports = {
 			accessibilityInTheGovernmentOfCanada:
 				"Accessibilité numérique au gouvernement du Canada",
 			aboutUs: "À propos de nous",
+			roles: "Accessibilité dans votre rôle",
 		},
 		en: {
 			accessibilityFundamentals: "Accessibility Fundamentals",
@@ -69,6 +70,7 @@ module.exports = {
 			accessibilityInTheGovernmentOfCanada:
 				"Digital accessibility in the Government of Canada",
 			aboutUs: "About Us",
+			roles: "Accessibility in Your Role",
 		},
 	},
 };
