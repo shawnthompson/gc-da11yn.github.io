@@ -20,18 +20,18 @@ module.exports = {
 	// translated labels for roles
 	labels: {
 		en: {
-			businessAnalysis: "Business Analysis",
-			contentAuthoring: "Content Authoring",
-			contentPublishing: "Content Publishing",
-			uxResearch: "User Experience Research",
-			uxDesign: "User Experience Design",
-			visualDesign: "Visual Design",
-			frontEndDev: "Front-End Development",
-			backEndDev: "Back-End Development",
-			qaAutomated: "Automated QA Testing",
-			qaManual: "Manual QA Testing",
-			productOwnership: "Product Ownership",
-			projectManagement: "Project Management",
+			businessAnalysis: "Business analysis",
+			contentAuthoring: "Content authoring",
+			contentPublishing: "Content publishing",
+			uxResearch: "User experience research",
+			uxDesign: "User experience design",
+			visualDesign: "Visual design",
+			frontEndDev: "Front-end development",
+			backEndDev: "Back-end development",
+			qaAutomated: "Automated QA testing",
+			qaManual: "Manual QA testing",
+			productOwnership: "Product ownership",
+			projectManagement: "Project management",
 			governance: "Governance",
 		},
 		fr: {
@@ -54,12 +54,12 @@ module.exports = {
 	// translated labels for groups
 	groups: {
 		en: {
-			business: "Business Role Group",
-			author: "Author Role Group",
-			design: "Design Role Group",
-			development: "Development Role Group",
-			testing: "Testing Role Group",
-			administration: "Administration Role Group",
+			business: "Business role group",
+			author: "Author role group",
+			design: "Design role group",
+			development: "Development role group",
+			testing: "Testing role group",
+			administration: "Administration role group",
 		},
 		fr: {
 			business: "Groupe des rôles d'affaires",
