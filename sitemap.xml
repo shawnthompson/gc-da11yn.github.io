@@ -172,11 +172,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/fr/le-groupe-de-travail-sur-lacces-gta/</loc>
-		<lastmod>2024-06-17</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/fr/liens-utiles/</loc>
 		<lastmod>2024-06-17</lastmod>
 	</url>
@@ -887,46 +882,6 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/roles/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/administration/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/analyse/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/auteur/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/concepteur/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/developpement/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/roles/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/test/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/universal-design-for-learning-udl/</loc>
 		<lastmod>2025-08-22</lastmod>
 	</url>
@@ -978,41 +933,6 @@
 	
 	<url>
 		<loc>https://a11y.canada.ca/en/tools/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/administration/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/analysis/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/author/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/designer/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/development/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/testing/</loc>
-		<lastmod>2025-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/en/access-working-group-awg/</loc>
 		<lastmod>2025-08-22</lastmod>
 	</url>
 	
@@ -1154,5 +1074,35 @@
 	<url>
 		<loc>https://a11y.canada.ca/en/what-we-heard-report-standard-on-information-and-communication-technology-accessibility-sicta/</loc>
 		<lastmod>2025-08-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/roles/backEndDev/</loc>
+		<lastmod>2025-08-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/roles/administration/</loc>
+		<lastmod>2025-08-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/roles/</loc>
+		<lastmod>2025-08-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/roles/backEndDev/</loc>
+		<lastmod>2025-08-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/roles/administration/</loc>
+		<lastmod>2025-08-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/roles/</loc>
+		<lastmod>2025-08-26</lastmod>
 	</url>
 </urlset>
