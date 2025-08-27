@@ -1,9 +1,6 @@
 ---
 title: Accessible PDF documents in Microsoft 365
 description: Accessible practices for PDF document creation.
-role:
-  - contentAuthoring
-  - contentPublishing
 toggle: documents-pdf-accessibles-dans-microsoft-365
 fontIcon: fa-file-pdf
 ---

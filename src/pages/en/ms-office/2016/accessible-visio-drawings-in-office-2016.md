@@ -1,9 +1,6 @@
 ---
 title: Accessible Visio drawings in Office 2016
 description: Accessible practices for Microsoft Visio 2016 diagram creation.
-role:
-  - contentAuthoring
-  - contentPublishing
 toggle: dessins-visio-accessibles-dans-office-2016
 fontIcon: fa-project-diagram
 ---

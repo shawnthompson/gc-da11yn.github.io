@@ -1,9 +1,6 @@
 ---
 title: Introduction to accessibility requirements for audio-video
 description: This document is a great introduction on how to make accessible video for a communication advisor audience which are in between the web author and the content expert.
-role:
-  - contentAuthoring
-  - contentPublishing
 toggle: introduction-aux-exigences-daccessibilite-pour-laudio-video
 subject:
   - howTos

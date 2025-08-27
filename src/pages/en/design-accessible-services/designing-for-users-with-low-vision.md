@@ -1,9 +1,6 @@
 ---
 title: Designing for users with low vision
 description: What to do - and what <strong>not</strong> to do - when designing for users with low vision.
-role:
-  - uxDesign
-  - visualDesign
 tags:
   - designingAccessible
 toggle: concevoir-pour-les-utilisateurs-malvoyants

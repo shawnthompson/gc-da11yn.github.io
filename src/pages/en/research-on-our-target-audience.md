@@ -1,11 +1,6 @@
 ---
 title: Research on our target audience
-description: By developing a greater understanding of our users, we hope to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit's website.
-role:
-  - uxResearch
-  - uxDesign
-  - businessAnalysis
-  - productOwnership
+description: By developing a greater understanding of our users, we hope to build a responsive site architecture for all existing and future content hosted on the Digital Accessibility Toolkit’s website.
 tags:
   - aboutUs
 toggle: recherche-sur-notre-audience
@@ -14,19 +9,6 @@ toggle: recherche-sur-notre-audience
 ## The creation of our persona
 
 The main goal of creating these personas was to better understand our target audience.
-
-To do this we must:
-
-- Define our audience,
-- Understand their specific goals and needs,
-- Discover the relationship between the site's content and the audiences' goals and needs.
-
-Personas are fictional characters created to represent the different user types that might use a service or a product in a similar way. Creating personas will help the team:
-
-- Understand, who we are creating content for and what they need,
-- Gain a deeper understanding of users' goals and motivations,
-- Make more thoughtful decisions around content priorities, tone and style,
-- Remind the team of who they are creating content for on a regular basis.
 
 To do this we must:
 

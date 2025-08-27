@@ -1,9 +1,6 @@
 ---
 title: Tip sheet for Microsoft Word
 description: Quick reference to accessible best practices for Word documents.
-role:
-  - contentAuthoring
-  - contentPublishing
 toggle: feuille-de-conseils-pour-microsoft-word
 ---
 

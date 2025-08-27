@@ -9,12 +9,6 @@ subject:
 tags:
   - procurement
   - updatesMain
-role:
-  - businessAnalysis
-  - projectManagement
-  - governance
-  - testing
-  - administration
 hasDocument:
   type: word
   sizeNumber: 54

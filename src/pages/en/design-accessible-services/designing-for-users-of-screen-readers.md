@@ -1,10 +1,6 @@
 ---
 title: Designing for users of screen readers
 description: What to do - and what <strong>not</strong> to do - when designing for users of screen readers.
-role:
-  - uxDesign
-  - visualDesign
-  - frontEndDev
 tags:
   - designingAccessible
 toggle: concevoir-pour-les-utilisateurs-de-revues-decran

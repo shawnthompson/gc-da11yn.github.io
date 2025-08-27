@@ -1,9 +1,6 @@
 ---
 title: Visual Impairments
-description: Visual disabilities are sensory disabilities that can range from some amount of vision loss, loss of visual acuity, or increased or decreased sensitivity to specific or bright colours, to complete or uncorrectable loss of vision in either or both eyes
-role:
-  - uxResearch
-  - uxDesign
+description: Visual disabilities are sensory disabilities that can range from some amount of vision loss, loss of visual acuity, or increased or decreased sensitivity to specific or bright colours, to complete or uncorrectable loss of vision in either or both eyes.
 subject:
   - accessibilityFundamentals
 tags:

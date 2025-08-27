@@ -1,9 +1,6 @@
 ---
 title: Accessible Excel workbooks in Microsoft 365
 description: Accessible practices for Microsoft Excel document creation.
-role:
-  - contentAuthoring
-  - contentPublishing
 toggle: classeurs-excel-accessibles-dans-microsoft-365
 fontIcon: fa-file-excel
 ---

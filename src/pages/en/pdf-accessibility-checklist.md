@@ -1,8 +1,6 @@
 ---
 title: PDF accessibility checklist
 description: Here you can find different questions to help you to know if your pdf document is accessible or not.
-role:
-  - contentAuthoring
 internalLinks: true
 toggle: liste-de-verification-de-laccessibilite-des-documents-pdf
 subject:

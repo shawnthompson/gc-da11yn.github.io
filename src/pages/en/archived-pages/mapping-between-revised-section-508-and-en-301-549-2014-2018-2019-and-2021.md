@@ -1,10 +1,6 @@
 ---
 title: Mapping between Revised Section 508 and EN 301 549 (2014, 2018, 2019 and 2021)
 description: This resource has been removed due to known errors. We are evaluating next steps and may release an updated version once the EN 301 549:2025 standard is finalized.
-role:
-  - qaAutomated
-  - qaManual
-  - governance
 toggle: mise-en-correspondance-entre-larticle-508-revise-revised-section-508-et-la-norme-en-301-549-2014-2018-2019-et-2021
 subject:
   - accessibilityInTheGovernmentOfCanada
