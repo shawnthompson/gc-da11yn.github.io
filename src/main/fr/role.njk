@@ -8,6 +8,7 @@ permalink: "/{{ locale }}/roles/{{ rolePair[0] }}/"
 eleventyComputed:
   title: "{{ roles.labels[locale][rolePair[0]] }}"
   description: "{{ roles.arrm[locale][rolePair[0]].description if roles.arrm[locale][rolePair[0]] else 'Ressources et conseils pour les rôles de ' + roles.labels[locale][rolePair[0]] | lower + ' en accessibilité numérique.' }}"
+  toggle: "roles/{{ rolePair[0] }}"
 ---
 {% set lang = locale or 'fr' %}
 {% set rolesData = roles %}

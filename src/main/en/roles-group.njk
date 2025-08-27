@@ -8,6 +8,7 @@ permalink: "/{{ locale }}/roles/{{ groupPair[0] }}/"
 eleventyComputed:
   title: "{{ groupPair[1] }}"
   description: "{{ groupPair[2] }}"
+  toggle: "roles/{{ groupPair[0] }}"
 ---
 {% set lang = locale or 'en' %}
 {% set rolesData = roles %}
