@@ -1077,17 +1077,7 @@
 	</url>
 	
 	<url>
-		<loc>https://a11y.canada.ca/en/roles/backEndDev/</loc>
-		<lastmod>2025-08-26</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://a11y.canada.ca/en/roles/administration/</loc>
-		<lastmod>2025-08-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://a11y.canada.ca/fr/roles/backEndDev/</loc>
 		<lastmod>2025-08-26</lastmod>
 	</url>
 	
@@ -1104,5 +1094,15 @@
 	<url>
 		<loc>https://a11y.canada.ca/fr/roles/</loc>
 		<lastmod>2025-08-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/en/roles/backEndDev/</loc>
+		<lastmod>2025-08-27</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://a11y.canada.ca/fr/roles/backEndDev/</loc>
+		<lastmod>2025-08-27</lastmod>
 	</url>
 </urlset>
