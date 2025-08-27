@@ -1,19 +1,17 @@
 ---
-title: Global Accessibility Standards
-description: A set of guidelines to ensure digital content is accessible worldwide for people living with disabilities and frameworks for creating accessible digital products, services, and more.
-toggle: normes-daccessibilite-mondiales
+title: L'accessibilité dans votre rôle
+description: Nous avons tous un rôle à jouer en matière d'accessibilité. Apprenez-en plus sur les conseils d'accessibilité spécifiques à votre emploi et sur la manière de les intégrer dans votre travail quotidien.
+toggle: accessibility-in-your-role
 tags:
-  - accessibilityFundamentals
 ---
-
-{% if collections.globalAccessibilityStandards === undefined %}
+{% if collections.accessibilityInYourRole === undefined %}
 
 	{% include "partials/alert-landingpages.njk" %}
 
 {% else %}
 
 <div class="row wb-eqht mrgn-tp-lg gc-drmt">
-	{% for item in collections.globalAccessibilityStandards | sort(false, false, 'data.title') | localeMatch(locale) %}
+	{% for item in collections.accessibilityInYourRole | sort(false, false, 'data.title') | localeMatch(locale) %}
 	<div class="col-md-6">
 		<h2><a{% if item.data.redirect %} rel="external"{% endif %} href="{% if item.data.redirect %}{{ item.data.redirect }}{% else %}{{ pathPrefix }}{{ item.url }} {% endif %}"{% if item.data.oneLanguage %} hreflang="{{ landingPage[locale].otherLang }}"{% endif %}>{% if item.data.internal === true %}<span class="fas fa-external-link-square-alt mrgn-lft-sm mrgn-rght-sm" aria-hidden="true"></span><span class="wb-inv"> {{ alerts[locale].hiddenTextLink }}</span>{% endif %}{{ item.data.title | safe }}{% if item.data.oneLanguage %}<small> {{ landingPage[locale].otherLangOnly }}</small>{% endif %}</a></h2>
 		<p>
