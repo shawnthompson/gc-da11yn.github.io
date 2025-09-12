@@ -170,8 +170,6 @@
             <meta property="position" content="2">
           </li>
           <!-- Additional breadcrumbs based on tags and subjects -->
-          <!-- Special handling for role-based pages -->
-          <!-- Existing breadcrumbs logic for non-role pages -->
           <!-- Breadcrumbs based on 'subject' -->
           <!-- Breadcrumbs based on 'tags' -->
         </ol>
@@ -196,11 +194,11 @@
           <h2>Définitions des étiquettes</h2>
         </header>
         <div class="row modal-body">
-          <section class="col-md-4">
+          <section class="col-md-6">
             <h3>Sujets</h3>
             <dl>
               <dt><span class="label label-success">accessibilityFundamentals</span></dt>
-              <dd>Principes de base de l&#39;accessibilité</dd>
+              <dd>Principes de base de l’accessibilité</dd>
             </dl>
             <dl>
               <dt><span class="label label-success">howTos</span></dt>
@@ -222,12 +220,8 @@
               <dt><span class="label label-success">aboutUs</span></dt>
               <dd>À propos de nous</dd>
             </dl>
-            <dl>
-              <dt><span class="label label-success">roles</span></dt>
-              <dd>Accessibilité dans votre rôle</dd>
-            </dl>
           </section>
-          <section class="col-md-4">
+          <section class="col-md-6">
             <h3>Thèmes</h3>
             <dl>
               <dt><span class="label label-info">aboutDisabilities</span></dt>
@@ -235,7 +229,7 @@
             </dl>
             <dl>
               <dt><span class="label label-info">globalAccessibilityStandards</span></dt>
-              <dd>Normes d&#39;accessibilité mondiales</dd>
+              <dd>Normes d’accessibilité mondiales</dd>
             </dl>
             <dl>
               <dt><span class="label label-info">createDocument</span></dt>
@@ -251,7 +245,7 @@
             </dl>
             <dl>
               <dt><span class="label label-info">createWebContent</span></dt>
-              <dd>Créer du contenu web</dd>
+              <dd>Créer du contenu Web</dd>
             </dl>
             <dl>
               <dt><span class="label label-info">designCourse</span></dt>
@@ -271,7 +265,7 @@
             </dl>
             <dl>
               <dt><span class="label label-info">accessibilityAct</span></dt>
-              <dd>Loi sur l&#39;accessibilité</dd>
+              <dd>Loi sur l’accessibilité</dd>
             </dl>
             <dl>
               <dt><span class="label label-info">procurement</span></dt>
@@ -279,7 +273,7 @@
             </dl>
             <dl>
               <dt><span class="label label-info">accessibilityStandards</span></dt>
-              <dd>Normes d&#39;accessibilité</dd>
+              <dd>Normes d’accessibilité</dd>
             </dl>
             <dl>
               <dt><span class="label label-info">communityDirectory</span></dt>
@@ -314,61 +308,6 @@
               <dd>Comment créer des documents accessibles dans Microsoft 365</dd>
             </dl>
           </section>
-          <section class="col-md-4">
-            <h3>Rôles</h3>
-            <dl>
-              <dt><span class="label label-warning">businessAnalysis</span></dt>
-              <dd>Analyse d&#39;affaires</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">contentAuthoring</span></dt>
-              <dd>Rédaction de contenu</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">contentPublishing</span></dt>
-              <dd>Publication de contenu</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">uxResearch</span></dt>
-              <dd>Recherche UX</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">uxDesign</span></dt>
-              <dd>Conception UX</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">visualDesign</span></dt>
-              <dd>Conception visuelle</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">frontEndDev</span></dt>
-              <dd>Développement front-end</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">backEndDev</span></dt>
-              <dd>Développement back-end</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">qaAutomated</span></dt>
-              <dd>Tests AQ automatisés</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">qaManual</span></dt>
-              <dd>Tests AQ manuels</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">productOwnership</span></dt>
-              <dd>Propriété du produit</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">projectManagement</span></dt>
-              <dd>Gestion de projet</dd>
-            </dl>
-            <dl>
-              <dt><span class="label label-warning">governance</span></dt>
-              <dd>Gouvernance</dd>
-            </dl>
-          </section>
         </div>
       </section>
       <div id="filteredAppsList" class="wb-tagfilter provisional">
@@ -394,15 +333,11 @@
               </li>
               <li class="checkbox">
                 <label>
-                  <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_5" checked> Rôle </label>
+                  <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_5" checked> Description présente ? </label>
               </li>
               <li class="checkbox">
                 <label>
-                  <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_6" checked> Description présente ? </label>
-              </li>
-              <li class="checkbox">
-                <label>
-                  <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_7" checked> Lien vers le fichier </label>
+                  <input type="checkbox" name="columns" class="wb-tagfilter-ctrl" value="col_6" checked> Lien vers le fichier </label>
               </li>
               <li class="checkbox">
                 <label>
@@ -422,8 +357,7 @@
               <th data-wb-tags="col_2">Lien vers d'autres langues</th>
               <th data-wb-tags="col_3">Thèmes</th>
               <th data-wb-tags="col_4">Sujets</th>
-              <th data-wb-tags="col_5">Rôle</th>
-              <th data-wb-tags="col_7">Lien vers le fichier</th>
+              <th data-wb-tags="col_6">Lien vers le fichier</th>
             </tr>
           </thead>
           <tbody>
@@ -438,10 +372,7 @@
                 <span class="label label-info">main</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/accessibilite-au-gouvernement-du-canada/index.njk">/src/main/fr/accessibilite-au-gouvernement-du-canada/index.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/accessibilite-au-gouvernement-du-canada/index.njk">/src/main/fr/accessibilite-au-gouvernement-du-canada/index.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -454,11 +385,7 @@
                 <span class="label label-info">createForms</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">frontEndDev</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ameliorer-laccessibilite-des-formulaires.md">/src/pages/fr/ameliorer-laccessibilite-des-formulaires.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ameliorer-laccessibilite-des-formulaires.md">/src/pages/fr/ameliorer-laccessibilite-des-formulaires.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -471,9 +398,7 @@
                 <span class="label label-info">aboutUs</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/2024.njk">/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/2024.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/2024.njk">/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/2024.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -486,9 +411,7 @@
                 <span class="label label-info">aboutUs</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/data.njk">/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/data.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/data.njk">/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/data.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -501,9 +424,7 @@
                 <span class="label label-info">aboutUs</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/index.njk">/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/index.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/index.njk">/src/main/fr/a-propos-de-nous/analytique-de-lutilisation-du-site-web/index.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -516,11 +437,7 @@
                 <span class="label label-info">main</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/apprentissage-et-perfectionnement.md">/src/pages/fr/apprentissage-et-perfectionnement.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/apprentissage-et-perfectionnement.md">/src/pages/fr/apprentissage-et-perfectionnement.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -533,10 +450,7 @@
                 <span class="label label-info">accessibilityInTheGovernmentOfCanada</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/accessibilite-au-gouvernement-du-canada/approvisionnement.njk">/src/main/fr/accessibilite-au-gouvernement-du-canada/approvisionnement.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/accessibilite-au-gouvernement-du-canada/approvisionnement.njk">/src/main/fr/accessibilite-au-gouvernement-du-canada/approvisionnement.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -550,12 +464,7 @@
                 <span class="label label-info">updatesMain</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">projectManagement</span>
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles.md">/src/pages/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles.md">/src/pages/fr/bonnes-pratiques-pour-les-evenements-virtuels-accessibles.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -568,10 +477,7 @@
                 <span class="label label-info">home</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/index.njk">/src/main/fr/index.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/index.njk">/src/main/fr/index.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -585,11 +491,7 @@
                 <span class="label label-info">microsoft365</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/classeurs-excel-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/classeurs-excel-accessibles-dans-microsoft-365.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/classeurs-excel-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/classeurs-excel-accessibles-dans-microsoft-365.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -603,11 +505,7 @@
                 <span class="label label-info">office2016</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/classeurs-excel-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/classeurs-excel-accessibles-dans-office-2016.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/classeurs-excel-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/classeurs-excel-accessibles-dans-office-2016.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -620,10 +518,7 @@
                 <span class="label label-info">createDocument</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-microsoft-365.njk">/src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-microsoft-365.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-microsoft-365.njk">/src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-microsoft-365.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -636,10 +531,7 @@
                 <span class="label label-info">createDocument</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-office-2016.njk">/src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-office-2016.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-office-2016.njk">/src/main/fr/comment-faire/microsoft-office/comment-creer-des-documents-accessibles-dans-office-2016.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -652,12 +544,7 @@
                 <span class="label label-info">main</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/index.njk">/src/main/fr/comment-faire/index.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/index.njk">/src/main/fr/comment-faire/index.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -670,11 +557,7 @@
                 <span class="label label-info">designCourse</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/conception-universelle-pour-lapprentissage-cua.md">/src/pages/fr/conception-universelle-pour-lapprentissage-cua.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/conception-universelle-pour-lapprentissage-cua.md">/src/pages/fr/conception-universelle-pour-lapprentissage-cua.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -686,11 +569,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">visualDesign</span>
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/concevoir-des-images-accessibles.md">/src/pages/fr/concevoir-des-images-accessibles.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/concevoir-des-images-accessibles.md">/src/pages/fr/concevoir-des-images-accessibles.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -703,11 +582,7 @@
                 <span class="label label-info">designingAccessible</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxDesign</span>
-                <span class="label label-warning">frontEndDev</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-avec-un-handicap-physique-ou-moteur.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -720,10 +595,7 @@
                 <span class="label label-info">designingAccessible</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-dans-le-spectre-de-lautisme.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -736,12 +608,7 @@
                 <span class="label label-info">designingAccessible</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxDesign</span>
-                <span class="label label-warning">visualDesign</span>
-                <span class="label label-warning">frontEndDev</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-de-revues-decran.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-de-revues-decran.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-de-revues-decran.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-de-revues-decran.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -754,11 +621,7 @@
                 <span class="label label-info">designingAccessible</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxDesign</span>
-                <span class="label label-warning">visualDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-malvoyants.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-malvoyants.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-malvoyants.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-malvoyants.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -771,10 +634,7 @@
                 <span class="label label-info">designingAccessible</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-sourds-ou-malentendants.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-sourds-ou-malentendants.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-sourds-ou-malentendants.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/concevoir-pour-les-utilisateurs-sourds-ou-malentendants.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -787,10 +647,7 @@
                 <span class="label label-info">howTos</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/concevoir-un-cours.njk">/src/main/fr/comment-faire/concevoir-un-cours.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/concevoir-un-cours.njk">/src/main/fr/comment-faire/concevoir-un-cours.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -803,10 +660,7 @@
                 <span class="label label-info">designCourse</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/conseils-pour-la-conception-de-cours-en-ligne.md">/src/pages/fr/conseils-pour-la-conception-de-cours-en-ligne.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/conseils-pour-la-conception-de-cours-en-ligne.md">/src/pages/fr/conseils-pour-la-conception-de-cours-en-ligne.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -819,9 +673,7 @@
                 <span class="label label-info">aboutUs</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/contactez-nous.md">/src/pages/fr/contactez-nous.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/contactez-nous.md">/src/pages/fr/contactez-nous.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -834,10 +686,7 @@
                 <span class="label label-info">howTos</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/creer-du-contenu-web.njk">/src/main/fr/comment-faire/creer-du-contenu-web.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/creer-du-contenu-web.njk">/src/main/fr/comment-faire/creer-du-contenu-web.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -850,10 +699,7 @@
                 <span class="label label-info">howTos</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/creer-un-document.njk">/src/main/fr/comment-faire/creer-un-document.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/creer-un-document.njk">/src/main/fr/comment-faire/creer-un-document.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -866,10 +712,7 @@
                 <span class="label label-info">howTos</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/creer-un-formulaire.njk">/src/main/fr/comment-faire/creer-un-formulaire.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/creer-un-formulaire.njk">/src/main/fr/comment-faire/creer-un-formulaire.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -883,11 +726,7 @@
                 <span class="label label-info">microsoft365</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/dessins-visio-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/dessins-visio-accessibles-dans-microsoft-365.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/dessins-visio-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/dessins-visio-accessibles-dans-microsoft-365.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -901,11 +740,7 @@
                 <span class="label label-info">office2016</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/dessins-visio-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/dessins-visio-accessibles-dans-office-2016.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/dessins-visio-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/dessins-visio-accessibles-dans-office-2016.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -918,11 +753,7 @@
                 <span class="label label-info">createWebContent</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentPublishing</span>
-                <span class="label label-warning">projectManagement</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/diffusions-en-direct.md">/src/pages/fr/diffusions-en-direct.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/diffusions-en-direct.md">/src/pages/fr/diffusions-en-direct.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -935,11 +766,7 @@
                 <span class="label label-info">createWebContent</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/directives-pour-la-description-sonore.md">/src/pages/fr/directives-pour-la-description-sonore.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/directives-pour-la-description-sonore.md">/src/pages/fr/directives-pour-la-description-sonore.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -952,10 +779,7 @@
                 <span class="label label-info">createWebContent</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/directives-pour-la-transcription.md">/src/pages/fr/directives-pour-la-transcription.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/directives-pour-la-transcription.md">/src/pages/fr/directives-pour-la-transcription.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -969,11 +793,7 @@
                 <span class="label label-info">microsoft365</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/documents-pdf-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/documents-pdf-accessibles-dans-microsoft-365.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/documents-pdf-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/documents-pdf-accessibles-dans-microsoft-365.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -987,11 +807,7 @@
                 <span class="label label-info">office2016</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/documents-pdf-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/documents-pdf-accessibles-dans-office-2016.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/documents-pdf-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/documents-pdf-accessibles-dans-office-2016.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1005,11 +821,7 @@
                 <span class="label label-info">microsoft365</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/documents-word-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/documents-word-accessibles-dans-microsoft-365.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/documents-word-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/documents-word-accessibles-dans-microsoft-365.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1023,11 +835,7 @@
                 <span class="label label-info">office2016</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/documents-word-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/documents-word-accessibles-dans-office-2016.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/documents-word-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/documents-word-accessibles-dans-office-2016.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1040,11 +848,7 @@
                 <span class="label label-info">aboutDisabilities</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityFundamentals</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxResearch</span>
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/deficiences-auditives.md">/src/pages/fr/deficiences-auditives.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/deficiences-auditives.md">/src/pages/fr/deficiences-auditives.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1057,26 +861,7 @@
                 <span class="label label-info">aboutDisabilities</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityFundamentals</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxResearch</span>
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/deficiences-visuelles.md">/src/pages/fr/deficiences-visuelles.md</a></code></td>
-            </tr>
-            <tr class="success" data-wb-tags="isLanding">
-              <td data-wb-tags="col_1">
-                <a href="/fr/roles/backEndDev/">Développement back-end</a>
-              </td>
-              <td data-wb-tags="col_2">
-                <a href="/gc-da11yn.github.ioen/roles/backEndDev" hreflang="">Version anglaise <span class="wb-inv">de Développement back-end</span></a>
-              </td>
-              <td data-wb-tags="col_3">
-                <span class="label label-info">role</span>
-              </td>
-              <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/role.njk">/src/main/fr/role.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/deficiences-visuelles.md">/src/pages/fr/deficiences-visuelles.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1089,10 +874,7 @@
                 <span class="label label-info">communityDirectory</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/emploi-et-developpement-social-canada-edsc.md">/src/pages/fr/emploi-et-developpement-social-canada-edsc.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/emploi-et-developpement-social-canada-edsc.md">/src/pages/fr/emploi-et-developpement-social-canada-edsc.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1105,10 +887,7 @@
                 <span class="label label-info">createWebContent</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/enregistrements.md">/src/pages/fr/enregistrements.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/enregistrements.md">/src/pages/fr/enregistrements.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1121,11 +900,7 @@
                 <span class="label label-info">procurement</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-                <span class="label label-warning">frontEndDev</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles.md">/src/pages/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles.md">/src/pages/fr/exigences-en-matiere-de-technologies-de-linformation-et-des-communications-tic-accessibles.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1138,11 +913,7 @@
                 <span class="label label-info">msTips</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos,createDocument</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-presentation-powerpoint-de-microsoft.md">/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-presentation-powerpoint-de-microsoft.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-presentation-powerpoint-de-microsoft.md">/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-presentation-powerpoint-de-microsoft.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1155,11 +926,7 @@
                 <span class="label label-info">msTips</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos,createDocument</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-outlook.md">/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-outlook.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-outlook.md">/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-outlook.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1172,11 +939,7 @@
                 <span class="label label-info">msTips</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos,createDocument</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-microsoft-word.md">/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-microsoft-word.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-microsoft-word.md">/src/pages/fr/fiches-conseils-ms-office/fiche-de-conseils-microsoft-word.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1190,24 +953,7 @@
                 <span class="label label-info">updatesMain</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/fiches-conseils-ms-office.njk">/src/main/fr/comment-faire/fiches-conseils-ms-office.njk</a></code></td>
-            </tr>
-            <tr class="success" data-wb-tags="isLanding">
-              <td data-wb-tags="col_1">
-                <a href="/fr/roles/administration/">Groupe des rôles administratifs</a>
-              </td>
-              <td data-wb-tags="col_2">
-                <a href="/gc-da11yn.github.ioen/roles/administration" hreflang="">Version anglaise <span class="wb-inv">de Groupe des rôles administratifs</span></a>
-              </td>
-              <td data-wb-tags="col_3">
-                <span class="label label-info">roleGroup</span>
-              </td>
-              <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/roles-group.njk">/src/main/fr/roles-group.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/fiches-conseils-ms-office.njk">/src/main/fr/comment-faire/fiches-conseils-ms-office.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1221,12 +967,7 @@
                 <span class="label label-info">updatesMain</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">businessAnalysis</span>
-                <span class="label label-warning">governance</span>
-                <span class="label label-warning">projectManagement</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/guide-pour-linclusion-de-laccessibilit-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic.md">/src/pages/fr/guide-pour-linclusion-de-laccessibilit-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/guide-pour-linclusion-de-laccessibilit-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic.md">/src/pages/fr/guide-pour-linclusion-de-laccessibilit-dans-lapprovisionnement-lie-aux-technologies-de-linformation-et-des-communications-tic.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1239,11 +980,7 @@
                 <span class="label label-info">aboutDisabilities</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityFundamentals</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxResearch</span>
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/handicaps-cognitifs.md">/src/pages/fr/handicaps-cognitifs.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/handicaps-cognitifs.md">/src/pages/fr/handicaps-cognitifs.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1256,11 +993,7 @@
                 <span class="label label-info">aboutDisabilities</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityFundamentals</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxResearch</span>
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle.md">/src/pages/fr/handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle.md">/src/pages/fr/handicaps-de-mobilite-de-flexibilite-et-de-structure-corporelle.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1273,11 +1006,19 @@
                 <span class="label label-info">createWebContent</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/introduction-aux-exigences-daccessibilite-pour-laudio-video.md">/src/pages/fr/introduction-aux-exigences-daccessibilite-pour-laudio-video.md</a></code></td>
+            </tr>
+            <tr class="success" data-wb-tags="isLanding">
+              <td data-wb-tags="col_1">
+                <a href="/fr/laccessibilite-dans-votre-role/">L'accessibilité dans votre rôle</a>
               </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/introduction-aux-exigences-daccessibilite-pour-laudio-video.md">/src/pages/fr/introduction-aux-exigences-daccessibilite-pour-laudio-video.md</a></code></td>
+              <td data-wb-tags="col_2">
+                <a href="/gc-da11yn.github.ioen/accessibility-in-your-role" hreflang="">Version anglaise <span class="wb-inv">de L'accessibilité dans votre rôle</span></a>
+              </td>
+              <td data-wb-tags="col_3">
+              </td>
+              <td data-wb-tags="col_4"><span class="label label-success"></span></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/l-accessibilite-dans-votre-role.njk">/src/main/fr/l-accessibilite-dans-votre-role.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1289,9 +1030,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/la-structure-des-regles-pour-l-accessibilite-des-contenus-web-wcag-2-1.md">/src/pages/fr/la-structure-des-regles-pour-l-accessibilite-des-contenus-web-wcag-2-1.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/la-structure-des-regles-pour-l-accessibilite-des-contenus-web-wcag-2-1.md">/src/pages/fr/la-structure-des-regles-pour-l-accessibilite-des-contenus-web-wcag-2-1.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1304,11 +1043,7 @@
                 <span class="label label-info">createWebContent</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/langue-du-contenu-audiovideo.md">/src/pages/fr/langue-du-contenu-audiovideo.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/langue-du-contenu-audiovideo.md">/src/pages/fr/langue-du-contenu-audiovideo.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1320,9 +1055,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/le-groupe-de-travail-sur-l-acces-gta.md">/src/pages/fr/le-groupe-de-travail-sur-l-acces-gta.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/le-groupe-de-travail-sur-l-acces-gta.md">/src/pages/fr/le-groupe-de-travail-sur-l-acces-gta.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1336,12 +1069,7 @@
                 <span class="label label-info">updatesMain</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">businessAnalysis</span>
-                <span class="label label-warning">projectManagement</span>
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/procurement/instructions-pour-le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite.md">/src/pages/fr/procurement/instructions-pour-le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/procurement/instructions-pour-le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite.md">/src/pages/fr/procurement/instructions-pour-le-modele-de-feuille-de-route-pour-la-correction-des-problemes-daccessibilite.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1353,9 +1081,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liens-utiles.md">/src/pages/fr/liens-utiles.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liens-utiles.md">/src/pages/fr/liens-utiles.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1368,10 +1094,7 @@
                 <span class="label label-info">createWebContent</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-controle-des-transcriptions.md">/src/pages/fr/liste-de-controle-des-transcriptions.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-controle-des-transcriptions.md">/src/pages/fr/liste-de-controle-des-transcriptions.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1384,10 +1107,7 @@
                 <span class="label label-info">createWebContent</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-controle-pour-le-sous-titrage.md">/src/pages/fr/liste-de-controle-pour-le-sous-titrage.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-controle-pour-le-sous-titrage.md">/src/pages/fr/liste-de-controle-pour-le-sous-titrage.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1400,10 +1120,7 @@
                 <span class="label label-info">createDocument</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-verification-de-la-conformite-des-documents-microsoft.md">/src/pages/fr/liste-de-verification-de-la-conformite-des-documents-microsoft.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-verification-de-la-conformite-des-documents-microsoft.md">/src/pages/fr/liste-de-verification-de-la-conformite-des-documents-microsoft.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1416,10 +1133,7 @@
                 <span class="label label-info">createDocument</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-verification-de-laccessibilite-des-documents-pdf.md">/src/pages/fr/liste-de-verification-de-laccessibilite-des-documents-pdf.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-verification-de-laccessibilite-des-documents-pdf.md">/src/pages/fr/liste-de-verification-de-laccessibilite-des-documents-pdf.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1432,11 +1146,7 @@
                 <span class="label label-info">testYourProducts</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">qaAutomated</span>
-                <span class="label label-warning">qaManual</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-verification-pour-laccessibilite-web.md">/src/pages/fr/liste-de-verification-pour-laccessibilite-web.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/liste-de-verification-pour-laccessibilite-web.md">/src/pages/fr/liste-de-verification-pour-laccessibilite-web.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1449,11 +1159,7 @@
                 <span class="label label-info">aboutUs</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-                <span class="label label-warning">projectManagement</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/mandats.md">/src/pages/fr/mandats.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/mandats.md">/src/pages/fr/mandats.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1466,9 +1172,7 @@
                 <span class="label label-info">accessibilityInTheGovernmentOfCanada</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/accessibilite-au-gouvernement-du-canada/normes-daccessibilite.njk">/src/main/fr/accessibilite-au-gouvernement-du-canada/normes-daccessibilite.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/accessibilite-au-gouvernement-du-canada/normes-daccessibilite.njk">/src/main/fr/accessibilite-au-gouvernement-du-canada/normes-daccessibilite.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1481,10 +1185,7 @@
                 <span class="label label-info">accessibilityFundamentals</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/principes-de-base-de-laccessibilite/normes-daccessibilite-mondiales.njk">/src/main/fr/principes-de-base-de-laccessibilite/normes-daccessibilite-mondiales.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/principes-de-base-de-laccessibilite/normes-daccessibilite-mondiales.njk">/src/main/fr/principes-de-base-de-laccessibilite/normes-daccessibilite-mondiales.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1496,10 +1197,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/ressources-et-outils/outils.njk">/src/main/fr/ressources-et-outils/outils.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/ressources-et-outils/outils.njk">/src/main/fr/ressources-et-outils/outils.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1511,9 +1209,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/page-deplacee-ou-supprimee.md">/src/pages/fr/page-deplacee-ou-supprimee.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/page-deplacee-ou-supprimee.md">/src/pages/fr/page-deplacee-ou-supprimee.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1525,9 +1221,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/pages-a-reviser.njk">/src/main/fr/pages-a-reviser.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/pages-a-reviser.njk">/src/main/fr/pages-a-reviser.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1540,11 +1234,7 @@
                 <span class="label label-info">designCourse</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxResearch</span>
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu.md">/src/pages/fr/personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu.md">/src/pages/fr/personas-handicapes-pour-la-conception-dune-experience-utilisateur-inclusive-eu.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1556,11 +1246,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">projectManagement</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/plateformes-de-reunions-virtuelles-et-fonctionnalites.md">/src/pages/fr/plateformes-de-reunions-virtuelles-et-fonctionnalites.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/plateformes-de-reunions-virtuelles-et-fonctionnalites.md">/src/pages/fr/plateformes-de-reunions-virtuelles-et-fonctionnalites.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1573,12 +1259,7 @@
                 <span class="label label-info">main</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">uxResearch</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/principes-de-base-de-laccessibilite/index.njk">/src/main/fr/principes-de-base-de-laccessibilite/index.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/principes-de-base-de-laccessibilite/index.njk">/src/main/fr/principes-de-base-de-laccessibilite/index.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1591,10 +1272,7 @@
                 <span class="label label-info">howTos</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/principes-de-conception-pour-des-services-accessibles.njk">/src/main/fr/comment-faire/principes-de-conception-pour-des-services-accessibles.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/principes-de-conception-pour-des-services-accessibles.njk">/src/main/fr/comment-faire/principes-de-conception-pour-des-services-accessibles.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1607,10 +1285,7 @@
                 <span class="label label-info">designingAccessible</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/principes-de-conception-pour-des-services-accessibles/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif.md">/src/pages/fr/principes-de-conception-pour-des-services-accessibles/principes-de-conception-pour-les-utilisateurs-avec-handicap-cognitif.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1623,11 +1298,7 @@
                 <span class="label label-info">aboutUs</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-                <span class="label label-warning">projectManagement</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique.md">/src/pages/fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique.md">/src/pages/fr/projet-de-la-boite-a-outils-de-laccessibilite-numerique.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1641,11 +1312,7 @@
                 <span class="label label-info">microsoft365</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/presentations-powerpoint-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/presentations-powerpoint-accessibles-dans-microsoft-365.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/365/presentations-powerpoint-accessibles-dans-microsoft-365.md">/src/pages/fr/ms-office/365/presentations-powerpoint-accessibles-dans-microsoft-365.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1659,11 +1326,7 @@
                 <span class="label label-info">office2016</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/presentations-powerpoint-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/presentations-powerpoint-accessibles-dans-office-2016.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ms-office/2016/presentations-powerpoint-accessibles-dans-office-2016.md">/src/pages/fr/ms-office/2016/presentations-powerpoint-accessibles-dans-office-2016.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1676,10 +1339,7 @@
                 <span class="label label-info">accessibilityStandards</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic.md">/src/pages/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic.md">/src/pages/fr/rapport-sur-ce-que-nous-avons-entendu-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-natic.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1692,10 +1352,7 @@
                 <span class="label label-info">aboutUs</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxResearch</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/recherche-sur-notre-audience.md">/src/pages/fr/recherche-sur-notre-audience.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/recherche-sur-notre-audience.md">/src/pages/fr/recherche-sur-notre-audience.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1709,11 +1366,7 @@
                 <span class="label label-info">updatesMain</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/rendre-vos-courriels-accessibles.md">/src/pages/fr/rendre-vos-courriels-accessibles.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/rendre-vos-courriels-accessibles.md">/src/pages/fr/rendre-vos-courriels-accessibles.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1725,10 +1378,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/ressources-et-outils/ressources.njk">/src/main/fr/ressources-et-outils/ressources.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/ressources-et-outils/ressources.njk">/src/main/fr/ressources-et-outils/ressources.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1741,11 +1391,7 @@
                 <span class="label label-info">resourcesAndTools</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ressources-additionnelles.md">/src/pages/fr/ressources-additionnelles.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ressources-additionnelles.md">/src/pages/fr/ressources-additionnelles.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1757,9 +1403,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ressources-additionnelles-sur-les-reunions-et-evenements-accessibles.md">/src/pages/fr/ressources-additionnelles-sur-les-reunions-et-evenements-accessibles.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ressources-additionnelles-sur-les-reunions-et-evenements-accessibles.md">/src/pages/fr/ressources-additionnelles-sur-les-reunions-et-evenements-accessibles.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1772,11 +1416,7 @@
                 <span class="label label-info">main</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/ressources-et-outils/index.njk">/src/main/fr/ressources-et-outils/index.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/ressources-et-outils/index.njk">/src/main/fr/ressources-et-outils/index.njk</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1789,10 +1429,7 @@
                 <span class="label label-info">accessibilityInTheGovernmentOfCanada</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/accessibilite-au-gouvernement-du-canada/repertoire-de-la-communaute.njk">/src/main/fr/accessibilite-au-gouvernement-du-canada/repertoire-de-la-communaute.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/accessibilite-au-gouvernement-du-canada/repertoire-de-la-communaute.njk">/src/main/fr/accessibilite-au-gouvernement-du-canada/repertoire-de-la-communaute.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1805,55 +1442,7 @@
                 <span class="label label-info">procurement</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-                <span class="label label-warning">frontEndDev</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/resume-technique-de-la-norme-en-301-549-v321-2021.md">/src/pages/fr/resume-technique-de-la-norme-en-301-549-v321-2021.md</a></code></td>
-            </tr>
-            <tr class="success" data-wb-tags="isLanding">
-              <td data-wb-tags="col_1">
-                <a href="/fr/roles/">Rôles d'accessibilité</a>
-              </td>
-              <td data-wb-tags="col_2">
-                <a href="/gc-da11yn.github.ioen/roles" hreflang="">Version anglaise <span class="wb-inv">de Rôles d'accessibilité</span></a>
-              </td>
-              <td data-wb-tags="col_3">
-                <span class="label label-info">main</span>
-              </td>
-              <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">businessAnalysis</span>
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">contentPublishing</span>
-                <span class="label label-warning">uxResearch</span>
-                <span class="label label-warning">uxDesign</span>
-                <span class="label label-warning">visualDesign</span>
-                <span class="label label-warning">frontEndDev</span>
-                <span class="label label-warning">backEndDev</span>
-                <span class="label label-warning">qaAutomated</span>
-                <span class="label label-warning">qaManual</span>
-                <span class="label label-warning">productOwnership</span>
-                <span class="label label-warning">projectManagement</span>
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/roles/index.njk">/src/main/fr/roles/index.njk</a></code></td>
-            </tr>
-            <tr data-wb-tags="isPage">
-              <td data-wb-tags="col_1">
-                <a href="/fr/statistique-canada-statcan/">Statistique Canada (<abbr>StatCan</abbr>)</a>
-              </td>
-              <td data-wb-tags="col_2">
-                <a href="/gc-da11yn.github.ioen/statistics-canada-statcan" hreflang="">Version anglaise <span class="wb-inv">de Statistique Canada (<abbr>StatCan</abbr>)</span></a>
-              </td>
-              <td data-wb-tags="col_3">
-                <span class="label label-info">communityDirectory</span>
-              </td>
-              <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/statistique-canada-statcan.md">/src/pages/fr/statistique-canada-statcan.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/resume-technique-de-la-norme-en-301-549-v321-2021.md">/src/pages/fr/resume-technique-de-la-norme-en-301-549-v321-2021.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1866,27 +1455,20 @@
                 <span class="label label-info">accessibilityStandards</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/seance-de-mobilisation-ciblee-lebauche-de-la-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-tic.md">/src/pages/fr/seance-de-mobilisation-ciblee-lebauche-de-la-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-tic.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/seance-de-mobilisation-ciblee-lebauche-de-la-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-tic.md">/src/pages/fr/seance-de-mobilisation-ciblee-lebauche-de-la-norme-daccessibilite-des-technologies-de-linformation-et-des-communications-tic.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
-                <a href="/fr/test-daccessibilite-101/">Test d'accessibilité 101</a>
+                <a href="/fr/test-daccessibilite-101/">Test d’accessibilité 101</a>
               </td>
               <td data-wb-tags="col_2">
-                <a href="/gc-da11yn.github.ioen/accessibility-testing-101" hreflang="">Version anglaise <span class="wb-inv">de Test d'accessibilité 101</span></a>
+                <a href="/gc-da11yn.github.ioen/accessibility-testing-101" hreflang="">Version anglaise <span class="wb-inv">de Test d’accessibilité 101</span></a>
               </td>
               <td data-wb-tags="col_3">
                 <span class="label label-info">testYourProducts</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">qaAutomated</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/test-daccessibilite-101.md">/src/pages/fr/test-daccessibilite-101.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/test-daccessibilite-101.md">/src/pages/fr/test-daccessibilite-101.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1900,10 +1482,20 @@
                 <span class="label label-info">updatesMain</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">qaAutomated</span>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/testez-vos-produits.njk">/src/main/fr/comment-faire/testez-vos-produits.njk</a></code></td>
+            </tr>
+            <tr data-wb-tags="isPage">
+              <td data-wb-tags="col_1">
+                <a href="/fr/statistique-canada-statcan/">Statistique Canada (<abbr>StatCan</abbr>)</a>
               </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/testez-vos-produits.njk">/src/main/fr/comment-faire/testez-vos-produits.njk</a></code></td>
+              <td data-wb-tags="col_2">
+                <a href="/gc-da11yn.github.ioen/statistics-canada-statcan" hreflang="">Version anglaise <span class="wb-inv">de Statistique Canada (<abbr>StatCan</abbr>)</span></a>
+              </td>
+              <td data-wb-tags="col_3">
+                <span class="label label-info">communityDirectory</span>
+              </td>
+              <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/statistique-canada-statcan.md">/src/pages/fr/statistique-canada-statcan.md</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1916,10 +1508,7 @@
                 <span class="label label-info">createWebContent</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/texte-alternatif-et-description-longue-bonnes-pratiques.md">/src/pages/fr/texte-alternatif-et-description-longue-bonnes-pratiques.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/texte-alternatif-et-description-longue-bonnes-pratiques.md">/src/pages/fr/texte-alternatif-et-description-longue-bonnes-pratiques.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1932,10 +1521,7 @@
                 <span class="label label-info">accessibilityFundamentals</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">uxResearch</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/principes-de-base-de-laccessibilite/types-de-handicap-les-plus-courants.njk">/src/main/fr/principes-de-base-de-laccessibilite/types-de-handicap-les-plus-courants.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/principes-de-base-de-laccessibilite/types-de-handicap-les-plus-courants.njk">/src/main/fr/principes-de-base-de-laccessibilite/types-de-handicap-les-plus-courants.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1948,11 +1534,7 @@
                 <span class="label label-info">designCourse</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">howTos</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">contentAuthoring</span>
-                <span class="label label-warning">uxDesign</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne.md">/src/pages/fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne.md">/src/pages/fr/a-faire-et-a-ne-pas-faire-pour-developper-des-cours-en-ligne.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1964,10 +1546,7 @@
               <td data-wb-tags="col_3">
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/a-propos-de-nous/index.njk">/src/main/fr/a-propos-de-nous/index.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/a-propos-de-nous/index.njk">/src/main/fr/a-propos-de-nous/index.njk</a></code></td>
             </tr>
             <tr data-wb-tags="isPage">
               <td data-wb-tags="col_1">
@@ -1980,10 +1559,7 @@
                 <span class="label label-info">communityDirectory</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success">accessibilityInTheGovernmentOfCanada</span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">governance</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ecole-de-la-fonction-publique-du-canada-efpc.md">/src/pages/fr/ecole-de-la-fonction-publique-du-canada-efpc.md</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/pages/fr/ecole-de-la-fonction-publique-du-canada-efpc.md">/src/pages/fr/ecole-de-la-fonction-publique-du-canada-efpc.md</a></code></td>
             </tr>
             <tr class="success" data-wb-tags="isLanding">
               <td data-wb-tags="col_1">
@@ -1996,10 +1572,7 @@
                 <span class="label label-info">howTos</span>
               </td>
               <td data-wb-tags="col_4"><span class="label label-success"></span></td>
-              <td data-wb-tags="col_5">
-                <span class="label label-warning">projectManagement</span>
-              </td>
-              <td data-wb-tags="col_7"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/evenements-virtuels-accessibles.njk">/src/main/fr/comment-faire/evenements-virtuels-accessibles.njk</a></code></td>
+              <td data-wb-tags="col_6"><code><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/tree/main/src/main/fr/comment-faire/evenements-virtuels-accessibles.njk">/src/main/fr/comment-faire/evenements-virtuels-accessibles.njk</a></code></td>
             </tr>
           </tbody>
         </table>
@@ -2027,7 +1600,7 @@
             <li class="mrgn-rght-sm"><i class="fas fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/issues/">Problèmes</a></li>
             <li><i class="fas fa-comments fa-lg fa-fw" aria-hidden="true"></i><a href="https://github.com/gc-da11yn/gc-da11yn.github.io/discussions">Discussions</a></li>
           </ul>
-          <p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:digitala11ytoolkit-boitedoutila11enumerique@ssc-spc.gc.ca?subject=Contribuer%20%C3%A0%20la%20Bo%C3%AEte%20%C3%A0%20outils%20de%20l&#39;accessibilit%C3%A9%20num%C3%A9rique">Contactez la Boîte à outils de l&#39;accessibilité numérique par courriel</a></p>
+          <p><i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i><a href="mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca?subject=Contribuer%20%C3%A0%20la%20Bo%C3%AEte%20%C3%A0%20outils%20de%20l&#39;accessibilit%C3%A9%20num%C3%A9rique">Contactez la Boîte à outils de l&#39;accessibilité numérique par courriel</a></p>
         </div>
       </div>
     </div>
