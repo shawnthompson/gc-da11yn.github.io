@@ -170,6 +170,8 @@
             <meta property="position" content="2">
           </li>
           <!-- Additional breadcrumbs based on tags and subjects -->
+          <!-- Special handling for role-based pages -->
+          <!-- Existing breadcrumbs logic for non-role pages -->
           <!-- Breadcrumbs based on 'subject' -->
           <!-- Breadcrumbs based on 'tags' -->
         </ol>
@@ -186,7 +188,13 @@
       </div>
     </div>
     <div class="container">
-      <p>Aucune page n'a été modifiée.</p>
+      <p>Il s'agit de pages modifiées qui doivent être révisées :</p>
+      <ul>
+        <li><a href="/docs/pages-en.csv" lang="en">pages.csv</a></li>
+        <li><a href="/docs/pages-fr.csv">pages.csv</a></li>
+        <li><a href="/en/roles/" lang="en">Accessibility in your role</a></li>
+        <li><a href="/fr/roles/">L’accessibilité dans votre rôle</a></li>
+      </ul>
       <p>Si vous voyez des liens vers des pages que vous n'avez pas modifiées, c'est peut-être parce qu'il y a eu des changements sur la branche <code>upstream / main</code>. Pour mettre à jour votre branche actuelle avec les dernières modifications, utilisez <a href="https://www.atlassian.com/fr/git/tutorials/rewriting-history/git-rebase"><code>git rebase</code></a>.</p>
     </div>
     <section class="pagedetails container">
