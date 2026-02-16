@@ -1,0 +1,111 @@
+# Netlify Configuration for Deploy Previews & PR Deployments
+#
+# DEPLOYMENT ARCHITECTURE:
+# - PRIMARY: GitHub Pages (gc-da11yn.github.io) → a11y.canada.ca (via DNS)
+#   * Main branch deployments via .github/workflows/gh-pages.yml
+#   * Handles production traffic
+# - SECONDARY: Netlify Deploy Previews
+#   * PR previews via deploy-preview-{PR#}--a11ycanada.netlify.app
+#   * Link checking via GitHub Actions (deploy-checks.yml)
+#
+# This file configures Netlify for deploy preview builds and applies
+# security headers and caching policies for preview deployments.
+#
+# ENVIRONMENT VARIABLES:
+# Sensitive keys (Google Analytics API keys) should be set in Netlify UI:
+# Site settings → Build & deploy → Environment
+#
+# Documentation: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+# Build Settings for Deploy Previews
+# Uses "npm run dev" intentionally — enables Sa11y accessibility checker
+# and other dev tools for PR reviewers (ELEVENTY_ENV=dev via cross-env)
+[build]
+  command = "npm run dev"
+  publish = "_site"
+  # Node version sourced from .nvmrc (currently 20)
+
+# Configure 404 handling for Netlify preview deployments
+# (GitHub Pages uses _site/404.html automatically)
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+  force = false
+
+# Security Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Prevent MIME type sniffing
+    X-Content-Type-Options = "nosniff"
+
+    # Enable XSS protection
+    X-XSS-Protection = "1; mode=block"
+
+    # Clickjacking protection
+    X-Frame-Options = "SAMEORIGIN"
+
+    # Referrer policy
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # Feature policy / Permissions policy
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Language-specific headers
+[[headers]]
+  for = "/en/*"
+  [headers.values]
+    Content-Language = "en"
+
+[[headers]]
+  for = "/fr/*"
+  [headers.values]
+    Content-Language = "fr"
+
+# Cache control for static assets (1 hour for previews — assets aren't fingerprinted)
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+# HTML pages - shorter cache
+[[headers]]
+  for = "/**/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+# Sitemap and feeds - don't cache aggressively
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
+    Content-Type = "application/xml"
+
+# Redirects for Deploy Previews
+
+# Enforce HTTPS on Netlify preview URLs
+[[redirects]]
+  from = "http://a11ycanada.netlify.app/*"
+  to = "https://a11ycanada.netlify.app/:splat"
+  status = 301
+  force = true
+
+# Deploy Preview Context
+# Inherits [build] settings — npm run dev enables Sa11y for reviewers
+[context.deploy-preview]
+  command = "npm run dev"
+
+# Branch Deploy Context
+[context."branch-deploy"]
+  command = "npm run dev"

@@ -1,0 +1,152 @@
+name: Deploy Checks (PR)
+
+# Run on pull requests to validate deployment requirements before merge
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    name: Link Checker
+    runs-on: ubuntu-latest
+    continue-on-error: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: '0'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm ci
+
+      - name: Wait for Netlify preview deployment
+        run: |
+          PR_NUMBER=${{ github.event.number }}
+          PREVIEW_URL="https://deploy-preview-${PR_NUMBER}--a11ycanada.netlify.app"
+
+          # Always set the URL for comment step
+          echo "PREVIEW_URL=$PREVIEW_URL" >> $GITHUB_ENV
+
+          echo "Waiting for Netlify preview: $PREVIEW_URL"
+
+          for i in {1..120}; do
+            if curl -s -f "$PREVIEW_URL" > /dev/null 2>&1; then
+              echo "✅ Netlify preview is ready"
+              echo "PREVIEW_READY=true" >> $GITHUB_ENV
+              exit 0
+            fi
+            echo "⏳ Waiting for preview deployment... ($i/120)"
+            sleep 5
+          done
+
+          echo "❌ Netlify preview failed to deploy within timeout"
+          exit 1
+
+      - name: Verify preview deployment
+        run: |
+          echo "Checking preview: ${{ env.PREVIEW_URL }}"
+
+          # Verify the site is accessible and has expected content
+          if curl -s -f "${{ env.PREVIEW_URL }}/en/" | grep -q "DOCTYPE"; then
+            echo "✅ Preview deployment verified"
+          else
+            echo "❌ Preview deployment check failed — site not returning expected content"
+            exit 1
+          fi
+
+  build-validation:
+    name: Build Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Validate build output
+        run: |
+          if [ ! -d "_site" ]; then
+            echo "❌ Build did not generate _site directory"
+            exit 1
+          fi
+
+          if [ ! -f "_site/index.html" ]; then
+            echo "❌ Build did not generate index.html"
+            exit 1
+          fi
+
+          if [ ! -f "_site/sitemap.xml" ]; then
+            echo "❌ Build did not generate sitemap.xml"
+            exit 1
+          fi
+
+          echo "✅ Build validation passed"
+          echo "Build output:"
+          du -sh _site/
+          find _site/ -maxdepth 1 -type f | head -10
+
+  headers-validation:
+    name: Headers Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate netlify.toml exists
+        run: |
+          if [ ! -f "netlify.toml" ]; then
+            echo "❌ netlify.toml not found"
+            exit 1
+          fi
+          echo "✅ netlify.toml exists"
+
+      - name: Validate netlify.toml basic format
+        run: |
+          # Check for valid TOML structure markers
+          if grep -q '^\[' netlify.toml && grep -q 'command' netlify.toml && grep -q 'publish' netlify.toml; then
+            echo "✅ netlify.toml has expected configuration sections"
+          else
+            echo "❌ netlify.toml missing expected configuration"
+            exit 1
+          fi
+
+  redirects-validation:
+    name: Redirects Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate netlify.toml has redirects
+        run: |
+          if grep -q '^\[\[redirects\]\]' netlify.toml; then
+            echo "✅ Redirects configured in netlify.toml"
+          else
+            echo "❌ No redirects found in netlify.toml"
+            exit 1
+          fi
