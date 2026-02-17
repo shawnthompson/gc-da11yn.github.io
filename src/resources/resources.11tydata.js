@@ -1,4 +1,5 @@
 module.exports = {
+  permalink: false,
   eleventyComputed: {
     toggle: data => {
       // Auto-generate toggle path based on current file path

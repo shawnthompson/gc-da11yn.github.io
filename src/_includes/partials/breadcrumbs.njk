@@ -74,7 +74,7 @@ Canada.ca > Digital Accessibility Toolkit > How to’s > Create web content > Ac
 				{% set counter = 3 %} {# Start the counter from 3, as 1 and 2 are already used #}
 
 				<!-- Special handling for role-based pages -->
-				{% if page.url.startsWith('/' + locale + '/roles/') and page.url != '/' + locale + '/roles/' %}
+				{% if page.url and page.url.startsWith('/' + locale + '/roles/') and page.url != '/' + locale + '/roles/' %}
 					<!-- Add "Accessibility in Your Role" breadcrumb -->
 					<li property="itemListElement" typeof="ListItem">
 						<a property="item" typeof="WebPage" href="{% if pathPrefix %}{{ pathPrefix }}{% endif %}/{{ locale }}/roles/">
