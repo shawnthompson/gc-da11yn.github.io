@@ -341,9 +341,6 @@ module.exports = function (eleventyConfig) {
   // Resources are managed exclusively through Decap CMS and displayed via the template
   eleventyConfig.ignores.add("src/resources/**/*.md");
 
-  // Ignore redirect link files - these are redirect-only files, not content pages
-  eleventyConfig.ignores.add("src/links/**/*.md");
-
 
 
   // Phase 2: Git operations cache management and debugging
