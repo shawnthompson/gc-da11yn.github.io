@@ -130,7 +130,7 @@ To create a list:
 
 <div class="row">
 <div class="col-md-6">
-mg  src="{{ pathPrefix }}/img/en/office365/word-365-006.jpg" alt="Screenshot of Paragraph toolbar">
+<img class="img-responsive" src="{{ pathPrefix }}/img/en/office365/word-365-006.jpg" alt="Screenshot of Paragraph toolbar">
 </div>
 </div>
 
