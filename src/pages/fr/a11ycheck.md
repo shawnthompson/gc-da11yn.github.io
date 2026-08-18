@@ -6,13 +6,28 @@ subject:
   - howTos
 tags:
   - testYourProducts
+toc: true
 ---
 
 ## Généralités
 
-### La page comporte un titre qui décrit son contenu et son objectif.
+### Titre de page descriptif
+
+#### Vérification
+
+La page comporte un titre qui décrit son contenu et son objectif.
+
+#### Comment vérifier
 
 Faites un clic droit sur la page et vérifiez le code HTML pour voir la valeur dans l'attribut `<title>` dans la balise `<head>`.
+
+#### Résultat attendu
+
+L'élément `<title>` contient un texte qui décrit fidèlement le contenu et l'objectif de la page.
+
+#### Exemple
+
+L'exemple suivant montre un bon exemple de titre de page descriptif visible dans l'onglet du navigateur et dans le code source HTML.
 
 <figure>
 
@@ -25,13 +40,37 @@ La fenêtre d'inspection des éléments met en évidence la balise de titre, qui
 </figcaption>
 </figure>
 
-### Le HTML sémantique a été utilisé pour mettre des balises sur la structure de la page et représenter l'information plutôt que de s'appuyer sur des feuilles de style CSS personnalisées.
+### HTML sémantique
 
-Vérifier le code pour s'assurer que les bons éléments HTML sont utilisés pour structurer le contenu en fonction de la signification de chaque élément plutôt que de son apparence. Exemple : Les titres devraient utiliser du HTML sémantique comme `<h1>` plutôt que d'utiliser du CSS pour styliser le texte de manière à ce qu'il ressemble à un titre H1. Les listes devraient utiliser des codes HTML sémantiques tels que `<ul>` et `<ol>` plutôt que d'utiliser des puces pour styliser le texte et lui donner l'apparence d'une liste.
+#### Vérification
 
-### La page comporte des titres précis et pertinents, structurés à l'aide des balises de titre `<h1>` à `<h6>`, sans sauter de niveaux hiérarchiques.
+Le HTML sémantique est utilisé pour mettre des balises sur la structure de la page et représenter l'information plutôt que de s'appuyer sur des feuilles de style CSS personnalisées.
 
-Utilisez un vérificateur d'accessibilité automatisé tel que [Accessibility Insights for Web (anglais seulement)](https://accessibilityinsights.io/downloads/) ou utiliser [axe DevTools (anglais seulement)](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) pour identifier les problèmes de hiérarchie et de structure des titres et vous assurer que les titres sont précis et pertinents. Pour plus d'informations, veuillez consulter [Quick Assess in Accessibility Insights for Web (anglais seulement)](https://accessibilityinsights.io/docs/web/getstarted/quickassess/).
+#### Comment vérifier
+
+Vérifier le code pour s'assurer que les bons éléments HTML sont utilisés pour structurer le contenu en fonction de la signification de chaque élément plutôt que de son apparence. Par exemple, les titres devraient utiliser du HTML sémantique comme `<h1>` plutôt que d'utiliser du CSS pour styliser le texte de manière à ce qu'il ressemble à un titre H1. Les listes devraient utiliser des codes HTML sémantiques tels que `<ul>` et `<ol>` plutôt que d'utiliser des puces pour styliser le texte et lui donner l'apparence d'une liste.
+
+#### Résultat attendu
+
+La structure du contenu est transmise par des éléments HTML sémantiques appropriés plutôt que par la mise en forme visuelle seule.
+
+### Structure des titres
+
+#### Vérification
+
+La page comporte des titres précis et pertinents, structurés à l'aide des balises de titre `<h1>` à `<h6>`, sans sauter de niveaux hiérarchiques.
+
+#### Comment vérifier
+
+Utilisez un vérificateur d'accessibilité automatisé tel que [Accessibility Insights for Web (anglais seulement)](https://accessibilityinsights.io/downloads/) ou [axe DevTools (anglais seulement)](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) pour identifier les problèmes de hiérarchie et de structure des titres. Pour plus d'informations, veuillez consulter [Quick Assess in Accessibility Insights for Web (anglais seulement)](https://accessibilityinsights.io/docs/web/getstarted/quickassess/).
+
+#### Résultat attendu
+
+Les niveaux de titre sont séquentiels (aucun niveau n'est sauté) et chaque titre décrit fidèlement le contenu de sa section.
+
+#### Exemple
+
+L'exemple suivant montre une bonne hiérarchie de titres bien organisée.
 
 <figure>
 
@@ -44,9 +83,23 @@ Une hiérarchie de titres bien structurée utilisant les balises `<h1>`, `<h2>` 
 </figcaption>
 </figure>
 
-### La page demeure fonctionnelle et lisible lorsque le texte est agrandi à 200 % de sa taille initiale.
+### Redimensionnement du texte
 
-Faire un zoom sur la page à 200 % sur une fenêtre de 1280 px par 1024 px. Veiller à ce qu'aucun contenu ou fonctionnalité ne soit perdu, ou qu'aucun texte ne soit coupé, tronqué ou masqué.
+#### Vérification
+
+La page demeure fonctionnelle et lisible lorsque le texte est agrandi à 200 % de sa taille initiale.
+
+#### Comment vérifier
+
+Faire un zoom sur la page à 200 % sur une fenêtre de 1280 px par 1024 px. Examiner la page pour détecter toute perte de contenu ou de fonctionnalité.
+
+#### Résultat attendu
+
+Aucun contenu ou fonctionnalité n'est perdu, et aucun texte n'est coupé, tronqué ou masqué.
+
+#### Exemple
+
+L'exemple suivant montre un mauvais exemple où le texte est tronqué après le zoom.
 
 <figure>
 
@@ -59,9 +112,23 @@ Le texte du libellé ne rentre pas dans le champ de saisie de recherche, provoqu
 </figcaption>
 </figure>
 
-### La refonte du contenu de la page n'entraîne pas de perte de contenu ou de fonctionnalité et ne nécessite pas de défilement horizontal lorsque la largeur de la fenêtre de visualisation est fixée à 320px.
+### Redistribution du contenu
 
-Utilisez un simulateur de dispositif mobile, comme la [barre d'outils de l'appareil dans Chrome Dev Tools](https://developer.chrome.com/docs/devtools/device-mode?hl=fr), pour vérifier. Ouvrir les outils de développement dans votre navigateur. Utiliser le mode de conception réactive et régler la largeur de la fenêtre de visualisation à 320 px en réduisant la fenêtre du navigateur ou en effectuant un zoom avant. Pour ce faire, à partir d'une fenêtre de 1280 px et d'un zoom de 100 %, effectuez un zoom avant de 400 %. Le contenu doit être présenté de manière à éviter toute perte d'information ou de fonctionnalité.
+#### Vérification
+
+La refonte du contenu de la page n'entraîne pas de perte de contenu ou de fonctionnalité et ne nécessite pas de défilement horizontal lorsque la largeur de la fenêtre de visualisation est fixée à 320px.
+
+#### Comment vérifier
+
+Utilisez un simulateur de dispositif mobile, comme la [barre d'outils de l'appareil dans Chrome Dev Tools](https://developer.chrome.com/docs/devtools/device-mode?hl=fr), pour vérifier. Ouvrir les outils de développement dans votre navigateur. Utiliser le mode de conception réactive et régler la largeur de la fenêtre de visualisation à 320 px en réduisant la fenêtre du navigateur ou en effectuant un zoom avant. Pour ce faire, à partir d'une fenêtre de 1280 px et d'un zoom de 100 %, effectuez un zoom avant de 400 %.
+
+#### Résultat attendu
+
+Le contenu doit être présenté de manière à éviter toute perte d'information ou de fonctionnalité. Aucun défilement horizontal n'est nécessaire et aucun texte n'est coupé ou masqué.
+
+#### Exemple
+
+L'exemple suivant montre un mauvais exemple où des barres de défilement horizontales apparaissent après le zoom.
 
 <figure>
 
@@ -74,9 +141,23 @@ Texte agrandi avec des barres de défilement mises en évidence. Des flèches po
 </figcaption>
 </figure>
 
-### La langue principale de la page est définie à l'aide de l'attribut `lang` et d'un code de langue (par exemple `<html lang="en">` ou `<html lang="fr">`).
+### Langue de la page
 
-Repérer des passages ou des phrases rédigés dans une langue différente de la langue principale de la page. Ensuite, vérifiez le code pour confirmer que la valeur de l'attribut `lang` de l'élément est valide pour la langue dans laquelle le contenu est rédigé.
+#### Vérification
+
+La langue principale de la page est définie à l'aide de l'attribut `lang` sur l'élément `<html>` avec un code de langue valide (par exemple `<html lang="en">` ou `<html lang="fr">`).
+
+#### Comment vérifier
+
+Inspecter le code source HTML et vérifier que l'élément `<html>` possède un attribut `lang` avec un code de langue valide correspondant à la langue principale du contenu de la page.
+
+#### Résultat attendu
+
+L'élément `<html>` possède un attribut `lang` dont la valeur identifie correctement la langue principale de la page.
+
+#### Exemple
+
+L'exemple suivant montre un bon exemple de l'attribut lang sur l'élément html.
 
 <figure>
 
@@ -89,12 +170,28 @@ L'attribut de langue `lang` est mis en évidence dans la fenêtre d'inspection d
 </figcaption>
 </figure>
 
-### Tous les éléments textuels et non textuels présentent un contraste suffisant entre les couleurs d'avant-plan et d'arrière-plan.
+### Contraste des couleurs
 
-Utiliser l'outil d'analyse du contraste des couleurs ou un [vérificateur de contraste en ligne (anglais seulement)](https://webaim.org/resources/contrastchecker/)
+#### Vérification
+
+Tous les éléments textuels et non textuels présentent un contraste suffisant entre les couleurs d'avant-plan et d'arrière-plan.
+
+#### Comment vérifier
+
+Utiliser l'outil d'analyse du contraste des couleurs ou un [vérificateur de contraste en ligne (anglais seulement)](https://webaim.org/resources/contrastchecker/) pour mesurer le rapport de contraste entre les couleurs d'avant-plan et d'arrière-plan.
+
+#### Exigences
 
 - Le texte et les images de texte doivent présenter un rapport de contraste d'au moins 4,5:1 par rapport à l'arrière-plan.
 - Les éléments non textuels doivent présenter un rapport de contraste minimal de 3:1 avec les couleurs adjacentes.
+
+#### Résultat attendu
+
+Tous les rapports de contraste mesurés respectent ou dépassent les exigences minimales indiquées ci-dessus.
+
+#### Exemple
+
+L'exemple suivant montre un mauvais exemple où une combinaison de couleurs ne respecte pas le ratio de contraste requis.
 
 <figure>
 
@@ -107,9 +204,23 @@ Une page où un bouton avec un fond rose et un texte blanc est mis en évidence.
 </figcaption>
 </figure>
 
-### Les changements de langue sont balisés et ont des valeurs d'attribut `lang` et d'un code de langue standard (par exemple `lang="en"` ou `lang="fr"`).
+### Langue des parties
+
+#### Vérification
+
+Les changements de langue sont balisés avec des valeurs d'attribut `lang` valides (par exemple `lang="en"` ou `lang="fr"`).
+
+#### Comment vérifier
 
 Repérer des passages ou des phrases rédigés dans une langue différente de la langue principale de la page. Ensuite, vérifier le code pour vous assurer que tout changement de langue est marqué à l'aide de l'attribut `lang`.
+
+#### Résultat attendu
+
+Chaque passage ou phrase rédigé dans une langue différente de la langue principale de la page est encadré par un élément possédant un attribut `lang` identifiant cette langue.
+
+#### Exemple
+
+L'exemple suivant montre un bon exemple d'un attribut lang appliqué à du texte dans une autre langue.
 
 <figure>
 
@@ -122,9 +233,23 @@ Une vue de l'inspecteur d'éléments montrant un attribut `lang` appliqué à un
 </figcaption>
 </figure>
 
-### L'objectif de chaque lien peut être compris à partir de leur seul texte.
+### Objectif des liens
+
+#### Vérification
+
+L'objectif de chaque lien peut être compris à partir de leur seul texte.
+
+#### Comment vérifier
 
 Vérifier si les étiquettes des liens donnent une idée claire du contenu auquel mène le lien.
+
+#### Résultat attendu
+
+Le texte de chaque lien communique clairement ce que l'utilisateur peut s'attendre à trouver ou l'action qui se produira lorsque le lien est activé.
+
+#### Exemple
+
+L'exemple suivant montre un bon et un mauvais exemple de texte de lien.
 
 <figure>
 
@@ -139,9 +264,23 @@ Deux exemples de textes hyperliens, avec un exemple accessible (« En savoir plu
 
 ## Clavier
 
-### L'ordre de navigation des éléments pouvant faire l'objet d'un focus (par exemple, liens, éléments de formulaire, boîtes de dialogue modales, etc.) est logique et intuitif, préservant la signification et l'exploitabilité du contenu.
+### Ordre du focus
 
-Naviguer dans la page en utilisant la touche Tab ou Shift + Tab pour s'assurer que l'ordre des tabulations est cohérent par rapport au contenu de la page Web. La meilleure pratique consiste à faire suivre l'ordre des tabulations par l'ordre de lecture de la page Web.
+#### Vérification
+
+L'ordre de navigation des éléments pouvant faire l'objet d'un focus (liens, éléments de formulaire, boîtes de dialogue modales, etc.) est logique et intuitif, préservant la signification et l'exploitabilité du contenu.
+
+#### Comment vérifier
+
+Naviguer dans la page en utilisant la touche Tab ou Shift + Tab. Observer si l'ordre du focus suit l'ordre de lecture visuel et la séquence logique du contenu.
+
+#### Résultat attendu
+
+L'ordre des tabulations correspond à l'ordre de lecture de la page et ne saute pas de manière inattendue entre des sections non liées.
+
+#### Exemple
+
+L'exemple suivant montre un ordre de tabulation accessible (logique) et un ordre inaccessible (désorganisé).
 
 <figure>
 
@@ -154,9 +293,23 @@ Instructions sur la structuration de l'ordre de tabulation d'une page Web. Deux 
 </figcaption>
 </figure>
 
-### Tous les éléments pouvant faire l'objet d'un focus affichent un indicateur visuel lorsqu'ils sont mis en évidence et ne disparaissent pas lors de la tabulation.
+### Visibilité du focus
 
-Naviguer dans la page en utilisant la touche Tab ou Shift + Tab pour vérifier que les éléments pouvant faire l'objet d'un focus ont un indicateur clair et visible qui identifie la mise en évidence visuelle.
+#### Vérification
+
+Tous les éléments pouvant faire l'objet d'un focus affichent un indicateur visuel lorsqu'ils sont mis en évidence et ne disparaissent pas lors de la tabulation.
+
+#### Comment vérifier
+
+Naviguer dans la page en utilisant la touche Tab ou Shift + Tab. Observer chaque élément pouvant faire l'objet d'un focus lorsqu'il reçoit le focus.
+
+#### Résultat attendu
+
+Chaque élément pouvant faire l'objet d'un focus affiche un indicateur clair et visible lorsqu'il a le focus.
+
+#### Exemple
+
+L'exemple suivant montre un bon exemple (focus visible) et un mauvais exemple (focus non visible).
 
 <figure>
 
@@ -169,11 +322,23 @@ Deux exemples de boutons démontrant un principe d'accessibilité. Le premier ex
 </figcaption>
 </figure>
 
-### La page dispose d'une méthode accessible au clavier pour contourner le contenu répétitif.
+### Contournement de blocs
 
-À l'aide du clavier, vérifier s'il existe une liste de liens permettant de sauter des blocs d'informations répétées.
+#### Vérification
 
-Exemple : Le premier élément interactif de la page est un lien (intitulé « Aller au contenu principal ») qui dirige l'utilisateur vers le début du contenu principal de la page Web. L'activation du lien permet de mettre l'accent sur le contenu principal.
+La page dispose d'une méthode accessible au clavier pour contourner le contenu répétitif (comme les menus de navigation).
+
+#### Comment vérifier
+
+À l'aide du clavier uniquement, appuyer sur Tab à partir du haut de la page et vérifier s'il existe un mécanisme (comme un lien « Passer au contenu principal ») permettant de sauter des blocs d'informations répétées.
+
+#### Résultat attendu
+
+Un mécanisme accessible au clavier est disponible, permettant à l'utilisateur de contourner les blocs de contenu répétitif et de naviguer directement vers la zone de contenu principal.
+
+#### Exemple
+
+Une implémentation courante est un lien « Passer au contenu principal » comme premier élément interactif de la page. Lorsqu'il est activé, le lien déplace le focus vers le début du contenu principal.
 
 <figure>
 
@@ -186,17 +351,36 @@ Une balise de lien est mise en évidence dans la fenêtre d'inspection des élé
 </figcaption>
 </figure>
 
-### Un accès et un contrôle au clavier sont possibles pour tous les composants interactifs qui peuvent être accédés et contrôlés à l'aide de la souris.
+### Opérabilité au clavier
 
-Veiller à ce que tous les éléments (par exemple, les liens, les champs de formulaire, les boutons et les commandes des lecteurs multimédias) soient accessibles et utilisables uniquement à l'aide du clavier.
+#### Vérification
+
+Un accès et un contrôle au clavier sont possibles pour tous les composants interactifs qui peuvent être accédés et contrôlés à l'aide de la souris.
+
+#### Comment vérifier
+
+Tenter d'accéder et d'utiliser chaque élément interactif de la page (liens, champs de formulaire, boutons, commandes des lecteurs multimédias, menus, boîtes de dialogue) en utilisant uniquement le clavier.
+
+#### Résultat attendu
+
+Chaque élément interactif utilisable avec la souris est également utilisable uniquement à l'aide du clavier.
+
+#### Remarques
+
+Modèles d'interaction clavier standard :
 
 - Utilisez la touche `Tab` pour naviguer de manière linéaire à travers les éléments interactifs tels que les liens, les contrôles de formulaire et les boutons.
+- Utilisez `Shift + Tab` pour revenir en arrière.
 - Utilisez la touche `Entrée` (et parfois `Espace`) pour sélectionner un élément.
 - Utilisez les flèches pour vous déplacer à l'intérieur de certains éléments, groupes d'éléments et widgets, tels que les champs de sélection de formulaire, les groupes de boutons radio et les ensembles d'onglets.
 
+#### Exemple
+
+L'exemple suivant montre un bon exemple de navigation au clavier à travers une interface utilisateur.
+
 <figure>
 
-<img src="/img/a11ycheck/tab-order-website-fr.jpg" alt="Example du navigation par tabulation sur une interface.">
+<img src="/img/a11ycheck/tab-order-website-fr.jpg" alt="Exemple de navigation par tabulation sur une interface.">
 
 <figcaption>
 
@@ -207,9 +391,23 @@ L'ordre de tabulation montre des champs qui peuvent être sélectionnés au moye
 
 ## Images et multimédia
 
-### Les images informatives ont une alternative textuelle qui sert un objectif équivalent.
+### Alternatives textuelles des images informatives
+
+#### Vérification
+
+Les images informatives ont une alternative textuelle qui sert un objectif équivalent.
+
+#### Comment vérifier
 
 Vérifier dans le code si l'image possède un attribut `alt`. Veiller à ce que sa valeur contienne un texte alternatif approprié qui décrit l'objectif de l'image d'une manière qui la remplace adéquatement.
+
+#### Résultat attendu
+
+Chaque image informative possède un attribut `alt` contenant un texte qui transmet la même information ou fonction que l'image.
+
+#### Exemple
+
+L'exemple suivant montre un bon exemple de texte alternatif pertinent sur une image informative.
 
 <figure>
 
@@ -222,9 +420,23 @@ Dans la fenêtre d'inspection des éléments, une flèche pointe vers le texte a
 </figcaption>
 </figure>
 
-### Les images décoratives sont codées de telle manière que les lecteurs d'écran peuvent les ignorer.
+### Images décoratives
+
+#### Vérification
+
+Les images décoratives sont codées de telle manière que les lecteurs d'écran peuvent les ignorer.
+
+#### Comment vérifier
 
 Vérifier dans le code si l'image possède un attribut `alt` et s'assurer que la valeur est vide (`alt=""`).
+
+#### Résultat attendu
+
+Chaque image décorative possède un attribut alt vide (`alt=""`).
+
+#### Exemple
+
+L'exemple suivant montre un bon exemple d'images décoratives avec un texte alternatif vide dans le code source.
 
 <figure>
 
@@ -237,9 +449,23 @@ La fenêtre d'inspection des éléments affiche le code HTML de trois images dé
 </figcaption>
 </figure>
 
-### Le contenu multimédia préenregistré (les vidéos) est sous-titré.
+### Sous-titres vidéo
+
+#### Vérification
+
+Le contenu multimédia préenregistré (les vidéos) est sous-titré.
+
+#### Comment vérifier
 
 Vérifier que des sous-titres sont disponibles pour les contenus vidéo et audio. Ils doivent être disponibles sous forme de sous-titres ouverts (des sous-titres qui s'affichent en permanence et qui ne peuvent pas être désactivés) ou de sous-titres fermés. Dans le second cas, rechercher un bouton de sous-titrage ou un moyen d'activer les sous-titres.
+
+#### Résultat attendu
+
+Des sous-titres sont disponibles pour le contenu vidéo.
+
+#### Exemple
+
+L'exemple suivant montre un bon exemple d'une vidéo affichant des sous-titres.
 
 <figure>
 
@@ -252,11 +478,25 @@ Une capture d'écran d'une vidéo affichant des sous-titres correspondant au dis
 </figcaption>
 </figure>
 
-## Formulaire
+## Formulaires
 
-### Tous les éléments du formulaire (par exemple, les champs de texte, les cases à cocher, les boutons radio, les menus déroulants, etc.) ont des étiquettes descriptives et pertinentes.
+### Étiquettes de formulaire
 
-Utiliser un vérificateur d'accessibilité automatisé comme [Accessibility Insights for Web - Fast Pass (anglais seulement)](https://accessibilityinsights.io/downloads) ou utiliser [axe DevTools (anglais seulement)](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) dans Chrome ou Firefox. Lancer une analyse de la page pour détecter automatiquement les éventuelles erreurs.
+#### Vérification
+
+Tous les éléments du formulaire (champs de texte, cases à cocher, boutons radio, menus déroulants, etc.) ont des étiquettes descriptives et pertinentes.
+
+#### Comment vérifier
+
+Utiliser un vérificateur d'accessibilité automatisé comme [Accessibility Insights for Web - Fast Pass (anglais seulement)](https://accessibilityinsights.io/downloads) ou [axe DevTools (anglais seulement)](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) dans Chrome ou Firefox. Vous pouvez également inspecter manuellement chaque contrôle de formulaire pour vérifier qu'il possède une étiquette associée.
+
+#### Résultat attendu
+
+Chaque contrôle de formulaire possède une étiquette descriptive qui identifie clairement la saisie attendue.
+
+#### Exemple
+
+L'exemple suivant montre un bon exemple de formulaire avec des étiquettes descriptives pour chaque champ.
 
 <figure>
 
@@ -269,9 +509,23 @@ Une page de formulaire est affichée avec la fenêtre d'inspection des élément
 </figcaption>
 </figure>
 
-### Des étiquettes ou des instructions sont fournies lorsque le contenu nécessite une intervention de l'utilisateur.
+### Instructions pour les champs obligatoires
 
-Vérifier le code pour voir si des champs sont marqués comme obligatoires. Si le symbole de l'astérisque (*) est utilisé pour indiquer un champ obligatoire, des instructions doivent également être fournies pour définir la signification du symbole en haut du formulaire.
+#### Vérification
+
+Des étiquettes ou des instructions sont fournies lorsque le contenu nécessite une intervention de l'utilisateur, y compris une indication claire des champs obligatoires.
+
+#### Comment vérifier
+
+Vérifier le code pour voir si des champs sont marqués comme obligatoires. Si le symbole de l'astérisque (*) est utilisé pour indiquer un champ obligatoire, vérifier qu'une explication de la signification du symbole est fournie avant les champs du formulaire.
+
+#### Résultat attendu
+
+Les champs obligatoires sont clairement identifiés et tout symbole utilisé pour indiquer le statut obligatoire est expliqué en haut du formulaire.
+
+#### Exemple
+
+L'exemple suivant montre un bon exemple de formulaire avec des instructions expliquant les champs obligatoires.
 
 <figure>
 
@@ -284,11 +538,23 @@ Une légende de formulaire avec une étiquette indiquant que les champs sont req
 </figcaption>
 </figure>
 
-### Des messages d'erreur indiquent clairement où le problème s'est produit (par exemple, le nom du champ) et ce qui doit être corrigé.
+### Identification des erreurs
 
-Vérifier que les messages d'erreur sont faciles à comprendre et qu'ils fournissent des instructions claires sur la manière de les résoudre.
+#### Vérification
 
-Exemple : La mention « Veuillez saisir votre nom » n'est pas aussi utile que la mention « Veuillez saisir votre prénom ».
+Des messages d'erreur indiquent clairement où le problème s'est produit (par exemple, le nom du champ) et ce qui doit être corrigé.
+
+#### Comment vérifier
+
+Déclencher des erreurs de validation en soumettant le formulaire avec des données manquantes ou invalides. Vérifier que chaque message d'erreur identifie le champ en erreur et fournit des indications sur la manière de le corriger.
+
+#### Résultat attendu
+
+Chaque message d'erreur identifie le champ spécifique où le problème s'est produit et fournit des instructions claires sur la manière de le résoudre.
+
+#### Exemple
+
+La mention « Veuillez saisir votre nom » n'est pas aussi utile que la mention « Veuillez saisir votre prénom ».
 
 <figure>
 

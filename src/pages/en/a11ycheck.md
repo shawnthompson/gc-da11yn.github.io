@@ -6,13 +6,28 @@ subject:
   - howTos
 tags:
   - testYourProducts
+toc: true
 ---
 
 ## General
 
-### The page has a title that describes the page content and purpose.
+### Descriptive page title
 
-Ensure the page title is descriptive and provides an accurate summary of the page content. This can be set using the `<title>` tag within the `<head>` section of your HTML document.
+#### Check
+
+The page has a title that describes the page content and purpose.
+
+#### How to test
+
+Right-click on the page and inspect the HTML source. Locate the `<title>` element within the `<head>` section and read its text content.
+
+#### Expected result
+
+The `<title>` element contains text that accurately describes the page's content and purpose.
+
+#### Example
+
+The following shows a good example of a descriptive page title visible in the browser tab and in the HTML source.
 
 <figure>
 
@@ -25,13 +40,37 @@ The inspect element window highlights the title tag, which references the title 
 </figcaption>
 </figure>
 
-### Using semantic HTML to mark up the structure of the page and represent the information, rather than relying on custom CSS.
+### Semantic HTML
 
-Check the code to see if correct HTML elements are used to structure the content based on each element's meaning, and not its appearance. Examples: Headings should use semantic HTML like `<h1>` instead of using CSS to style the text to look like an `<h1>`, and lists should use semantic list HTML like `<ul>` and `<ol>` instead of using bullets to style the text to look like a list.
+#### Check
 
-### The page has accurate and informative headings that are structured using `<h1>` - `<h6>` heading tags without skipping hierarchical levels.
+Semantic HTML is used to mark up the structure of the page and represent the information, rather than relying on custom CSS to create the appearance of structure.
 
-Use an automated accessibility checker like [Accessibility Insights for Web](https://accessibilityinsights.io/downloads/) or use [axe DevTools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) to check heading hierarchy and structure issues and ensure headings are accurate and informative. For more informations, consult [Quick Assess in Accessibility Insights for Web](https://accessibilityinsights.io/docs/web/getstarted/quickassess/)
+#### How to test
+
+Check the code to see if correct HTML elements are used to structure the content based on each element's meaning, not its appearance. For example, verify that headings use `<h1>` through `<h6>` elements rather than styled `<div>` or `<span>` elements, and that lists use `<ul>` or `<ol>` rather than manually formatted text.
+
+#### Expected result
+
+Content structure is conveyed through appropriate semantic HTML elements rather than through visual styling alone.
+
+### Heading structure
+
+#### Check
+
+The page has accurate and informative headings that are structured using `<h1>` through `<h6>` heading tags without skipping hierarchical levels.
+
+#### How to test
+
+Use an automated accessibility checker like [Accessibility Insights for Web](https://accessibilityinsights.io/downloads/) or [axe DevTools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) to check heading hierarchy and structure. For more information, consult [Quick Assess in Accessibility Insights for Web](https://accessibilityinsights.io/docs/web/getstarted/quickassess/).
+
+#### Expected result
+
+Heading levels are sequential (no levels are skipped), and each heading accurately describes the content of its section.
+
+#### Example
+
+The following shows a good example of a well-organized heading hierarchy.
 
 <figure>
 
@@ -44,9 +83,23 @@ A well-structured heading hierarchy using `<h1>`, `<h2>`, and `<h3>` tags, repre
 </figcaption>
 </figure>
 
-### Pages remain functional and readable when text is magnified to 200% of its initial size.
+### Text resize
 
-Zoom the page to 200% on a 1280 by 1024 viewport, and make sure that no content or functionality is lost, or that any text is clipped, truncated, or obscured.
+#### Check
+
+Pages remain functional and readable when text is magnified to 200% of its initial size.
+
+#### How to test
+
+Set the browser zoom to 200% using a 1280 by 1024 viewport. Review the page for any loss of content or functionality.
+
+#### Expected result
+
+No content or functionality is lost, and text is not clipped, truncated, or obscured.
+
+#### Example
+
+The following shows a bad example where text is truncated after zooming.
 
 <figure>
 
@@ -59,9 +112,23 @@ The label text does not fit within the search input field, causing the text to b
 </figcaption>
 </figure>
 
-### Page content reflow does not cause loss of content or functionality and does not require horizontal scrolling when the viewport width is set to 320px.
+### Content reflow
 
-Use a mobile devices simulator such as [Toggle device toolbar in Chrome Dev Tools to verify](https://developer.chrome.com/docs/devtools/device-mode). Open the developer tools in your browser and use responsive design mode. Set the viewport width to 320px by narrowing the browser window or by zooming in so that the viewport width is now 320px. To do this when starting with a 1280px viewport width at 100% browser zoom, zoom in to 400%. Ensure no text is clipped or content disappears.
+#### Check
+
+Page content reflows without loss of content or functionality and without requiring horizontal scrolling when the viewport width is set to 320px.
+
+#### How to test
+
+Use a mobile device simulator such as the [Toggle device toolbar in Chrome DevTools](https://developer.chrome.com/docs/devtools/device-mode). Open the developer tools in your browser and use responsive design mode. Set the viewport width to 320px by narrowing the browser window or by zooming in. To do this when starting with a 1280px viewport width at 100% browser zoom, zoom in to 400%.
+
+#### Expected result
+
+All content remains visible and functional. No horizontal scrolling is required, and no text is clipped or hidden.
+
+#### Example
+
+The following shows a bad example where horizontal scrollbars appear after zooming.
 
 <figure>
 
@@ -74,9 +141,23 @@ Zoomed-in text with scrollbars highlighted. Arrows point to the horizontal scrol
 </figcaption>
 </figure>
 
-### The primary language of the page is set using `lang` attribute and using a standard language code. (e.g. `<html lang="en">` or `<html lang="fr">`).
+### Page language
 
-Identify passages or phrases in a language different from the main language of the page. Then, check the code to make sure that any changes in language are marked using the `lang` attribute.
+#### Check
+
+The primary language of the page is identified using the `lang` attribute on the `<html>` element with a valid language code (e.g. `<html lang="en">` or `<html lang="fr">`).
+
+#### How to test
+
+Inspect the HTML source and verify that the `<html>` element has a `lang` attribute with a valid language code that matches the primary language of the page content.
+
+#### Expected result
+
+The `<html>` element has a `lang` attribute whose value correctly identifies the primary language of the page.
+
+#### Example
+
+The following shows a good example of the lang attribute on the html element.
 
 <figure>
 
@@ -89,12 +170,28 @@ The lang attribute is highlighted within the inspect element window, showing tha
 </figcaption>
 </figure>
 
-### All text elements and non-text elements have sufficient color contrast between the foreground and background color.
+### Colour contrast
 
-Use the Colour Contrast Analyzer tool or an [online contrast checker](https://webaim.org/resources/contrastchecker/)
+#### Check
 
-- Text and images of text should have a contrast ratio of at least 4.5:1 between any text (and images of text) and the background behind the text.
+All text elements and non-text elements have sufficient colour contrast between the foreground and background.
+
+#### How to test
+
+Use the Colour Contrast Analyser tool or an [online contrast checker](https://webaim.org/resources/contrastchecker/) to measure the contrast ratio between foreground and background colours.
+
+#### Requirements
+
+- Text and images of text should have a contrast ratio of at least 4.5:1 against the background.
 - Non-textual elements should have a minimum contrast ratio of 3:1 with adjacent colours.
+
+#### Expected result
+
+All measured contrast ratios meet or exceed the minimum requirements listed above.
+
+#### Example
+
+The following shows a bad example where a colour combination fails the contrast ratio requirement.
 
 <figure>
 
@@ -107,9 +204,23 @@ A page where a button with a pink background and white text is highlighted. The 
 </figcaption>
 </figure>
 
-### Inline language changes are marked up and have valid `lang` attribute values. (e.g. `lang="en"` or `lang="fr"`).
+### Language of parts
 
-Identify passages or phrases in a language different from the main language of the page. Then, check the code to make sure that any changes in language are marked using the `lang` attribute.
+#### Check
+
+Inline language changes are marked up with valid `lang` attribute values (e.g. `lang="en"` or `lang="fr"`).
+
+#### How to test
+
+Identify passages or phrases written in a language different from the primary language of the page. Then, inspect the code to verify that each passage has a `lang` attribute with the correct language code applied to its containing element.
+
+#### Expected result
+
+Every passage or phrase in a different language from the page's primary language is wrapped in an element with a `lang` attribute identifying that language.
+
+#### Example
+
+The following shows a good example of an inline lang attribute applied to foreign-language text.
 
 <figure>
 
@@ -122,9 +233,23 @@ An inspect element view showing a `lang` attribute applied to a specific tag, di
 </figcaption>
 </figure>
 
-### The purpose of each link can be understandable from the link text.
+### Link purpose
 
-Check to see if link labels give a clearer idea of what user can expect to find by clicking on the link.
+#### Check
+
+The purpose of each link can be understood from the link text alone.
+
+#### How to test
+
+Review the link text for each hyperlink on the page. Determine whether the link text alone provides a clear indication of the link's destination or function.
+
+#### Expected result
+
+Each link's text clearly communicates what the user can expect to find or what action will occur when the link is activated.
+
+#### Example
+
+The following shows both a good and a bad example of link text.
 
 <figure>
 
@@ -139,9 +264,23 @@ Two examples of hyperlink text, with one example labelled accessible ("Read more
 
 ## Keyboard
 
-### The navigation order of focusable elements (e.g., links, form elements, modal dialogs, etc.) is logical and intuitive, preserving the meaning and operability of the content.
+### Focus order
 
-Navigate through the page using Tab or Shift + Tab to ensure that the tabbing order makes sense according to the content on the webpage. Best practices recommend that the tab order follows the reading order of the webpage for improved accessibility.
+#### Check
+
+The navigation order of focusable elements (links, form elements, modal dialogs, etc.) is logical and intuitive, preserving the meaning and operability of the content.
+
+#### How to test
+
+Navigate through the page using Tab and Shift + Tab. Observe whether the focus order follows the visual reading order and logical content sequence.
+
+#### Expected result
+
+The tabbing order matches the reading order of the page and does not jump unexpectedly between unrelated sections.
+
+#### Example
+
+The following shows both an accessible (logical) and an inaccessible (disorganized) tab order.
 
 <figure>
 
@@ -154,9 +293,23 @@ Instructions on structuring the tab order of a webpage. Two examples are present
 </figcaption>
 </figure>
 
-### All focusable elements show a visual focus indicator when in focus and do not disappear while tabbing.
+### Focus visible
 
-Navigate through the page using Tab or Shift + Tab to ensure that focusable elements have a clear, visible indicator that identifies visual focus.
+#### Check
+
+All focusable elements display a visible focus indicator when they receive focus, and the indicator does not disappear while tabbing.
+
+#### How to test
+
+Navigate through the page using Tab and Shift + Tab. Observe each focusable element as it receives focus.
+
+#### Expected result
+
+Every focusable element displays a clear, visible indicator when it has focus.
+
+#### Example
+
+The following shows both a good example (focus visible) and a bad example (focus not visible).
 
 <figure>
 
@@ -169,11 +322,23 @@ Two examples of buttons demonstrating a principle of accessibility. The first ex
 </figcaption>
 </figure>
 
-### The page has a keyboard-accessible method to bypass repetitive content.
+### Bypass blocks
 
-Using the keyboard keys, check if there is a list of links to skip blocks of repeated material.
+#### Check
 
-Example: The first interactive item on the page is a link (titled Skip to Main Content) to the beginning of the main content. Activating the link sets focus to the main content.
+The page has a keyboard-accessible method to bypass repetitive content (such as navigation menus).
+
+#### How to test
+
+Using only the keyboard, press Tab from the top of the page and check whether a mechanism exists (such as a "Skip to main content" link) that allows users to skip blocks of repeated material.
+
+#### Expected result
+
+A keyboard-accessible mechanism is available that allows the user to bypass blocks of repeated content and navigate directly to the main content area.
+
+#### Example
+
+One common implementation is a "Skip to Main Content" link as the first interactive item on the page. When activated, the link moves focus to the beginning of the main content.
 
 <figure>
 
@@ -186,13 +351,32 @@ A tag link highlighted in the inspect element window with an arrow pointing to t
 </figcaption>
 </figure>
 
-### Keyboard access and control are available for all interactive components that have mouse access and control.
+### Keyboard operability
 
-Ensure that all elements such as links, form fields, buttons, and media player controls are accessible and operable using only the keyboard keys.
+#### Check
 
-- Use the `Tab` key to navigate in a linear direction through focusable elements like links, form controls, and buttons.
-- Use the `Enter` key (and sometimes `Space`) to select an element.
-- Use the Arrow keys to move within certain elements, element groups, and widgets, such as form select elements, radio button groups, and sets of tabs.
+Keyboard access and control are available for all interactive components that can be accessed and controlled with a mouse.
+
+#### How to test
+
+Attempt to access and operate every interactive element on the page (links, form fields, buttons, media player controls, menus, dialogs) using only the keyboard.
+
+#### Expected result
+
+Every interactive element that is operable with a mouse is also operable using only the keyboard.
+
+#### Notes
+
+Standard keyboard interaction patterns:
+
+- Use the `Tab` key to move forward through focusable elements (links, form controls, buttons).
+- Use `Shift + Tab` to move backward.
+- Use `Enter` (and sometimes `Space`) to activate an element.
+- Use Arrow keys to move within certain elements, element groups, and widgets, such as form select elements, radio button groups, and sets of tabs.
+
+#### Example
+
+The following shows a good example of keyboard navigation through a user interface.
 
 <figure>
 
@@ -207,9 +391,23 @@ A user interface displaying multiple elements such as selectable fields, buttons
 
 ## Images and Multimedia
 
-### Informative images have a text alternative that serves the equivalent purpose.
+### Informative image alternatives
 
-Check the code to see if the image has `alt` attribute and ensure its value contains appropriate alternative text that describes the purpose of the image in a way that adequately substitutes for the image.
+#### Check
+
+Informative images have a text alternative that serves the equivalent purpose.
+
+#### How to test
+
+Inspect the code to verify the image has an `alt` attribute. Read the alt text and assess whether it describes the purpose or information conveyed by the image in a way that adequately substitutes for it.
+
+#### Expected result
+
+Each informative image has an `alt` attribute containing text that conveys the same information or function as the image.
+
+#### Example
+
+The following shows a good example of meaningful alternative text on an informative image.
 
 <figure>
 
@@ -222,9 +420,23 @@ Within the inspect element window, an arrow points to the alternative text of an
 </figcaption>
 </figure>
 
-### Decorative images are coded in such a way that screen readers can ignore them.
+### Decorative images
 
-Check the code to see if the image has `alt` attribute and ensure the value is empty (`alt=""`).
+#### Check
+
+Decorative images are coded so that screen readers can ignore them.
+
+#### How to test
+
+Inspect the code to verify the image has an `alt` attribute and that its value is empty (`alt=""`).
+
+#### Expected result
+
+Each decorative image has an empty alt attribute (`alt=""`).
+
+#### Example
+
+The following shows a good example of decorative images with empty alt text in the source code.
 
 <figure>
 
@@ -237,9 +449,23 @@ The inspect element window displaying HTML code for three decorative images. The
 </figcaption>
 </figure>
 
-### Pre-recorded multimedia (video) content has captions.
+### Video captions
 
-Look to see if captions are available for both video and audio content, either through open captions (captions that are always on and that cannot be turned off) or closed captions (look for a closed captions button or a way to turn on captions).
+#### Check
+
+Pre-recorded multimedia (video) content has captions.
+
+#### How to test
+
+Play the video and look for captions. Check whether open captions (always visible, cannot be turned off) or closed captions (activated via a CC button or settings menu) are available.
+
+#### Expected result
+
+Captions are available for the video content.
+
+#### Example
+
+The following shows a good example of a video displaying captions.
 
 <figure>
 
@@ -254,9 +480,23 @@ A screencapture of a video displaying captions that correspond to the host's spe
 
 ## Forms
 
-### All form elements (e.g. text fields, checkboxes, radio buttons, drop-down menus etc.) have descriptive and meaningful labels.
+### Form labels
 
-Use an automated accessibility checker like [Accessibility Insights for Web - Fast Pass](https://accessibilityinsights.io/downloads) or use [axe DevTools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) in Chrome or Firefox. Running a scan of the page will automatically detect any errors.
+#### Check
+
+All form elements (text fields, checkboxes, radio buttons, drop-down menus, etc.) have descriptive and meaningful labels.
+
+#### How to test
+
+Use an automated accessibility checker like [Accessibility Insights for Web - Fast Pass](https://accessibilityinsights.io/downloads) or [axe DevTools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) in Chrome or Firefox. You can also manually inspect each form control to verify it has an associated label.
+
+#### Expected result
+
+Every form control has a descriptive label that clearly identifies the expected input.
+
+#### Example
+
+The following shows a good example of a form with descriptive labels for each field.
 
 <figure>
 
@@ -269,9 +509,23 @@ A form page with the inspect element window to its right. Arrows point to each d
 </figcaption>
 </figure>
 
-### Labels or instructions are provided when content requires user input.
+### Required field instructions
 
-Check the code to see if any fields are marked as required. If an asterisk (*) symbol is used to indicate a required form field, instructions must also be provided to define the meaning of the symbol at the top of the form.
+#### Check
+
+Labels or instructions are provided when content requires user input, including clear indication of which fields are required.
+
+#### How to test
+
+Check the code to see if required fields are identified. If an asterisk (*) or other symbol is used to indicate required fields, verify that an explanation of the symbol's meaning is provided before the form fields.
+
+#### Expected result
+
+Required fields are clearly identified, and any symbols used to indicate required status are explained at the top of the form.
+
+#### Example
+
+The following shows a good example of a form with instructions explaining required fields.
 
 <figure>
 
@@ -284,11 +538,23 @@ A form legend with a label indicating that the fields are required.
 </figcaption>
 </figure>
 
-### Error messages clearly identify where the issue occurred (e.g., field name) and what needs to be corrected.
+### Error identification
 
-Check to see if error messages are easy to understand and provide clear instructions on how they can be resolved.
+#### Check
 
-Example: "Please enter your name" is not as helpful as "Please enter your first name".
+Error messages clearly identify where the issue occurred (e.g., the field name) and describe what needs to be corrected.
+
+#### How to test
+
+Trigger form validation errors by submitting the form with missing or invalid data. Review each error message to determine whether it identifies the field in error and provides guidance on how to correct it.
+
+#### Expected result
+
+Each error message identifies the specific field where the problem occurred and provides clear instructions on how to resolve it.
+
+#### Example
+
+"Please enter your name" is not as helpful as "Please enter your first name."
 
 <figure>
 
