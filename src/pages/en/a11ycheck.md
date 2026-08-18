@@ -31,9 +31,24 @@ The following shows a good example of a descriptive page title visible in the br
 
 <figure>
 
-<img src="/img/a11ycheck/tag-in-title.png" alt="Good example showing the title structure of a webpage.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/tag-in-title.png"
+    data-title="page-title-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/tag-in-title.png"
+      alt="View larger image: good example showing the title structure of a webpage."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="page-title-caption">
 
 The inspect element window highlights the title tag, which references the title displayed at the top of the webpage. An arrow points from the HTML tag to the matching title on the webpage.
 
@@ -74,9 +89,24 @@ The following shows a good example of a well-organized heading hierarchy.
 
 <figure>
 
-<img src="/img/a11ycheck/heading-structure-en.jpg" alt="Good example of a well-organized heading structure.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/heading-structure-en.jpg"
+    data-title="heading-structure-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/heading-structure-en.jpg"
+      alt="View larger image: good example of a well-organized heading structure."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="heading-structure-caption">
 
 A well-structured heading hierarchy using `<h1>`, `<h2>`, and `<h3>` tags, represented using a tree view.
 
@@ -103,9 +133,24 @@ The following shows a bad example where text is truncated after zooming.
 
 <figure>
 
-<img src="/img/a11ycheck/responsive-design-en.jpg" alt="An example of text resizing issue.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/responsive-design-en.jpg"
+    data-title="text-resize-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/responsive-design-en.jpg"
+      alt="View larger image: an example of text resizing issue."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="text-resize-caption">
 
 The label text does not fit within the search input field, causing the text to be truncated.
 
@@ -132,9 +177,24 @@ The following shows a bad example where horizontal scrollbars appear after zoomi
 
 <figure>
 
-<img src="/img/a11ycheck/reflow-design.png" alt="An Example of content with zoomed-in borders and scrollbars.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/reflow-design.png"
+    data-title="content-reflow-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/reflow-design.png"
+      alt="View larger image: an example of content with zoomed-in borders and scrollbars."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="content-reflow-caption">
 
 Zoomed-in text with scrollbars highlighted. Arrows point to the horizontal scrollbar and the zoomed-in content's borders to show the relationship between these elements.
 
@@ -161,9 +221,24 @@ The following shows a good example of the lang attribute on the html element.
 
 <figure>
 
-<img src="/img/a11ycheck/lang-attribute-page.png" alt="Example of a lang attribute.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/lang-attribute-page.png"
+    data-title="page-language-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/lang-attribute-page.png"
+      alt="View larger image: example of a lang attribute."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="page-language-caption">
 
 The lang attribute is highlighted within the inspect element window, showing that this is an English page with the "en" lang attribute applied.
 
@@ -195,9 +270,24 @@ The following shows a bad example where a colour combination fails the contrast 
 
 <figure>
 
-<img src="/img/a11ycheck/contrast-checker-en.jpg" alt="An example of a contrast checker tool interface.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/contrast-checker-en.jpg"
+    data-title="colour-contrast-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/contrast-checker-en.jpg"
+      alt="View larger image: an example of a contrast checker tool interface."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="colour-contrast-caption">
 
 A page where a button with a pink background and white text is highlighted. The pink and white color combination is being tested using a colour contrast analyser tool, with alerts notifying the user that this combination fails to meet the necessary contrast ratio.
 
@@ -224,9 +314,24 @@ The following shows a good example of an inline lang attribute applied to foreig
 
 <figure>
 
-<img src="/img/a11ycheck/lang-attribute.png" alt="An example of the inspect element displaying the HTML lang attribute.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/lang-attribute.png"
+    data-title="language-of-parts-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/lang-attribute.png"
+      alt="View larger image: an example of the inspect element displaying the HTML lang attribute."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="language-of-parts-caption">
 
 An inspect element view showing a `lang` attribute applied to a specific tag, differentiating it from the main language of the webpage. The `lang` attribute is highlighted in red, with an arrow pointing to the corresponding text associated with this tag on the webpage.
 
@@ -253,9 +358,24 @@ The following shows both a good and a bad example of link text.
 
 <figure>
 
-<img src="/img/a11ycheck/link-purpose-en.jpg" alt="Examples of accessible and inaccessible links.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/link-purpose-en.jpg"
+    data-title="link-purpose-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/link-purpose-en.jpg"
+      alt="View larger image: examples of accessible and inaccessible links."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="link-purpose-caption">
 
 Two examples of hyperlink text, with one example labelled accessible ("Read more about Tax Calculation") and the other inaccessible ("Read more"). The link tag for each has been highlighted in the inspect element window.
 
@@ -284,9 +404,24 @@ The following shows both an accessible (logical) and an inaccessible (disorganiz
 
 <figure>
 
-<img src="/img/a11ycheck/tab-order-en.jpg" alt="An example illustrating accessible and inaccessible tab orders on a webpage.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/tab-order-en.jpg"
+    data-title="focus-order-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/tab-order-en.jpg"
+      alt="View larger image: an example illustrating accessible and inaccessible tab orders on a webpage."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="focus-order-caption">
 
 Instructions on structuring the tab order of a webpage. Two examples are presented: one demonstrating an accessible and logical tab sequence, and the other showcasing an inaccessible, disorganized sequence.
 
@@ -313,9 +448,24 @@ The following shows both a good example (focus visible) and a bad example (focus
 
 <figure>
 
-<img src="/img/a11ycheck/focus-indicator-en.jpg" alt="Examples of focus visibility on buttons.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/focus-indicator-en.jpg"
+    data-title="focus-visible-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/focus-indicator-en.jpg"
+      alt="View larger image: examples of focus visibility on buttons."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="focus-visible-caption">
 
 Two examples of buttons demonstrating a principle of accessibility. The first example shows a button where the focus is visible when focused, making it accessible. In the second example, the focus is not visible, making the button inaccessible.
 
@@ -342,9 +492,24 @@ One common implementation is a "Skip to Main Content" link as the first interact
 
 <figure>
 
-<img src="/img/a11ycheck/skip-to-main-content-en.png" alt="Example of a 'Skip to main content' link.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/skip-to-main-content-en.png"
+    data-title="bypass-blocks-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/skip-to-main-content-en.png"
+      alt="View larger image: example of a 'Skip to main content' link."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="bypass-blocks-caption">
 
 A tag link highlighted in the inspect element window with an arrow pointing to the top of the webpage, indicating the corresponding "Skip to main content" link which enables users to skip to the main content.
 
@@ -380,9 +545,24 @@ The following shows a good example of keyboard navigation through a user interfa
 
 <figure>
 
-<img src="/img/a11ycheck/tab-order-website-en.jpg" alt="An example of keyboard navigation on a user interface, showing the tab order.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/tab-order-website-en.jpg"
+    data-title="keyboard-operability-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/tab-order-website-en.jpg"
+      alt="View larger image: an example of keyboard navigation on a user interface, showing the tab order."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="keyboard-operability-caption">
 
 A user interface displaying multiple elements such as selectable fields, buttons, and links, with arrows indicating the tabbing sequence between elements.
 
@@ -411,9 +591,24 @@ The following shows a good example of meaningful alternative text on an informat
 
 <figure>
 
-<img src="/img/a11ycheck/informative-image.png" alt="An example of alternative text showing the symbol of the Government of Canada.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/informative-image.png"
+    data-title="informative-image-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/informative-image.png"
+      alt="View larger image: an example of alternative text showing the symbol of the Government of Canada."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="informative-image-caption">
 
 Within the inspect element window, an arrow points to the alternative text of an image, describing a symbol of the Government of Canada. This demonstrates how alternative text provides a brief and meaningful description of the image for accessibility.
 
@@ -440,9 +635,24 @@ The following shows a good example of decorative images with empty alt text in t
 
 <figure>
 
-<img src="/img/a11ycheck/decorative-image-en.jpg" alt="Example of HTML code for decorative images.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/decorative-image-en.jpg"
+    data-title="decorative-images-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/decorative-image-en.jpg"
+      alt="View larger image: example of HTML code for decorative images."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="decorative-images-caption">
 
 The inspect element window displaying HTML code for three decorative images. The sections of code demonstrating that each image's alt text is empty have been highlighted in green.
 
@@ -469,9 +679,24 @@ The following shows a good example of a video displaying captions.
 
 <figure>
 
-<img src="/img/a11ycheck/captions-en.jpg" alt="An example of a video with captions.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/captions-en.jpg"
+    data-title="video-captions-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/captions-en.jpg"
+      alt="View larger image: an example of a video with captions."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="video-captions-caption">
 
 A screencapture of a video displaying captions that correspond to the host's speech. Displayed within the video is an image of the 'Job Bank Canada' website
 
@@ -500,9 +725,24 @@ The following shows a good example of a form with descriptive labels for each fi
 
 <figure>
 
-<img src="/img/a11ycheck/form-labels-en.jpg" alt="Example of descriptive form labels (e.g. text fields, checkboxes, radio buttons, drop-down menus etc.).">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/form-labels-en.jpg"
+    data-title="form-labels-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/form-labels-en.jpg"
+      alt="View larger image: example of descriptive form labels (e.g. text fields, checkboxes, radio buttons, drop-down menus etc.)."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="form-labels-caption">
 
 A form page with the inspect element window to its right. Arrows point to each descriptive label field.
 
@@ -529,9 +769,24 @@ The following shows a good example of a form with instructions explaining requir
 
 <figure>
 
-<img src="/img/a11ycheck/required-field-instructions-en.jpg" alt="Example of form instructions for required fields.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/required-field-instructions-en.jpg"
+    data-title="required-field-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/required-field-instructions-en.jpg"
+      alt="View larger image: example of form instructions for required fields."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="required-field-caption">
 
 A form legend with a label indicating that the fields are required.
 
@@ -558,9 +813,24 @@ Each error message identifies the specific field where the problem occurred and 
 
 <figure>
 
-<img src="/img/a11ycheck/validation-error-en.jpg" alt="Example of error message displayed on a form.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/validation-error-en.jpg"
+    data-title="error-identification-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/validation-error-en.jpg"
+      alt="View larger image: example of error message displayed on a form."
+    >
+    <span aria-hidden="true">
+      View larger image
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="error-identification-caption">
 
 An arrow pointing to an error message indicating that a field cannot be left empty and instructing the user to enter a value. The error text above the input field is highlighted in red.
 

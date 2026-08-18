@@ -31,9 +31,24 @@ L'exemple suivant montre un bon exemple de titre de page descriptif visible dans
 
 <figure>
 
-<img src="/img/a11ycheck/tag-in-title.png" alt="Bon exemple montrant la structure du titre d'une page Web.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/tag-in-title.png"
+    data-title="page-title-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/tag-in-title.png"
+      alt="Voir l'image en grand : bon exemple montrant la structure du titre d'une page Web."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="page-title-caption">
 
 La fenêtre d'inspection des éléments met en évidence la balise de titre, qui fait référence au titre affiché en haut de la page Web. Une flèche relie la balise HTML au titre correspondant sur la page Web.
 
@@ -74,9 +89,24 @@ L'exemple suivant montre une bonne hiérarchie de titres bien organisée.
 
 <figure>
 
-<img src="/img/a11ycheck/heading-structure-fr.jpg" alt="Bon exemple d'une structure bien organisée de titres.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/heading-structure-fr.jpg"
+    data-title="heading-structure-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/heading-structure-fr.jpg"
+      alt="Voir l'image en grand : bon exemple d'une structure bien organisée de titres."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="heading-structure-caption">
 
 Une hiérarchie de titres bien structurée utilisant les balises `<h1>`, `<h2>` et `<h3>`, représentée sous forme d'arborescence.
 
@@ -103,9 +133,24 @@ L'exemple suivant montre un mauvais exemple où le texte est tronqué après le 
 
 <figure>
 
-<img src="/img/a11ycheck/responsive-design-en.jpg" alt="Un exemple de problème de redimensionnement de texte.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/responsive-design-en.jpg"
+    data-title="text-resize-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/responsive-design-en.jpg"
+      alt="Voir l'image en grand : un exemple de problème de redimensionnement de texte."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="text-resize-caption">
 
 Le texte du libellé ne rentre pas dans le champ de saisie de recherche, provoquant une troncature du texte.
 
@@ -132,9 +177,24 @@ L'exemple suivant montre un mauvais exemple où des barres de défilement horizo
 
 <figure>
 
-<img src="/img/a11ycheck/reflow-design.png" alt="Un exemple de contenu avec des bordures agrandies et des barres de défilement.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/reflow-design.png"
+    data-title="content-reflow-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/reflow-design.png"
+      alt="Voir l'image en grand : un exemple de contenu avec des bordures agrandies et des barres de défilement."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="content-reflow-caption">
 
 Texte agrandi avec des barres de défilement mises en évidence. Des flèches pointent vers la barre de défilement horizontale et les bordures du contenu agrandi pour montrer la relation entre ces éléments.
 
@@ -161,9 +221,24 @@ L'exemple suivant montre un bon exemple de l'attribut lang sur l'élément html.
 
 <figure>
 
-<img src="/img/a11ycheck/lang-attribute-page.png" alt="Exemple d'un attribut de langue.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/lang-attribute-page.png"
+    data-title="page-language-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/lang-attribute-page.png"
+      alt="Voir l'image en grand : exemple d'un attribut de langue."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="page-language-caption">
 
 L'attribut de langue `lang` est mis en évidence dans la fenêtre d'inspection des éléments, montrant qu'il s'agit d'une page en anglais avec l'attribut de langue « en » appliqué.
 
@@ -195,9 +270,24 @@ L'exemple suivant montre un mauvais exemple où une combinaison de couleurs ne r
 
 <figure>
 
-<img src="/img/a11ycheck/contrast-checker-fr.jpg" alt="Un exemple d'interface d'outil de vérification de contraste.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/contrast-checker-fr.jpg"
+    data-title="colour-contrast-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/contrast-checker-fr.jpg"
+      alt="Voir l'image en grand : un exemple d'interface d'outil de vérification de contraste."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="colour-contrast-caption">
 
 Une page où un bouton avec un fond rose et un texte blanc est mis en évidence. La combinaison de couleurs rose et blanc est testée à l'aide d'un outil d'analyse de contraste des couleurs, avec des alertes informant l'utilisateur que cette combinaison ne respecte pas le ratio de contraste requis.
 
@@ -224,9 +314,24 @@ L'exemple suivant montre un bon exemple d'un attribut lang appliqué à du texte
 
 <figure>
 
-<img src="/img/a11ycheck/lang-attribute.png" alt="Un exemple de l'inspecteur d'éléments affichant l'attribut HTML lang.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/lang-attribute.png"
+    data-title="language-of-parts-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/lang-attribute.png"
+      alt="Voir l'image en grand : un exemple de l'inspecteur d'éléments affichant l'attribut HTML lang."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="language-of-parts-caption">
 
 Une vue de l'inspecteur d'éléments montrant un attribut `lang` appliqué à une balise spécifique, différenciant la langue principale de celle de la page Web. L'attribut `lang` est mis en évidence en rouge, avec une flèche pointant vers le texte correspondant associé à cette balise sur la page Web.
 
@@ -253,9 +358,24 @@ L'exemple suivant montre un bon et un mauvais exemple de texte de lien.
 
 <figure>
 
-<img src="/img/a11ycheck/link-purpose-fr.jpg" alt="Exemples de liens accessibles et inaccessibles.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/link-purpose-fr.jpg"
+    data-title="link-purpose-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/link-purpose-fr.jpg"
+      alt="Voir l'image en grand : exemples de liens accessibles et inaccessibles."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="link-purpose-caption">
 
 Deux exemples de textes hyperliens, avec un exemple accessible (« En savoir plus sur le calcul d'impôt ») et un autre exemple inaccessible (« En savoir plus »). La balise de lien de chaque texte est mise en évidence dans la fenêtre d'inspection des éléments.
 
@@ -284,9 +404,24 @@ L'exemple suivant montre un ordre de tabulation accessible (logique) et un ordre
 
 <figure>
 
-<img src="/img/a11ycheck/tab-order-fr.jpg" alt="Un exemple illustrant des ordres de tabulation accessibles et inaccessibles sur une page Web.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/tab-order-fr.jpg"
+    data-title="focus-order-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/tab-order-fr.jpg"
+      alt="Voir l'image en grand : un exemple illustrant des ordres de tabulation accessibles et inaccessibles sur une page Web."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="focus-order-caption">
 
 Instructions sur la structuration de l'ordre de tabulation d'une page Web. Deux exemples sont présentés : l'un montre une séquence de tabulation accessible et logique, tandis que l'autre présente une séquence inaccessible et désorganisée.
 
@@ -313,9 +448,24 @@ L'exemple suivant montre un bon exemple (focus visible) et un mauvais exemple (f
 
 <figure>
 
-<img src="/img/a11ycheck/focus-indicator-fr.jpg" alt="Exemples de visibilité du focus sur des boutons.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/focus-indicator-fr.jpg"
+    data-title="focus-visible-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/focus-indicator-fr.jpg"
+      alt="Voir l'image en grand : exemples de visibilité du focus sur des boutons."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="focus-visible-caption">
 
 Deux exemples de boutons démontrant un principe d'accessibilité. Le premier exemple montre un bouton dont le focus est visible lorsqu'il est ciblé, le rendant accessible. Le deuxième exemple montre un bouton dont le focus n'est pas visible, ce qui le rend inaccessible.
 
@@ -342,9 +492,24 @@ Une implémentation courante est un lien « Passer au contenu principal » comme
 
 <figure>
 
-<img src="/img/a11ycheck/skip-to-main-content-fr.jpg" alt="Exemple d'un lien « Passer au contenu principal ».">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/skip-to-main-content-fr.jpg"
+    data-title="bypass-blocks-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/skip-to-main-content-fr.jpg"
+      alt="Voir l'image en grand : exemple d'un lien « Passer au contenu principal »."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="bypass-blocks-caption">
 
 Une balise de lien est mise en évidence dans la fenêtre d'inspection des éléments, montrant le lien « Passer au contenu principal » qui permet aux utilisateurs de passer directement au contenu principal d'une page Web. Une flèche pointe vers le haut de la page Web, indiquant l'emplacement de ce lien.
 
@@ -380,9 +545,24 @@ L'exemple suivant montre un bon exemple de navigation au clavier à travers une 
 
 <figure>
 
-<img src="/img/a11ycheck/tab-order-website-fr.jpg" alt="Exemple de navigation par tabulation sur une interface.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/tab-order-website-fr.jpg"
+    data-title="keyboard-operability-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/tab-order-website-fr.jpg"
+      alt="Voir l'image en grand : exemple de navigation par tabulation sur une interface."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="keyboard-operability-caption">
 
 L'ordre de tabulation montre des champs qui peuvent être sélectionnés au moyen de nombres. Des flèches montrent l'ordre dans lequel un utilisateur passera d'un champ à un autre.
 
@@ -411,9 +591,24 @@ L'exemple suivant montre un bon exemple de texte alternatif pertinent sur une im
 
 <figure>
 
-<img src="/img/a11ycheck/informative-image.png" alt="Un exemple de texte alternatif montrant le symbole du Gouvernement du Canada.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/informative-image.png"
+    data-title="informative-image-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/informative-image.png"
+      alt="Voir l'image en grand : un exemple de texte alternatif montrant le symbole du Gouvernement du Canada."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="informative-image-caption">
 
 Dans la fenêtre d'inspection des éléments, une flèche pointe vers le texte alternatif d'une image, décrivant un symbole du Gouvernement du Canada. Cela démontre comment le texte alternatif fournit une description courte et significative de l'image pour l'accessibilité.
 
@@ -440,9 +635,24 @@ L'exemple suivant montre un bon exemple d'images décoratives avec un texte alte
 
 <figure>
 
-<img src="/img/a11ycheck/decorative-image-fr.jpg" alt="Un exemple de code HTML pour les images décoratives.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/decorative-image-fr.jpg"
+    data-title="decorative-images-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/decorative-image-fr.jpg"
+      alt="Voir l'image en grand : un exemple de code HTML pour les images décoratives."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="decorative-images-caption">
 
 La fenêtre d'inspection des éléments affiche le code HTML de trois images décoratives. Les parties du code montrant que le texte alternatif de chaque image est vide ont été mises en évidence en vert.
 
@@ -469,9 +679,24 @@ L'exemple suivant montre un bon exemple d'une vidéo affichant des sous-titres.
 
 <figure>
 
-<img src="/img/a11ycheck/captions-fr.jpg" alt="Un exemple d'une vidéo avec sous-titres.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/captions-fr.jpg"
+    data-title="video-captions-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/captions-fr.jpg"
+      alt="Voir l'image en grand : un exemple d'une vidéo avec sous-titres."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="video-captions-caption">
 
 Une capture d'écran d'une vidéo affichant des sous-titres correspondant au discours de l'hôte. L'image montre une capture du site 'Guichet-Emplois Canada'.
 
@@ -500,9 +725,24 @@ L'exemple suivant montre un bon exemple de formulaire avec des étiquettes descr
 
 <figure>
 
-<img src="/img/a11ycheck/form-labels-fr.jpg" alt="Un exemple d'étiquettes descriptives pour les éléments du formulaire.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/form-labels-fr.jpg"
+    data-title="form-labels-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/form-labels-fr.jpg"
+      alt="Voir l'image en grand : un exemple d'étiquettes descriptives pour les éléments du formulaire."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="form-labels-caption">
 
 Une page de formulaire est affichée avec la fenêtre d'inspection des éléments à droite. Des flèches pointent vers chacun des champs d'étiquettes descriptives.
 
@@ -529,9 +769,24 @@ L'exemple suivant montre un bon exemple de formulaire avec des instructions expl
 
 <figure>
 
-<img src="/img/a11ycheck/required-field-instructions-fr.jpg" alt="Un exemple d'instructions pour les champs obligatoires.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/required-field-instructions-fr.jpg"
+    data-title="required-field-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/required-field-instructions-fr.jpg"
+      alt="Voir l'image en grand : un exemple d'instructions pour les champs obligatoires."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="required-field-caption">
 
 Une légende de formulaire avec une étiquette indiquant que les champs sont requis.
 
@@ -558,9 +813,24 @@ La mention « Veuillez saisir votre nom » n'est pas aussi utile que la mention 
 
 <figure>
 
-<img src="/img/a11ycheck/validation-error-fr.jpg" alt="Un exemple de message d'erreur affiché dans un formulaire.">
+<p class="mrgn-tp-md mrgn-bttm-sm">
+  <a
+    class="wb-lbx"
+    href="/img/a11ycheck/validation-error-fr.jpg"
+    data-title="error-identification-caption"
+  >
+    <img
+      class="img-responsive mrgn-bttm-md"
+      src="/img/a11ycheck/validation-error-fr.jpg"
+      alt="Voir l'image en grand : un exemple de message d'erreur affiché dans un formulaire."
+    >
+    <span aria-hidden="true">
+      Voir l'image en grand
+    </span>
+  </a>
+</p>
 
-<figcaption>
+<figcaption id="error-identification-caption">
 
 Une flèche pointe vers un message d'erreur indiquant qu'un champ ne peut pas être vide, en demandant à l'utilisateur d'entrer une valeur. Le texte d'erreur situé au-dessus du champ de saisie est surligné en rouge.
 
