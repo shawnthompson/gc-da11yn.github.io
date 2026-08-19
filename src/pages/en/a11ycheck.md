@@ -31,22 +31,7 @@ The following shows a good example of a descriptive page title visible in the br
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/tag-in-title.png"
-    data-title="page-title-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/tag-in-title.png"
-      alt="View larger image: good example showing the title structure of a webpage."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tag-in-title.png" alt="View larger image: good example showing the title structure of a webpage.">
 
 <figcaption id="page-title-caption">
 
@@ -89,22 +74,7 @@ The following shows a good example of a well-organized heading hierarchy.
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/heading-structure-en.jpg"
-    data-title="heading-structure-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/heading-structure-en.jpg"
-      alt="View larger image: good example of a well-organized heading structure."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/heading-structure-en.jpg" alt="View larger image: good example of a well-organized heading structure.">
 
 <figcaption id="heading-structure-caption">
 
@@ -133,22 +103,7 @@ The following shows a bad example where text is truncated after zooming.
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/responsive-design-en.jpg"
-    data-title="text-resize-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/responsive-design-en.jpg"
-      alt="View larger image: an example of text resizing issue."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/responsive-design-en.jpg" alt="View larger image: an example of text resizing issue.">
 
 <figcaption id="text-resize-caption">
 
@@ -177,22 +132,7 @@ The following shows a bad example where horizontal scrollbars appear after zoomi
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/reflow-design.png"
-    data-title="content-reflow-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/reflow-design.png"
-      alt="View larger image: an example of content with zoomed-in borders and scrollbars."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/reflow-design.png" alt="View larger image: an example of content with zoomed-in borders and scrollbars.">
 
 <figcaption id="content-reflow-caption">
 
@@ -221,22 +161,7 @@ The following shows a good example of the lang attribute on the html element.
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/lang-attribute-page.png"
-    data-title="page-language-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/lang-attribute-page.png"
-      alt="View larger image: example of a lang attribute."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/lang-attribute-page.png" alt="View larger image: example of a lang attribute.">
 
 <figcaption id="page-language-caption">
 
@@ -270,22 +195,7 @@ The following shows a bad example where a colour combination fails the contrast 
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/contrast-checker-en.jpg"
-    data-title="colour-contrast-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/contrast-checker-en.jpg"
-      alt="View larger image: an example of a contrast checker tool interface."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/contrast-checker-en.jpg" alt="View larger image: an example of a contrast checker tool interface.">
 
 <figcaption id="colour-contrast-caption">
 
@@ -314,22 +224,7 @@ The following shows a good example of an inline lang attribute applied to foreig
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/lang-attribute.png"
-    data-title="language-of-parts-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/lang-attribute.png"
-      alt="View larger image: an example of the inspect element displaying the HTML lang attribute."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/lang-attribute.png" alt="View larger image: an example of the inspect element displaying the HTML lang attribute.">
 
 <figcaption id="language-of-parts-caption">
 
@@ -358,22 +253,7 @@ The following shows both a good and a bad example of link text.
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/link-purpose-en.jpg"
-    data-title="link-purpose-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/link-purpose-en.jpg"
-      alt="View larger image: examples of accessible and inaccessible links."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/link-purpose-en.jpg" alt="View larger image: examples of accessible and inaccessible links.">
 
 <figcaption id="link-purpose-caption">
 
@@ -404,22 +284,7 @@ The following shows both an accessible (logical) and an inaccessible (disorganiz
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/tab-order-en.jpg"
-    data-title="focus-order-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/tab-order-en.jpg"
-      alt="View larger image: an example illustrating accessible and inaccessible tab orders on a webpage."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tab-order-en.jpg" alt="View larger image: an example illustrating accessible and inaccessible tab orders on a webpage.">
 
 <figcaption id="focus-order-caption">
 
@@ -448,22 +313,7 @@ The following shows both a good example (focus visible) and a bad example (focus
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/focus-indicator-en.jpg"
-    data-title="focus-visible-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/focus-indicator-en.jpg"
-      alt="View larger image: examples of focus visibility on buttons."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/focus-indicator-en.jpg" alt="View larger image: examples of focus visibility on buttons.">
 
 <figcaption id="focus-visible-caption">
 
@@ -492,22 +342,7 @@ One common implementation is a "Skip to Main Content" link as the first interact
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/skip-to-main-content-en.png"
-    data-title="bypass-blocks-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/skip-to-main-content-en.png"
-      alt="View larger image: example of a 'Skip to main content' link."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/skip-to-main-content-en.png" alt="View larger image: example of a 'Skip to main content' link.">
 
 <figcaption id="bypass-blocks-caption">
 
@@ -545,22 +380,7 @@ The following shows a good example of keyboard navigation through a user interfa
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/tab-order-website-en.jpg"
-    data-title="keyboard-operability-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/tab-order-website-en.jpg"
-      alt="View larger image: an example of keyboard navigation on a user interface, showing the tab order."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tab-order-website-en.jpg" alt="View larger image: an example of keyboard navigation on a user interface, showing the tab order.">
 
 <figcaption id="keyboard-operability-caption">
 
@@ -591,22 +411,7 @@ The following shows a good example of meaningful alternative text on an informat
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/informative-image.png"
-    data-title="informative-image-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/informative-image.png"
-      alt="View larger image: an example of alternative text showing the symbol of the Government of Canada."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/informative-image.png" alt="View larger image: an example of alternative text showing the symbol of the Government of Canada.">
 
 <figcaption id="informative-image-caption">
 
@@ -635,22 +440,7 @@ The following shows a good example of decorative images with empty alt text in t
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/decorative-image-en.jpg"
-    data-title="decorative-images-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/decorative-image-en.jpg"
-      alt="View larger image: example of HTML code for decorative images."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/decorative-image-en.jpg" alt="View larger image: example of HTML code for decorative images.">
 
 <figcaption id="decorative-images-caption">
 
@@ -679,22 +469,7 @@ The following shows a good example of a video displaying captions.
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/captions-en.jpg"
-    data-title="video-captions-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/captions-en.jpg"
-      alt="View larger image: an example of a video with captions."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/captions-en.jpg" alt="View larger image: an example of a video with captions.">
 
 <figcaption id="video-captions-caption">
 
@@ -725,22 +500,7 @@ The following shows a good example of a form with descriptive labels for each fi
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/form-labels-en.jpg"
-    data-title="form-labels-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/form-labels-en.jpg"
-      alt="View larger image: example of descriptive form labels (e.g. text fields, checkboxes, radio buttons, drop-down menus etc.)."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/form-labels-en.jpg" alt="View larger image: example of descriptive form labels (e.g. text fields, checkboxes, radio buttons, drop-down menus etc.).">
 
 <figcaption id="form-labels-caption">
 
@@ -769,22 +529,7 @@ The following shows a good example of a form with instructions explaining requir
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/required-field-instructions-en.jpg"
-    data-title="required-field-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/required-field-instructions-en.jpg"
-      alt="View larger image: example of form instructions for required fields."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/required-field-instructions-en.jpg" alt="View larger image: example of form instructions for required fields.">
 
 <figcaption id="required-field-caption">
 
@@ -813,22 +558,7 @@ Each error message identifies the specific field where the problem occurred and 
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/validation-error-en.jpg"
-    data-title="error-identification-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/validation-error-en.jpg"
-      alt="View larger image: example of error message displayed on a form."
-    >
-    <span aria-hidden="true">
-      View larger image
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/validation-error-en.jpg" alt="View larger image: example of error message displayed on a form.">
 
 <figcaption id="error-identification-caption">
 

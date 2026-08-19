@@ -31,22 +31,7 @@ L'exemple suivant montre un bon exemple de titre de page descriptif visible dans
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/tag-in-title.png"
-    data-title="page-title-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/tag-in-title.png"
-      alt="Voir l'image en grand : bon exemple montrant la structure du titre d'une page Web."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tag-in-title.png" alt="Voir l'image en grand : bon exemple montrant la structure du titre d'une page Web.">
 
 <figcaption id="page-title-caption">
 
@@ -89,22 +74,7 @@ L'exemple suivant montre une bonne hiérarchie de titres bien organisée.
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/heading-structure-fr.jpg"
-    data-title="heading-structure-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/heading-structure-fr.jpg"
-      alt="Voir l'image en grand : bon exemple d'une structure bien organisée de titres."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/heading-structure-fr.jpg" alt="Voir l'image en grand : bon exemple d'une structure bien organisée de titres.">
 
 <figcaption id="heading-structure-caption">
 
@@ -133,22 +103,7 @@ L'exemple suivant montre un mauvais exemple où le texte est tronqué après le 
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/responsive-design-en.jpg"
-    data-title="text-resize-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/responsive-design-en.jpg"
-      alt="Voir l'image en grand : un exemple de problème de redimensionnement de texte."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/responsive-design-en.jpg" alt="Voir l'image en grand : un exemple de problème de redimensionnement de texte.">
 
 <figcaption id="text-resize-caption">
 
@@ -177,22 +132,7 @@ L'exemple suivant montre un mauvais exemple où des barres de défilement horizo
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/reflow-design.png"
-    data-title="content-reflow-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/reflow-design.png"
-      alt="Voir l'image en grand : un exemple de contenu avec des bordures agrandies et des barres de défilement."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/reflow-design.png" alt="Voir l'image en grand : un exemple de contenu avec des bordures agrandies et des barres de défilement.">
 
 <figcaption id="content-reflow-caption">
 
@@ -221,22 +161,7 @@ L'exemple suivant montre un bon exemple de l'attribut lang sur l'élément html.
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/lang-attribute-page.png"
-    data-title="page-language-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/lang-attribute-page.png"
-      alt="Voir l'image en grand : exemple d'un attribut de langue."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/lang-attribute-page.png" alt="Voir l'image en grand : exemple d'un attribut de langue.">
 
 <figcaption id="page-language-caption">
 
@@ -270,22 +195,7 @@ L'exemple suivant montre un mauvais exemple où une combinaison de couleurs ne r
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/contrast-checker-fr.jpg"
-    data-title="colour-contrast-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/contrast-checker-fr.jpg"
-      alt="Voir l'image en grand : un exemple d'interface d'outil de vérification de contraste."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/contrast-checker-fr.jpg" alt="Voir l'image en grand : un exemple d'interface d'outil de vérification de contraste.">
 
 <figcaption id="colour-contrast-caption">
 
@@ -314,22 +224,7 @@ L'exemple suivant montre un bon exemple d'un attribut lang appliqué à du texte
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/lang-attribute.png"
-    data-title="language-of-parts-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/lang-attribute.png"
-      alt="Voir l'image en grand : un exemple de l'inspecteur d'éléments affichant l'attribut HTML lang."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/lang-attribute.png" alt="Voir l'image en grand : un exemple de l'inspecteur d'éléments affichant l'attribut HTML lang.">
 
 <figcaption id="language-of-parts-caption">
 
@@ -358,22 +253,7 @@ L'exemple suivant montre un bon et un mauvais exemple de texte de lien.
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/link-purpose-fr.jpg"
-    data-title="link-purpose-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/link-purpose-fr.jpg"
-      alt="Voir l'image en grand : exemples de liens accessibles et inaccessibles."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/link-purpose-fr.jpg" alt="Voir l'image en grand : exemples de liens accessibles et inaccessibles.">
 
 <figcaption id="link-purpose-caption">
 
@@ -404,22 +284,7 @@ L'exemple suivant montre un ordre de tabulation accessible (logique) et un ordre
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/tab-order-fr.jpg"
-    data-title="focus-order-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/tab-order-fr.jpg"
-      alt="Voir l'image en grand : un exemple illustrant des ordres de tabulation accessibles et inaccessibles sur une page Web."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tab-order-fr.jpg" alt="Voir l'image en grand : un exemple illustrant des ordres de tabulation accessibles et inaccessibles sur une page Web.">
 
 <figcaption id="focus-order-caption">
 
@@ -448,22 +313,7 @@ L'exemple suivant montre un bon exemple (focus visible) et un mauvais exemple (f
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/focus-indicator-fr.jpg"
-    data-title="focus-visible-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/focus-indicator-fr.jpg"
-      alt="Voir l'image en grand : exemples de visibilité du focus sur des boutons."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/focus-indicator-fr.jpg" alt="Voir l'image en grand : exemples de visibilité du focus sur des boutons.">
 
 <figcaption id="focus-visible-caption">
 
@@ -492,22 +342,7 @@ Une implémentation courante est un lien « Passer au contenu principal » comme
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/skip-to-main-content-fr.jpg"
-    data-title="bypass-blocks-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/skip-to-main-content-fr.jpg"
-      alt="Voir l'image en grand : exemple d'un lien « Passer au contenu principal »."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/skip-to-main-content-fr.jpg" alt="Voir l'image en grand : exemple d'un lien « Passer au contenu principal ».">
 
 <figcaption id="bypass-blocks-caption">
 
@@ -545,22 +380,7 @@ L'exemple suivant montre un bon exemple de navigation au clavier à travers une 
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/tab-order-website-fr.jpg"
-    data-title="keyboard-operability-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/tab-order-website-fr.jpg"
-      alt="Voir l'image en grand : exemple de navigation par tabulation sur une interface."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tab-order-website-fr.jpg" alt="Voir l'image en grand : exemple de navigation par tabulation sur une interface.">
 
 <figcaption id="keyboard-operability-caption">
 
@@ -591,22 +411,7 @@ L'exemple suivant montre un bon exemple de texte alternatif pertinent sur une im
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/informative-image.png"
-    data-title="informative-image-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/informative-image.png"
-      alt="Voir l'image en grand : un exemple de texte alternatif montrant le symbole du Gouvernement du Canada."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/informative-image.png" alt="Voir l'image en grand : un exemple de texte alternatif montrant le symbole du Gouvernement du Canada.">
 
 <figcaption id="informative-image-caption">
 
@@ -635,22 +440,7 @@ L'exemple suivant montre un bon exemple d'images décoratives avec un texte alte
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/decorative-image-fr.jpg"
-    data-title="decorative-images-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/decorative-image-fr.jpg"
-      alt="Voir l'image en grand : un exemple de code HTML pour les images décoratives."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/decorative-image-fr.jpg" alt="Voir l'image en grand : un exemple de code HTML pour les images décoratives.">
 
 <figcaption id="decorative-images-caption">
 
@@ -679,22 +469,7 @@ L'exemple suivant montre un bon exemple d'une vidéo affichant des sous-titres.
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/captions-fr.jpg"
-    data-title="video-captions-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/captions-fr.jpg"
-      alt="Voir l'image en grand : un exemple d'une vidéo avec sous-titres."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/captions-fr.jpg" alt="Voir l'image en grand : un exemple d'une vidéo avec sous-titres.">
 
 <figcaption id="video-captions-caption">
 
@@ -725,22 +500,7 @@ L'exemple suivant montre un bon exemple de formulaire avec des étiquettes descr
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/form-labels-fr.jpg"
-    data-title="form-labels-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/form-labels-fr.jpg"
-      alt="Voir l'image en grand : un exemple d'étiquettes descriptives pour les éléments du formulaire."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/form-labels-fr.jpg" alt="Voir l'image en grand : un exemple d'étiquettes descriptives pour les éléments du formulaire.">
 
 <figcaption id="form-labels-caption">
 
@@ -769,22 +529,7 @@ L'exemple suivant montre un bon exemple de formulaire avec des instructions expl
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/required-field-instructions-fr.jpg"
-    data-title="required-field-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/required-field-instructions-fr.jpg"
-      alt="Voir l'image en grand : un exemple d'instructions pour les champs obligatoires."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/required-field-instructions-fr.jpg" alt="Voir l'image en grand : un exemple d'instructions pour les champs obligatoires.">
 
 <figcaption id="required-field-caption">
 
@@ -813,22 +558,7 @@ La mention « Veuillez saisir votre nom » n'est pas aussi utile que la mention 
 
 <figure>
 
-<p class="mrgn-tp-md mrgn-bttm-sm">
-  <a
-    class="wb-lbx"
-    href="/img/a11ycheck/validation-error-fr.jpg"
-    data-title="error-identification-caption"
-  >
-    <img
-      class="img-responsive mrgn-bttm-md"
-      src="/img/a11ycheck/validation-error-fr.jpg"
-      alt="Voir l'image en grand : un exemple de message d'erreur affiché dans un formulaire."
-    >
-    <span aria-hidden="true">
-      Voir l'image en grand
-    </span>
-  </a>
-</p>
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/validation-error-fr.jpg" alt="Voir l'image en grand : un exemple de message d'erreur affiché dans un formulaire.">
 
 <figcaption id="error-identification-caption">
 
