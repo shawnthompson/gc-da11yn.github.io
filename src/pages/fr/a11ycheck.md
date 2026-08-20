@@ -31,7 +31,7 @@ L'exemple suivant montre un bon exemple de titre de page descriptif visible dans
 
 <figure>
 
-<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tag-in-title.png" alt="Voir l'image en grand : bon exemple montrant la structure du titre d'une page Web.">
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tag-in-title-fr.png" alt="Voir l'image en grand : bon exemple montrant la structure du titre d'une page Web.">
 
 <figcaption id="page-title-caption">
 
