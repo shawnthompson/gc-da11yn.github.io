@@ -31,7 +31,7 @@ L'exemple suivant montre un bon exemple de titre de page descriptif visible dans
 
 <figure>
 
-<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tag-in-title-fr.png" alt="Bon exemple montrant la structure du titre d'une page Web.">
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tag-in-title-fr.png" alt="Exemple de la balise de titre de la page correspondant au texte affiché dans l'onglet du navigateur.">
 
 <figcaption>
 
@@ -257,7 +257,7 @@ L'exemple suivant montre un bon et un mauvais exemple de texte de lien.
 
 <figcaption>
 
-Deux exemples de textes hyperliens, avec un exemple accessible (« En savoir plus sur le calcul d'impôt ») et un autre exemple inaccessible (« En savoir plus »). La balise de lien de chaque texte est mise en évidence dans la fenêtre d'inspection des éléments.
+Deux exemples de textes hyperliens, avec un exemple accessible (« En Savoir plus sur Calcul d'impôt ») et un autre exemple inaccessible (« En savoir plus »). La balise de lien de chaque texte est mise en évidence dans la fenêtre d'inspection des éléments.
 
 </figcaption>
 </figure>
@@ -380,7 +380,7 @@ L'exemple suivant montre un bon exemple de navigation au clavier à travers une 
 
 <figure>
 
-<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tab-order-website-fr.jpg" alt="Exemple de navigation par tabulation sur une interface.">
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tab-order-website-fr.jpg" alt="Exemple de navigation par tabulation sur une interface, montrant l'ordre de tabulation.">
 
 <figcaption>
 
@@ -500,7 +500,7 @@ L'exemple suivant montre un bon exemple de formulaire avec des étiquettes descr
 
 <figure>
 
-<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/form-labels-fr.jpg" alt="Un exemple d'étiquettes descriptives pour les éléments du formulaire.">
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/form-labels-fr.jpg" alt="Un exemple d'étiquettes descriptives pour les éléments du formulaire (p. ex. champs de texte, cases à cocher, boutons radio, menus déroulants, etc.).">
 
 <figcaption>
 

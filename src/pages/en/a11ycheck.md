@@ -31,7 +31,7 @@ The following shows a good example of a descriptive page title visible in the br
 
 <figure>
 
-<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tag-in-title.png" alt="Good example showing the title structure of a webpage.">
+<img class="img-responsive mrgn-bttm-md" src="/img/a11ycheck/tag-in-title.png" alt="Example of the page's title tag matching the text displayed in the browser tab.">
 
 <figcaption>
 
@@ -384,7 +384,7 @@ The following shows a good example of keyboard navigation through a user interfa
 
 <figcaption>
 
-A user interface displaying multiple elements such as selectable fields, buttons, and links, with arrows indicating the tabbing sequence between elements.
+A user interface displaying multiple elements such as selectable fields, buttons, and links, with numbered arrows indicating the tabbing sequence between elements.
 
 </figcaption>
 </figure>
