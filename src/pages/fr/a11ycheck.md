@@ -19,7 +19,7 @@ La page comporte un titre qui décrit son contenu et son objectif.
 
 #### Comment vérifier
 
-Faites un clic droit sur la page et vérifiez le code HTML pour voir la valeur dans l'attribut `<title>` dans la balise `<head>`.
+Faites un clic droit sur la page et vérifiez le code HTML pour voir la valeur dans l'élément `<title>` dans la balise `<head>`.
 
 #### Résultat attendu
 
@@ -241,7 +241,7 @@ L'objectif de chaque lien peut être compris à partir de leur seul texte.
 
 #### Comment vérifier
 
-Vérifier si les étiquettes des liens donnent une idée claire du contenu auquel mène le lien.
+Vérifier si le texte du lien, pris seul, indique clairement sa destination ou sa fonction.
 
 #### Résultat attendu
 
@@ -473,7 +473,7 @@ L'exemple suivant montre un bon exemple d'une vidéo affichant des sous-titres.
 
 <figcaption>
 
-Une capture d'écran d'une vidéo affichant des sous-titres correspondant au discours de l'hôte. L'image montre une capture du site 'Guichet-Emplois Canada'.
+Une capture d'écran d'une vidéo affichant des sous-titres correspondant au discours de l'hôte. L'image montre une capture du site « Guichet-Emplois Canada ».
 
 </figcaption>
 </figure>

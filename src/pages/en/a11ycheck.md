@@ -178,7 +178,7 @@ All text elements and non-text elements have sufficient colour contrast between 
 
 #### How to test
 
-Use the Colour Contrast Analyser tool or an [online contrast checker](https://webaim.org/resources/contrastchecker/) to measure the contrast ratio between foreground and background colours.
+Use a contrast analyser tool or an [online contrast checker](https://webaim.org/resources/contrastchecker/) to measure the contrast ratio between foreground and background colours.
 
 #### Requirements
 
@@ -473,7 +473,7 @@ The following shows a good example of a video displaying captions.
 
 <figcaption>
 
-A screencapture of a video displaying captions that correspond to the host's speech. Displayed within the video is an image of the 'Job Bank Canada' website
+A screencapture of a video displaying captions that correspond to the host's speech. Displayed within the video is an image of the "Job Bank Canada" website.
 
 </figcaption>
 </figure>
