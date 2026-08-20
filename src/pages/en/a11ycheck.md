@@ -13,6 +13,10 @@ toc: true
 
 ### Descriptive page title
 
+<div class="row">
+
+<div class="col-md-7">
+
 #### Check
 
 The page has a title that describes the page content and purpose.
@@ -25,7 +29,17 @@ Right-click on the page and inspect the HTML source. Locate the `<title>` elemen
 
 The `<title>` element contains text that accurately describes the page's content and purpose.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of a descriptive page title visible in the browser tab and in the HTML source.
 
@@ -39,6 +53,12 @@ The inspect element window highlights the title tag, which references the title 
 
 </figcaption>
 </figure>
+
+</div>
+</section>
+</div>
+
+</div>
 
 ### Semantic HTML
 
@@ -56,6 +76,10 @@ Content structure is conveyed through appropriate semantic HTML elements rather 
 
 ### Heading structure
 
+<div class="row">
+
+<div class="col-md-7">
+
 #### Check
 
 The page has accurate and informative headings that are structured using `<h1>` through `<h6>` heading tags without skipping hierarchical levels.
@@ -68,7 +92,17 @@ Use an automated accessibility checker like [Accessibility Insights for Web](htt
 
 Heading levels are sequential (no levels are skipped), and each heading accurately describes the content of its section.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of a well-organized heading hierarchy.
 
@@ -83,7 +117,17 @@ A well-structured heading hierarchy using `<h1>`, `<h2>`, and `<h3>` tags, repre
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Text resize
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -97,7 +141,17 @@ Set the browser zoom to 200% using a 1280 by 1024 viewport. Review the page for 
 
 No content or functionality is lost, and text is not clipped, truncated, or obscured.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a bad example where text is truncated after zooming.
 
@@ -112,7 +166,17 @@ The label text does not fit within the search input field, causing the text to b
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Content reflow
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -126,7 +190,17 @@ Use a mobile device simulator such as the [Toggle device toolbar in Chrome DevTo
 
 All content remains visible and functional. No horizontal scrolling is required, and no text is clipped or hidden.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a bad example where horizontal scrollbars appear after zooming.
 
@@ -141,7 +215,17 @@ Zoomed-in text with scrollbars highlighted. Arrows point to the horizontal scrol
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Page language
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -155,7 +239,17 @@ Inspect the HTML source and verify that the `<html>` element has a `lang` attrib
 
 The `<html>` element has a `lang` attribute whose value correctly identifies the primary language of the page.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of the lang attribute on the html element.
 
@@ -170,7 +264,17 @@ The lang attribute is highlighted within the inspect element window, showing tha
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Colour contrast
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -189,7 +293,17 @@ Use a contrast analyser tool or an [online contrast checker](https://webaim.org/
 
 All measured contrast ratios meet or exceed the minimum requirements listed above.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a bad example where a colour combination fails the contrast ratio requirement.
 
@@ -204,7 +318,17 @@ A page where a button with a pink background and white text is highlighted. The 
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Language of parts
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -218,7 +342,17 @@ Identify passages or phrases written in a language different from the primary la
 
 Every passage or phrase in a different language from the page's primary language is wrapped in an element with a `lang` attribute identifying that language.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of an inline lang attribute applied to foreign-language text.
 
@@ -233,7 +367,17 @@ An inspect element view showing a `lang` attribute applied to a specific tag, di
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Link purpose
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -247,7 +391,17 @@ Review the link text for each hyperlink on the page. Determine whether the link 
 
 Each link's text clearly communicates what the user can expect to find or what action will occur when the link is activated.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows both a good and a bad example of link text.
 
@@ -262,9 +416,19 @@ Two examples of hyperlink text, with one example labelled accessible ("Read more
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ## Keyboard
 
 ### Focus order
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -278,7 +442,17 @@ Navigate through the page using Tab and Shift + Tab. Observe whether the focus o
 
 The tabbing order matches the reading order of the page and does not jump unexpectedly between unrelated sections.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows both an accessible (logical) and an inaccessible (disorganized) tab order.
 
@@ -293,7 +467,17 @@ Instructions on structuring the tab order of a webpage. Two examples are present
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Focus visible
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -307,7 +491,17 @@ Navigate through the page using Tab and Shift + Tab. Observe each focusable elem
 
 Every focusable element displays a clear, visible indicator when it has focus.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows both a good example (focus visible) and a bad example (focus not visible).
 
@@ -322,7 +516,17 @@ Two examples of buttons demonstrating a principle of accessibility. The first ex
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Bypass blocks
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -336,7 +540,17 @@ Using only the keyboard, press Tab from the top of the page and check whether a 
 
 A keyboard-accessible mechanism is available that allows the user to bypass blocks of repeated content and navigate directly to the main content area.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 One common implementation is a "Skip to Main Content" link as the first interactive item on the page. When activated, the link moves focus to the beginning of the main content.
 
@@ -351,7 +565,17 @@ A tag link highlighted in the inspect element window with an arrow pointing to t
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Keyboard operability
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -374,7 +598,17 @@ Standard keyboard interaction patterns:
 - Use `Enter` (and sometimes `Space`) to activate an element.
 - Use Arrow keys to move within certain elements, element groups, and widgets, such as form select elements, radio button groups, and sets of tabs.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of keyboard navigation through a user interface.
 
@@ -389,9 +623,19 @@ A user interface displaying multiple elements such as selectable fields, buttons
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ## Images and Multimedia
 
 ### Informative image alternatives
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -405,7 +649,17 @@ Inspect the code to verify the image has an `alt` attribute. Read the alt text a
 
 Each informative image has an `alt` attribute containing text that conveys the same information or function as the image.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of meaningful alternative text on an informative image.
 
@@ -420,7 +674,17 @@ Within the inspect element window, an arrow points to the alternative text of an
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Decorative images
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -434,7 +698,17 @@ Inspect the code to verify the image has an `alt` attribute and that its value i
 
 Each decorative image has an empty alt attribute (`alt=""`).
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of decorative images with empty alt text in the source code.
 
@@ -449,7 +723,17 @@ The inspect element window displaying HTML code for three decorative images. The
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Video captions
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -463,7 +747,17 @@ Play the video and look for captions. Check whether open captions (always visibl
 
 Captions are available for the video content.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of a video displaying captions.
 
@@ -478,9 +772,19 @@ A screencapture of a video displaying captions that correspond to the host's spe
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ## Forms
 
 ### Form labels
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -494,7 +798,17 @@ Use an automated accessibility checker like [Accessibility Insights for Web - Fa
 
 Every form control has a descriptive label that clearly identifies the expected input.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of a form with descriptive labels for each field.
 
@@ -509,7 +823,17 @@ A form page with the inspect element window to its right. Arrows point to each d
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Required field instructions
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -523,7 +847,17 @@ Check the code to see if required fields are identified. If an asterisk (*) or o
 
 Required fields are clearly identified, and any symbols used to indicate required status are explained at the top of the form.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 The following shows a good example of a form with instructions explaining required fields.
 
@@ -538,7 +872,17 @@ A form legend with a label indicating that the fields are required.
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Error identification
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Check
 
@@ -552,7 +896,17 @@ Trigger form validation errors by submitting the form with missing or invalid da
 
 Each error message identifies the specific field where the problem occurred and provides clear instructions on how to resolve it.
 
-#### Example
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Example</h4>
+
+</header>
+
+<div class="panel-body">
 
 "Please enter your name" is not as helpful as "Please enter your first name."
 
@@ -566,3 +920,9 @@ An arrow pointing to an error message indicating that a field cannot be left emp
 
 </figcaption>
 </figure>
+
+</div>
+</section>
+</div>
+
+</div>

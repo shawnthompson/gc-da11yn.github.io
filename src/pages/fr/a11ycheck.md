@@ -13,6 +13,10 @@ toc: true
 
 ### Titre de page descriptif
 
+<div class="row">
+
+<div class="col-md-7">
+
 #### Vérification
 
 La page comporte un titre qui décrit son contenu et son objectif.
@@ -25,7 +29,17 @@ Faites un clic droit sur la page et vérifiez le code HTML pour voir la valeur d
 
 L'élément `<title>` contient un texte qui décrit fidèlement le contenu et l'objectif de la page.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple de titre de page descriptif visible dans l'onglet du navigateur et dans le code source HTML.
 
@@ -39,6 +53,12 @@ La fenêtre d'inspection des éléments met en évidence la balise de titre, qui
 
 </figcaption>
 </figure>
+
+</div>
+</section>
+</div>
+
+</div>
 
 ### HTML sémantique
 
@@ -56,6 +76,10 @@ La structure du contenu est transmise par des éléments HTML sémantiques appro
 
 ### Structure des titres
 
+<div class="row">
+
+<div class="col-md-7">
+
 #### Vérification
 
 La page comporte des titres précis et pertinents, structurés à l'aide des balises de titre `<h1>` à `<h6>`, sans sauter de niveaux hiérarchiques.
@@ -68,7 +92,17 @@ Utilisez un vérificateur d'accessibilité automatisé tel que [Accessibility In
 
 Les niveaux de titre sont séquentiels (aucun niveau n'est sauté) et chaque titre décrit fidèlement le contenu de sa section.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre une bonne hiérarchie de titres bien organisée.
 
@@ -83,7 +117,17 @@ Une hiérarchie de titres bien structurée utilisant les balises `<h1>`, `<h2>` 
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Redimensionnement du texte
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -97,7 +141,17 @@ Faire un zoom sur la page à 200 % sur une fenêtre de 1280 px par 1024 px. Exam
 
 Aucun contenu ou fonctionnalité n'est perdu, et aucun texte n'est coupé, tronqué ou masqué.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un mauvais exemple où le texte est tronqué après le zoom.
 
@@ -112,7 +166,17 @@ Le texte du libellé ne rentre pas dans le champ de saisie de recherche, provoqu
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Redistribution du contenu
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -126,7 +190,17 @@ Utilisez un simulateur de dispositif mobile, comme la [barre d'outils de l'appar
 
 Le contenu doit être présenté de manière à éviter toute perte d'information ou de fonctionnalité. Aucun défilement horizontal n'est nécessaire et aucun texte n'est coupé ou masqué.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un mauvais exemple où des barres de défilement horizontales apparaissent après le zoom.
 
@@ -141,7 +215,17 @@ Texte agrandi avec des barres de défilement mises en évidence. Des flèches po
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Langue de la page
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -155,7 +239,17 @@ Inspecter le code source HTML et vérifier que l'élément `<html>` possède un 
 
 L'élément `<html>` possède un attribut `lang` dont la valeur identifie correctement la langue principale de la page.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple de l'attribut lang sur l'élément html.
 
@@ -170,7 +264,17 @@ L'attribut de langue `lang` est mis en évidence dans la fenêtre d'inspection d
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Contraste des couleurs
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -189,7 +293,17 @@ Utiliser l'outil d'analyse du contraste des couleurs ou un [vérificateur de con
 
 Tous les rapports de contraste mesurés respectent ou dépassent les exigences minimales indiquées ci-dessus.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un mauvais exemple où une combinaison de couleurs ne respecte pas le ratio de contraste requis.
 
@@ -204,7 +318,17 @@ Une page où un bouton avec un fond rose et un texte blanc est mis en évidence.
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Langue des parties
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -218,7 +342,17 @@ Repérer des passages ou des phrases rédigés dans une langue différente de la
 
 Chaque passage ou phrase rédigé dans une langue différente de la langue principale de la page est encadré par un élément possédant un attribut `lang` identifiant cette langue.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple d'un attribut lang appliqué à du texte dans une autre langue.
 
@@ -233,7 +367,17 @@ Une vue de l'inspecteur d'éléments montrant un attribut `lang` appliqué à un
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Objectif des liens
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -247,7 +391,17 @@ Vérifier si le texte du lien, pris seul, indique clairement sa destination ou s
 
 Le texte de chaque lien communique clairement ce que l'utilisateur peut s'attendre à trouver ou l'action qui se produira lorsque le lien est activé.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon et un mauvais exemple de texte de lien.
 
@@ -262,9 +416,19 @@ Deux exemples de textes hyperliens, avec un exemple accessible (« En Savoir plu
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ## Clavier
 
 ### Ordre du focus
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -278,7 +442,17 @@ Naviguer dans la page en utilisant la touche Tab ou Shift + Tab. Observer si l'o
 
 L'ordre des tabulations correspond à l'ordre de lecture de la page et ne saute pas de manière inattendue entre des sections non liées.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un ordre de tabulation accessible (logique) et un ordre inaccessible (désorganisé).
 
@@ -293,7 +467,17 @@ Instructions sur la structuration de l'ordre de tabulation d'une page Web. Deux 
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Visibilité du focus
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -307,7 +491,17 @@ Naviguer dans la page en utilisant la touche Tab ou Shift + Tab. Observer chaque
 
 Chaque élément pouvant faire l'objet d'un focus affiche un indicateur clair et visible lorsqu'il a le focus.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple (focus visible) et un mauvais exemple (focus non visible).
 
@@ -322,7 +516,17 @@ Deux exemples de boutons démontrant un principe d'accessibilité. Le premier ex
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Contournement de blocs
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -336,7 +540,17 @@ La page dispose d'une méthode accessible au clavier pour contourner le contenu 
 
 Un mécanisme accessible au clavier est disponible, permettant à l'utilisateur de contourner les blocs de contenu répétitif et de naviguer directement vers la zone de contenu principal.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 Une implémentation courante est un lien « Passer au contenu principal » comme premier élément interactif de la page. Lorsqu'il est activé, le lien déplace le focus vers le début du contenu principal.
 
@@ -351,7 +565,17 @@ Une balise de lien est mise en évidence dans la fenêtre d'inspection des élé
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Opérabilité au clavier
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -374,7 +598,17 @@ Modèles d'interaction clavier standard :
 - Utilisez la touche `Entrée` (et parfois `Espace`) pour sélectionner un élément.
 - Utilisez les flèches pour vous déplacer à l'intérieur de certains éléments, groupes d'éléments et widgets, tels que les champs de sélection de formulaire, les groupes de boutons radio et les ensembles d'onglets.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple de navigation au clavier à travers une interface utilisateur.
 
@@ -389,9 +623,19 @@ L'ordre de tabulation montre des champs qui peuvent être sélectionnés au moye
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ## Images et multimédia
 
 ### Alternatives textuelles des images informatives
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -405,7 +649,17 @@ Vérifier dans le code si l'image possède un attribut `alt`. Veiller à ce que 
 
 Chaque image informative possède un attribut `alt` contenant un texte qui transmet la même information ou fonction que l'image.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple de texte alternatif pertinent sur une image informative.
 
@@ -420,7 +674,17 @@ Dans la fenêtre d'inspection des éléments, une flèche pointe vers le texte a
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Images décoratives
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -434,7 +698,17 @@ Vérifier dans le code si l'image possède un attribut `alt` et s'assurer que la
 
 Chaque image décorative possède un attribut alt vide (`alt=""`).
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple d'images décoratives avec un texte alternatif vide dans le code source.
 
@@ -449,7 +723,17 @@ La fenêtre d'inspection des éléments affiche le code HTML de trois images dé
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Sous-titres vidéo
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -463,7 +747,17 @@ Vérifier que des sous-titres sont disponibles pour les contenus vidéo et audio
 
 Des sous-titres sont disponibles pour le contenu vidéo.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple d'une vidéo affichant des sous-titres.
 
@@ -478,9 +772,19 @@ Une capture d'écran d'une vidéo affichant des sous-titres correspondant au dis
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ## Formulaires
 
 ### Étiquettes de formulaire
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -494,7 +798,17 @@ Utiliser un vérificateur d'accessibilité automatisé comme [Accessibility Insi
 
 Chaque contrôle de formulaire possède une étiquette descriptive qui identifie clairement la saisie attendue.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple de formulaire avec des étiquettes descriptives pour chaque champ.
 
@@ -509,7 +823,17 @@ Une page de formulaire est affichée avec la fenêtre d'inspection des élément
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Instructions pour les champs obligatoires
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -523,7 +847,17 @@ Vérifier le code pour voir si des champs sont marqués comme obligatoires. Si l
 
 Les champs obligatoires sont clairement identifiés et tout symbole utilisé pour indiquer le statut obligatoire est expliqué en haut du formulaire.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 L'exemple suivant montre un bon exemple de formulaire avec des instructions expliquant les champs obligatoires.
 
@@ -538,7 +872,17 @@ Une légende de formulaire avec une étiquette indiquant que les champs sont req
 </figcaption>
 </figure>
 
+</div>
+</section>
+</div>
+
+</div>
+
 ### Identification des erreurs
+
+<div class="row">
+
+<div class="col-md-7">
 
 #### Vérification
 
@@ -552,7 +896,17 @@ Déclencher des erreurs de validation en soumettant le formulaire avec des donn�
 
 Chaque message d'erreur identifie le champ spécifique où le problème s'est produit et fournit des instructions claires sur la manière de le résoudre.
 
-#### Exemple
+</div>
+
+<div class="col-md-5">
+<section class="panel panel-default">
+<header class="panel-heading">
+
+<h4 class="panel-title">Exemple</h4>
+
+</header>
+
+<div class="panel-body">
 
 La mention « Veuillez saisir votre nom » n'est pas aussi utile que la mention « Veuillez saisir votre prénom ».
 
@@ -566,3 +920,9 @@ Une flèche pointe vers un message d'erreur indiquant qu'un champ ne peut pas ê
 
 </figcaption>
 </figure>
+
+</div>
+</section>
+</div>
+
+</div>
