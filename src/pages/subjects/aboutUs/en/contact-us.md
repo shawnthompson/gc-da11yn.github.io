@@ -13,7 +13,7 @@ Whether you're curious about the project or would like to provide feedback. Plea
 
 You can get in touch with us through our email address:
 
-- [digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca](mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca)
+- [{{ contribute.email }}](mailto:{{ contribute.email }})
 
 However, if you prefer to communicate via GitHub, you're welcome to do so:
 
