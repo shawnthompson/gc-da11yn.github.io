@@ -21,7 +21,7 @@ Que vous soyez curieux du projet ou que vous souhaitiez fournir des commentaires
 
 Vous pouvez nous contacter via notre adresse courriel :
 
-- [digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca](mailto:digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca)
+- [{{ contribute.email }}](mailto:{{ contribute.email }})
 
 Cependant, si vous préférez nous communiquer via GitHub, n'hésitez pas à le faire :
 

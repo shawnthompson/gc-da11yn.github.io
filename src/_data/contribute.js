@@ -1,5 +1,5 @@
 module.exports = {
-	email: "digitala11ytoolkit-boitedoutila11enumerique@csps-efpc.gc.ca",
+	email: "digitala11ytoolkit-boitedoutila11enumerique@ssc-spc.gc.ca",
 	fr: {
 		contribute: "Contribuez à ce projet",
 		small: "sur Github.com",
